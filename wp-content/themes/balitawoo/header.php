@@ -23,15 +23,15 @@
 
 <?php
 
-$geoPlugin_array = unserialize( file_get_contents('http://www.geoplugin.net/php.gp?ip=' . $_SERVER['REMOTE_ADDR']) );
+//$geoPlugin_array = unserialize( file_get_contents('http://www.geoplugin.net/php.gp?ip=' . $_SERVER['REMOTE_ADDR']) );
 
 // echo $geoPlugin_array['geoplugin_countryCode'] ;
  
-if ( $geoPlugin_array['geoplugin_countryCode'] == 'US' ) { 
+//if ( $geoPlugin_array['geoplugin_countryCode'] == 'US' ) { 
  
-	header('Location: http://sweetbabylilly.com/');
+	//header('Location: http://sweetbabylilly.com/');
  
-} 
+//} 
 
 
 
