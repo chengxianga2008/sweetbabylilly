@@ -1,0 +1,358 @@
+body{
+  
+    background: #f2f2f2 none repeat scroll 0 0;
+	color: #6b6b6b;
+    font: 12px/20px "Montserrat",arial,helvetica,sans-serif;
+    line-height: 1.625; 
+  
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.no-padding .row{
+	margin: 0;
+}
+
+.landing_page, .landing_thanks_page {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-wrapper{
+	width:60%;
+	background:url(images/main-bg_01.jpg) no-repeat left top;
+	background-size:cover;
+	padding-bottom:15%;
+	float: left;
+}
+
+.logo-wrapper img{
+	width:50%;
+	margin:10% 0 0 15%;
+}
+
+.logo-text1 h1{
+	width: 75%;
+	text-transform: uppercase;
+	text-align:center;
+	font-size:30px;
+	line-height:45px;
+	color:#222;
+}
+.logo-text1 h1 span{
+	font-size:46px;
+	color:#33bfbb;
+}
+
+.logo-text2 h1{
+	margin-top:8%;
+	text-align:center;
+	font-size:25px;
+	color:#222;
+	width: 75%;
+	line-height:45px;
+}
+
+.logo-text2 h1 a{
+	color:#33bfbb;
+	
+}
+
+.arrow-wrapper{
+	width:85%;
+	margin-top:7%;
+	float:right;
+}
+
+.arrow-wrapper p{
+	font-size:18px;
+	color:#e50278;
+	margin-left:10%;
+}
+
+.arrow-wrapper img{
+	width:90%;
+	float:right;
+	margin-right:25px;
+	margin-top:-20px;
+}
+
+
+.ebook-wrapper{
+	width:40%;
+	float:right;
+}
+
+.ebook-wrapper img{
+	width:100%;
+	margin:10% 0 0 0;
+    position: relative;
+    margin-left: 10%;
+}
+
+.tags-wrapper{
+	width:100%;
+	margin:10% auto 0 auto;
+	text-align:center;
+}
+
+.tags-wrapper img{
+	width:90%;
+}
+
+.babies-wrapper{
+    margin-top: -10%;
+    float: left;
+}
+
+.babies-wrapper img{
+	width: 90%;
+}
+
+.box {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    display: block;
+    float: none;
+    margin-top: -20px;
+    padding: 10px 25px;
+    text-align: right;
+    width: 100%;
+    margin-left: -10px;
+    margin-bottom: 20px;
+   	background:#179d97;
+   	padding-top: 50px;
+   	padding-bottom: 20px;
+}
+
+.box .form-group{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.box label{
+	color: #fff !important;
+}
+
+.box .form-group .form-control{
+	font-size: 16px;
+}
+
+.form-control{
+	color: #fff;
+}
+
+.form-control::-moz-placeholder{
+	color: #fff;
+}
+
+#submit-button{
+	
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+}
+
+@media (max-width: 1200px){
+	.ebook-wrapper img{
+		margin-left: 0px;
+	}
+	
+	.arrow-wrapper img{
+	   float: left;
+	}
+	
+	.box{
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		margin-bottom: 40px;
+	}
+	
+	.babies-wrapper {
+		margin-left: 10%;
+	}
+	
+	.form-horizontal .control-label{
+		text-align: left;
+	}
+}
+	
+@media (max-width: 992px){
+	.logo-text1 h1{
+		font-size:20px;
+		line-height:45px;
+	}
+	
+	.logo-text1 h1 span{
+		font-size:40px;
+	}
+	
+}
+
+@media (max-width: 768px){
+	.arrow-wrapper{
+		margin-bottom: 20px;
+	
+	}
+	
+	.arrow-wrapper p{
+		font-size: 16px;
+		margin-left: 0;
+		margin-right: 80px;
+	}
+	
+	.logo-text1 h1 span{
+	   font-size: 30px;
+	}
+	
+	.logo-text2 h1{
+		font-size: 20px;
+		line-height: 35px;
+	}
+	
+	#submit-button{
+	
+		width: 265px;
+		
+	}
+	
+	.box{
+		width: 98%;
+	}
+	
+}
+
+
+
+/* Thank you page CSS */
+
+.page-template-page_landing_thanks .head-wrap{
+  
+  margin: 0 0 40px;
+}
+
+.thankyou h1 {
+    margin-top: 50px;
+  color: #000000;
+    font-family: "Montserrat",sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.thankyou .left-col{
+  
+   margin-bottom: 40px; 
+}
+
+.thankyou .left-col p {
+  line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.thankyou .left-col .logo img {
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 10px;
+}  
+  
+.thankyou .link {
+    font-weight: 700;
+}
+
+
+.thankyou a, .thankyou a:hover, .thankyou a:focus {
+    outline: medium none;
+    text-decoration: none;
+}
+
+.thankyou a:hover, .thankyou a:focus{
+   color:  #B9C542;
+}
+
+.thankyou .sign-up {
+    background: rgba(0, 0, 0, 0) url("images/underline.png") no-repeat scroll left bottom;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  
+    .thankyou h1{
+      font-size: 30px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  
+
+}
+
+/* home page css*/
+.home .home-feature-bg-alt .wrap{
+  padding: 110px 0 70px;
+}
+
+
+.home .widget-wrap{
+  margin-top: 20px;
+}
+
+.home a:hover{
+  color: #1f7d10;
+}
+
+#landing_modal .modal-dialog{
+  width: 1142px;
+  margin:70px auto;
+}
+
+#landing_modal .modal-content{
+  border-radius: 0px;
+}
+
+
+#landing_modal .modal-body{
+   padding: 0px; 
+}
+
+#landing_modal .page-template-page_landing{
+  
+  width: 1140px;
+}
+
+.fancybox-item.fancybox-close{
+  background-image: url("../images/fancybox_sprite.png");
+  cursor: pointer;
+    height: 36px;
+    position: absolute;
+    right: -18px;
+    top: -18px;
+    width: 36px;
+    z-index: 8040;
+  
+}
+
+/* contact page css*/
+.form-border-right{
+  border-right: 1px solid #ddd; 
+}
+
+@media (max-width: 1200px){
+  .form-border-right{
+  	border-right: 0px;
+	}
+}
+
+.download-contract a{
+	 width: 200px;
+}
+

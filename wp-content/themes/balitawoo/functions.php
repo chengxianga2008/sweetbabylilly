@@ -306,7 +306,7 @@ function tokokoo_custom_name_image_sizes( $sizes ) {
  * @since 1.0
  */
 function tokokoo_scripts() {
-	wp_enqueue_style( 'tokokoo-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', false, '1.0', 'all' );
+	//wp_enqueue_style( 'tokokoo-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', false, '1.0', 'all' );
 
 	wp_enqueue_style( 'flexslider-css' );
 
