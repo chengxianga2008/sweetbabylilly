@@ -1,0 +1,21 @@
+*** WooCommerce eWAY Shared Payments Gateway Changelog ***
+
+2014.01.13 - v1.0.5
+ * WC 2.1 Compatibility
+
+2013.10.11 - v1.0.4
+ * Company Name is not that of customer but of merchant
+
+2013.07.03 - v1.0.3
+ * Convert special chars in product names
+ * Add support for seqential order numbers
+ * Better tracking info being sent through to eWAY
+
+2013.05.22 - v1.0.2
+ * Wishlist Member bug workaround
+
+2013.05.14 - v1.0.1
+ * Fix issue with amounts >= 1000 giving invalid amount error
+
+2013.03.11 - v1.0
+ * First Release

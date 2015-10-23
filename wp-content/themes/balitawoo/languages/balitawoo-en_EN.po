@@ -1,0 +1,3431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Balitawoo 1.0\n"
+"POT-Creation-Date: 2014-02-10 11:46+0700\n"
+"PO-Revision-Date: 2014-02-10 11:46+0700\n"
+"Last-Translator: M.Satrya <satrya@tokokoo.com>\n"
+"Language-Team: Tokokoo <support@tokokoo.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_n:1,2;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:10 ../page-templates/archive.php:25
+msgid "Archive"
+msgstr ""
+
+#: ../archive.php:11 ../page-templates/archive.php:26
+msgid "The last"
+msgstr ""
+
+#: ../archive.php:11 ../page-templates/archive.php:26
+msgid "posts"
+msgstr ""
+
+#: ../archive.php:41 ../library/classes/widget-categories.php:44
+#: ../library/classes/widget-categories.php:136
+#: ../page-templates/archive.php:55
+msgid "Categories"
+msgstr ""
+
+#: ../archive.php:61 ../page-templates/archive.php:75
+msgid "Monthly Archive"
+msgstr ""
+
+#: ../attachment-image.php:30 ../content-attachment.php:16
+#: ../content-attachment.php:27 ../content-gallery.php:13
+#: ../content-page.php:11 ../page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: ../attachment-image.php:42
+#: ../core/metabox/addons/acf-gallery/gallery.php:22
+msgid "Gallery"
+msgstr ""
+
+#: ../breadcrumbs.php:7 ../library/extensions/breadcrumb-trail.php:179
+msgid "Home"
+msgstr ""
+
+#: ../comment.php:13
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../comments.php:10
+msgid "No Comment"
+msgstr ""
+
+#: ../comments.php:10
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:10
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:22
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: ../comments.php:39
+#, php-format
+msgid ""
+"Comments are closed, but <a href=\"%s\" title=\"Trackback URL for this post"
+"\">trackbacks</a> and pingbacks are open."
+msgstr ""
+
+#: ../comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:58 ../library/classes/widget-bookmarks.php:189
+#: ../library/classes/widget-bookmarks.php:202
+#: ../library/classes/widget-categories.php:178
+#: ../library/classes/widget-tags.php:193
+#: ../library/functions/comments.php:190
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:59 ../library/classes/widget-authors.php:147
+#: ../library/functions/comments.php:191
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:60 ../library/functions/comments.php:192
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:66 ../library/functions/comments.php:208
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:67
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: ../content-404.php:11
+msgid ""
+"The following is a list of the latest posts from the blog. Maybe it will "
+"help you find what you're looking for."
+msgstr ""
+
+#: ../content-attachment.php:3
+msgid ""
+"[entry-published] [entry-comments-link] [entry-author] [entry-terms before="
+"\"Tags:\"] [entry-terms taxonomy=\"category\" before=\"Posted in:\"]"
+msgstr ""
+
+#: ../functions.php:287
+msgid "Widget"
+msgstr ""
+
+#: ../functions.php:288
+msgid "Featured"
+msgstr ""
+
+#: ../functions.php:384 ../core/functions/sidebar.php:28
+msgid "Shop"
+msgstr ""
+
+#: ../functions.php:385
+msgid "The widget area appears on the shop page."
+msgstr ""
+
+#: ../functions.php:522
+msgid ""
+"Published under [entry-terms taxonomy=\"category\"] at [entry-published] "
+"[entry-comments-link before=\" | \"] [entry-edit-link before=\" | \"]"
+msgstr ""
+
+#: ../functions.php:523
+msgid "By "
+msgstr ""
+
+#: ../header.php:49 ../core/functions/functions.php:52 ../inc/templates.php:28
+#: ../library/classes/widget-authors.php:153
+msgid "Login"
+msgstr ""
+
+#: ../header.php:50 ../core/functions/functions.php:53 ../inc/templates.php:29
+msgid "Register"
+msgstr ""
+
+#: ../header.php:54
+msgid "My Account"
+msgstr ""
+
+#: ../header.php:55 ../core/functions/functions.php:55 ../inc/templates.php:33
+msgid "Logout"
+msgstr ""
+
+#: ../loop-meta.php:47
+#, php-format
+msgid "You are browsing the search results for \"%s\""
+msgstr ""
+
+#: ../loop-meta.php:55
+msgid "Archives by date"
+msgstr ""
+
+#: ../loop-meta.php:73 ../library/classes/widget-archives.php:44
+#: ../library/classes/widget-archives.php:142
+#: ../library/extensions/breadcrumb-trail.php:183
+#: ../library/functions/context.php:576
+msgid "Archives"
+msgstr ""
+
+#: ../loop-nav.php:2
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr ""
+
+#: ../loop-nav.php:6
+msgid "<span class=\"meta-nav\">Prev</span> hendri"
+msgstr ""
+
+#: ../loop-nav.php:7
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../loop-nav.php:9
+msgid "<span class=\"meta-nav\">Prev</span> Previous"
+msgstr ""
+
+#: ../loop-nav.php:9
+msgid "Next <span class=\"meta-nav\">Next</span>"
+msgstr ""
+
+#: ../loop-nav.php:11
+msgid "<span class=\"meta-nav\"></span> Previous"
+msgstr ""
+
+#: ../loop-nav.php:11
+msgid "Next"
+msgstr ""
+
+#: ../no-results.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: ../no-results.php:13
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../no-results.php:17
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../no-results.php:25
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../page.php:20
+msgid "{ Edit }"
+msgstr ""
+
+#: ../page.php:32
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../core/admin/options-backup.php:15
+msgid "Backup Options"
+msgstr ""
+
+#: ../core/admin/options-backup.php:26
+msgid "Theme Options Backup"
+msgstr ""
+
+#: ../core/admin/options-backup.php:27
+msgid "Note: This is only to backup your Theme Options!"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:18
+msgid "Theme Dashboard"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:24
+msgid "Setup your cool ecommerce site here!"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:26
+msgid ""
+"Follow us to get WordPress practical tips, recent updates and monthly deals."
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:32
+msgid "Quick Start"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:33
+msgid ""
+"First things first, install WooCommerce plugin to get your theme runs your "
+"ecommerce site properly."
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:36
+msgid "Install WooCommerce"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:38
+msgid "WooCommerce Already Installed!"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:43
+msgid "Next Steps"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:46
+msgid "Adjust theme setting"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:49
+msgid "Customize site background"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:52
+msgid "Pick awesome widgets"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:55
+msgid "Manage the menus"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:61
+msgid "Advanced"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:64
+msgid "Add cool slides"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:72
+#, php-format
+msgid ""
+"If you&#8217;d like to read more detailed documentations, please go to the "
+"<a class=\"button button-primary\" href=\"%s\" target=\"_blank"
+"\">Documentation Page</a>"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:88
+msgid "Tokokoo Latest Themes"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:93
+msgid "VIEW ALL"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:105
+msgid "Tokokoo Useful Links"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:111
+msgid "Tokokoo ticketing"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:112
+msgid "Ticketing"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:114
+msgid "Find a bug or need a support? Submit your ticket!"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:117
+msgid "Tokokoo Documentation"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:118
+#: ../library/admin/theme-settings.php:262
+msgid "Documentation"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:120
+msgid "Read our documentations before you start something!"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:123
+msgid "Tokokoo Contact"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:124 ../inc/theme-settings.php:99
+msgid "Contact"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:126
+msgid "Need an intensive support? Contact us!"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:129
+#: ../core/admin/options-dashboard.php:130
+msgid "FAQ"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:132
+msgid "Guaranteed answer for your frequently asked questions"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:135
+#: ../core/admin/options-dashboard.php:136
+msgid "Knowledge base"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:138
+msgid "Having a trouble ? Try to browse our knowledge base"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:141
+msgid "Follow Us"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:142
+msgid "Twitter account"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:144
+msgid "Get in touch with us by following us on twitter"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:153
+msgid "Tokokoo News"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:203
+msgid "No items."
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:226
+msgid "See Detail"
+msgstr ""
+
+#: ../core/admin/options-dashboard.php:229
+msgid "Theme Demo"
+msgstr ""
+
+#: ../core/admin/options-framework.php:182
+#: ../core/admin/options-framework.php:183
+#: ../core/admin/options-framework.php:412
+msgid "Theme Options"
+msgstr ""
+
+#: ../core/admin/options-framework.php:228
+msgid "Clear"
+msgstr ""
+
+#: ../core/admin/options-framework.php:229
+#: ../library/extensions/theme-layouts.php:344
+msgid "Default"
+msgstr ""
+
+#: ../core/admin/options-framework.php:230
+msgid "Select Color"
+msgstr ""
+
+#: ../core/admin/options-framework.php:275
+msgid "Save Options"
+msgstr ""
+
+#: ../core/admin/options-framework.php:276
+msgid "Restore Defaults"
+msgstr ""
+
+#: ../core/admin/options-framework.php:276
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../core/admin/options-framework.php:308
+msgid "Default options restored."
+msgstr ""
+
+#: ../core/admin/options-framework.php:362
+msgid "Options saved."
+msgstr ""
+
+#: ../core/admin/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr ""
+
+#: ../core/admin/options-media-uploader.php:54
+#: ../core/admin/options-media-uploader.php:113
+msgid "Upload"
+msgstr ""
+
+#: ../core/admin/options-media-uploader.php:56
+#: ../core/admin/options-media-uploader.php:114
+#: ../core/metabox/addons/acf-gallery/gallery.php:165
+#: ../core/metabox/addons/acf-gallery/gallery.php:216
+msgid "Remove"
+msgstr ""
+
+#: ../core/admin/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../core/admin/options-media-uploader.php:83
+msgid "View File"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:344
+msgid "Normal"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:345
+msgid "Italic"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:346
+msgid "Bold"
+msgstr ""
+
+#: ../core/admin/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:155 ../inc/plugins.php:49
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:156 ../inc/plugins.php:50
+msgid "Install Plugins"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:157 ../inc/plugins.php:51
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:169 ../inc/plugins.php:63
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:171
+#: ../core/class/class-tgm-plugin-activation.php:1840 ../inc/plugins.php:64
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:172
+#: ../core/class/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/class/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1293
+#: ../core/widgets/widget-google-maps.php:181
+msgid "Type"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1950
+#: ../core/class/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1950
+#: ../core/class/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../core/class/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../core/class/class-wp-twitter-api.php:68
+msgid "Can't get the bearer token, check your credentials"
+msgstr ""
+
+#: ../core/class/class-wp-twitter-api.php:124
+msgid "Bearer Token is good, check your query"
+msgstr ""
+
+#: ../core/functions/custom.php:134
+msgid "Full Width"
+msgstr ""
+
+#: ../core/functions/functions.php:146 ../inc/templates.php:136
+msgid "About the author"
+msgstr ""
+
+#: ../core/functions/functions.php:228
+#, php-format
+msgid "- Theme by <a href=\"%1$s\" title=\"%2$s\" rel=\"designer\">%3$s</a>"
+msgstr ""
+
+#: ../core/functions/setting-functions.php:47
+msgid "Tokokoo Dashboard"
+msgstr ""
+
+#: ../core/functions/settings.php:59
+msgid "General"
+msgstr ""
+
+#: ../core/functions/settings.php:64
+msgid "Header Code"
+msgstr ""
+
+#: ../core/functions/settings.php:65
+msgid ""
+"Add any custom script like the meta verification from various search engine. "
+"It will be inserted before the closing head tag of your theme."
+msgstr ""
+
+#: ../core/functions/settings.php:71
+msgid "Footer Code"
+msgstr ""
+
+#: ../core/functions/settings.php:72
+msgid ""
+"Add your analytic code or you can add any custom script here. It will be "
+"inserted before the closing body tag of your theme."
+msgstr ""
+
+#: ../core/functions/settings.php:78
+msgid "Credits"
+msgstr ""
+
+#: ../core/functions/settings.php:79
+msgid "Disable the credits links for Tokokoo? Are you sure?"
+msgstr ""
+
+#: ../core/functions/settings.php:85
+msgid "Activate IE Warning"
+msgstr ""
+
+#: ../core/functions/settings.php:86
+msgid "Activate warning if user browse your website using IE6 or IE7"
+msgstr ""
+
+#: ../core/functions/settings.php:106
+msgid "Slides"
+msgstr ""
+
+#: ../core/functions/settings.php:111
+msgid "Choose Slide Type"
+msgstr ""
+
+#: ../core/functions/settings.php:112
+msgid "Select your slide type."
+msgstr ""
+
+#: ../core/functions/settings.php:118
+msgid "Choose Slide"
+msgstr ""
+
+#: ../core/functions/settings.php:119
+msgid "Flexslider"
+msgstr ""
+
+#: ../core/functions/settings.php:120
+msgid "Camera"
+msgstr ""
+
+#: ../core/functions/settings.php:125 ../core/functions/settings.php:268
+msgid "Automatically"
+msgstr ""
+
+#: ../core/functions/settings.php:126 ../core/functions/settings.php:269
+msgid "Animate slider automatically."
+msgstr ""
+
+#: ../core/functions/settings.php:134 ../core/functions/settings.php:286
+msgid "Transition Effect"
+msgstr ""
+
+#: ../core/functions/settings.php:135 ../core/functions/settings.php:287
+msgid "Select your animation type."
+msgstr ""
+
+#: ../core/functions/settings.php:141
+msgid "Fade"
+msgstr ""
+
+#: ../core/functions/settings.php:142
+msgid "Slide"
+msgstr ""
+
+#: ../core/functions/settings.php:147
+msgid "Easing Animation"
+msgstr ""
+
+#: ../core/functions/settings.php:148
+msgid "Select your easing animation type."
+msgstr ""
+
+#: ../core/functions/settings.php:190 ../core/functions/settings.php:325
+msgid "Animation Speed"
+msgstr ""
+
+#: ../core/functions/settings.php:191 ../core/functions/settings.php:326
+msgid "Set the speed of animations, in milliseconds."
+msgstr ""
+
+#: ../core/functions/settings.php:199 ../core/functions/settings.php:334
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../core/functions/settings.php:200
+msgid "Set the speed of the slideshow cycling, in milliseconds."
+msgstr ""
+
+#: ../core/functions/settings.php:208
+msgid "Pause on Action"
+msgstr ""
+
+#: ../core/functions/settings.php:209
+msgid "Pause the slideshow when interacting with control elements."
+msgstr ""
+
+#: ../core/functions/settings.php:217 ../core/functions/settings.php:343
+msgid "Pause on Hover"
+msgstr ""
+
+#: ../core/functions/settings.php:218 ../core/functions/settings.php:344
+msgid ""
+"Pause the slideshow when hovering over slider, then resume when no longer "
+"hovering."
+msgstr ""
+
+#: ../core/functions/settings.php:226
+msgid "Video Support"
+msgstr ""
+
+#: ../core/functions/settings.php:227
+msgid "If you need to use video in the slider, please enable it."
+msgstr ""
+
+#: ../core/functions/settings.php:235
+msgid "Control Navigation"
+msgstr ""
+
+#: ../core/functions/settings.php:236
+msgid "Create navigation for paging control of each slide?."
+msgstr ""
+
+#: ../core/functions/settings.php:244
+msgid "Direction Navigation"
+msgstr ""
+
+#: ../core/functions/settings.php:245
+msgid "Create navigation for previous/next slide?."
+msgstr ""
+
+#: ../core/functions/settings.php:253
+msgid "Slide Direction"
+msgstr ""
+
+#: ../core/functions/settings.php:254
+msgid ""
+"Select the sliding direction. <strong>Note: you need to choose 'slide' "
+"effect in the 'Transition Effect' option above.</strong>"
+msgstr ""
+
+#: ../core/functions/settings.php:260
+msgid "Horizontal"
+msgstr ""
+
+#: ../core/functions/settings.php:261
+msgid "Vertical"
+msgstr ""
+
+#: ../core/functions/settings.php:277
+msgid "Thumbnail"
+msgstr ""
+
+#: ../core/functions/settings.php:278
+msgid "Display thumbnail for each slide."
+msgstr ""
+
+#: ../core/functions/settings.php:293
+msgid "random"
+msgstr ""
+
+#: ../core/functions/settings.php:335
+msgid ""
+"milliseconds between the end of the sliding effect and the start of the next "
+"one."
+msgstr ""
+
+#: ../core/functions/settings.php:352
+msgid "Pause on Click"
+msgstr ""
+
+#: ../core/functions/settings.php:353
+msgid "It stops the slideshow when you click the sliders."
+msgstr ""
+
+#: ../core/functions/settings.php:361
+msgid "Pagination"
+msgstr ""
+
+#: ../core/functions/settings.php:362
+msgid "Display paging control for each slide."
+msgstr ""
+
+#: ../core/functions/settings.php:370
+#: ../library/classes/widget-nav-menu.php:108
+msgid "Navigation"
+msgstr ""
+
+#: ../core/functions/settings.php:371
+msgid "Display the prev, next and play/stop buttons."
+msgstr ""
+
+#: ../core/functions/settings.php:379
+msgid "Play/pause Buttons"
+msgstr ""
+
+#: ../core/functions/settings.php:380
+msgid "Display or not the play/pause buttons."
+msgstr ""
+
+#: ../core/functions/settings.php:388
+msgid "Height"
+msgstr ""
+
+#: ../core/functions/settings.php:389
+msgid ""
+"here you can type pixels (for instance 300px), a percentage (relative to the "
+"width of the slideshow, for instance 50%) or auto."
+msgstr ""
+
+#: ../core/functions/settings.php:397
+msgid "Loader"
+msgstr ""
+
+#: ../core/functions/settings.php:398
+msgid "Select your loading bar style."
+msgstr ""
+
+#: ../core/functions/settings.php:411
+msgid "Loader Color"
+msgstr ""
+
+#: ../core/functions/settings.php:412
+msgid "Select the loading style color."
+msgstr ""
+
+#: ../core/functions/settings.php:420
+msgid "Loader Background Color"
+msgstr ""
+
+#: ../core/functions/settings.php:421
+msgid "Select the loading style background color."
+msgstr ""
+
+#: ../core/functions/settings.php:429
+msgid "Pie Loader Position"
+msgstr ""
+
+#: ../core/functions/settings.php:430
+msgid ""
+"Select the pie loader position. <strong>Note: You need to choose 'Pie' in "
+"the 'Loader' option.</strong>"
+msgstr ""
+
+#: ../core/functions/settings.php:436
+msgid "Right Top"
+msgstr ""
+
+#: ../core/functions/settings.php:437
+msgid "Right Bottom"
+msgstr ""
+
+#: ../core/functions/settings.php:438
+msgid "Left Top"
+msgstr ""
+
+#: ../core/functions/settings.php:439
+msgid "Left Bottom"
+msgstr ""
+
+#: ../core/functions/settings.php:444
+msgid "Bar Loader Position"
+msgstr ""
+
+#: ../core/functions/settings.php:445
+msgid ""
+"Select the bar loader position. <strong>Note: You need to choose 'Bar' in "
+"the 'Loader' option.</strong>"
+msgstr ""
+
+#: ../core/functions/settings.php:451
+msgid "Bottom"
+msgstr ""
+
+#: ../core/functions/settings.php:452
+msgid "Top"
+msgstr ""
+
+#: ../core/functions/settings.php:471 ../woocommerce/global/breadcrumb.php:202
+msgid "Page"
+msgstr ""
+
+#: ../core/functions/settings.php:476
+msgid "Post Author Box"
+msgstr ""
+
+#: ../core/functions/settings.php:477
+msgid ""
+"This will enable the post author box on the single posts page. Edit "
+"description in <a href=\""
+msgstr ""
+
+#: ../core/functions/settings.php:483
+msgid "Post/Page Comments"
+msgstr ""
+
+#: ../core/functions/settings.php:484
+msgid "This will enable the comments on posts and/or pages."
+msgstr ""
+
+#: ../core/functions/settings.php:491
+msgid "Social Share Buttons"
+msgstr ""
+
+#: ../core/functions/settings.php:492
+msgid "This will enable the social share buttons on the single posts and page."
+msgstr ""
+
+#: ../core/functions/sidebar.php:29
+msgid "The widget area loaded on the shop page."
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:23
+msgid "Content"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:94
+msgid "Add Image to Gallery"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:95
+msgid "Edit Image"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:144
+#: ../core/metabox/addons/acf-gallery/gallery.php:195
+#: ../library/classes/widget-pages.php:163
+msgid "Title"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:148
+#: ../core/metabox/addons/acf-gallery/gallery.php:199
+msgid "Alternate Text"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:152
+#: ../core/metabox/addons/acf-gallery/gallery.php:203
+msgid "Caption"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:156
+#: ../core/metabox/addons/acf-gallery/gallery.php:207
+#: ../inc/theme-settings.php:130 ../inc/theme-settings.php:131
+#: ../library/classes/widget-bookmarks.php:200
+msgid "Description"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:166
+#: ../core/metabox/addons/acf-gallery/gallery.php:217
+#: ../core/metabox/addons/acf-repeater/repeater.php:471
+#: ../library/classes/widget-tags.php:177
+#: ../library/extensions/breadcrumb-trail.php:1130
+#: ../library/extensions/breadcrumb-trail.php:1166
+#: ../library/extensions/breadcrumb-trail.php:1183
+#: ../library/extensions/breadcrumb-trail.php:1214
+#: ../library/functions/shortcodes.php:205
+#: ../library/functions/shortcodes.php:527
+msgid "Edit"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:177
+#: ../core/metabox/addons/acf-gallery/gallery.php:716
+msgid "Add Image"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:178
+msgid "Grid"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:179
+#: ../library/classes/widget-authors.php:186
+#: ../library/classes/widget-categories.php:166
+#: ../library/classes/widget-tags.php:182
+msgid "List"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:181
+msgid "No images selected"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:181
+msgid "1 image selected"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:181
+msgid "{count} images selected"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:255
+msgid "Preview Size"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:256
+msgid "Thumbnail is advised"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:428
+msgid "Image Updated"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:639
+msgid "Added"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:659
+msgid "Image already exists in gallery"
+msgstr ""
+
+#: ../core/metabox/addons/acf-gallery/gallery.php:719
+msgid "Update Image"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:22
+msgid "Repeater"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:23
+#: ../core/metabox/addons/acf-repeater/repeater.php:428
+#: ../core/metabox/addons/acf-repeater/repeater.php:640
+#: ../library/extensions/theme-layouts.php:435
+#: ../library/extensions/theme-layouts.php:545
+#: ../library/extensions/theme-layouts.php:630
+msgid "Layout"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:160
+#: ../core/metabox/addons/acf-repeater/repeater.php:405
+msgid "Add Row"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:420
+msgid "New Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:421
+msgid "new_field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:433
+msgid "Repeater Fields"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:441
+msgid "Field Order"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:442
+#: ../core/metabox/addons/acf-repeater/repeater.php:490
+msgid "Field Label"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:443
+#: ../core/metabox/addons/acf-repeater/repeater.php:506
+msgid "Field Name"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:444
+#: ../core/metabox/addons/acf-repeater/repeater.php:521
+msgid "Field Type"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:452
+msgid ""
+"No fields. Click the \"+ Add Sub Field button\" to create your first field."
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:468
+#: ../core/metabox/addons/acf-repeater/repeater.php:471
+msgid "Edit this Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:472
+msgid "Read documentation for this field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:472
+msgid "Docs"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:473
+msgid "Duplicate this Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:473
+msgid "Duplicate"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:474
+msgid "Delete this Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:474
+msgid "Delete"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:491
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:507
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:536
+msgid "Field Instructions"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:556
+msgid "Column Width"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:557
+msgid "Leave blank for auto"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:584
+msgid "Save Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:589
+msgid "Close Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:589
+msgid "Close Sub Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:604
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:605
+msgid "+ Add Sub Field"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:612
+msgid "Minimum Rows"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:626
+msgid "Maximum Rows"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:650
+msgid "Table (default)"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:651
+msgid "Row"
+msgstr ""
+
+#: ../core/metabox/addons/acf-repeater/repeater.php:659
+msgid "Button Label"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:20
+msgid "A custom widget to display any type of Ad as a widget."
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:28
+msgid "Tokokoo - Advertisement"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:107 ../core/widgets/widget-contact.php:118
+#: ../core/widgets/widget-fbfans.php:103 ../core/widgets/widget-flickr.php:189
+#: ../core/widgets/widget-google-maps.php:149
+#: ../core/widgets/widget-opening-hours.php:134
+#: ../core/widgets/widget-post-type-random.php:160
+#: ../core/widgets/widget-post-type.php:199
+#: ../core/widgets/widget-social.php:190
+#: ../core/widgets/widget-subscribe.php:98
+#: ../core/widgets/widget-testimonials.php:164
+#: ../core/widgets/widget-twitter.php:165 ../core/widgets/widget-video.php:94
+#: ../library/classes/widget-archives.php:181
+#: ../library/classes/widget-authors.php:160
+#: ../library/classes/widget-bookmarks.php:217
+#: ../library/classes/widget-calendar.php:108
+#: ../library/classes/widget-categories.php:195
+#: ../library/classes/widget-nav-menu.php:131
+#: ../library/classes/widget-pages.php:178
+#: ../library/classes/widget-search.php:144
+#: ../library/classes/widget-tags.php:207
+msgid "Title:"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:111
+msgid "Ad Code:"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:116
+msgid "Image URL:"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:120
+msgid "Link:"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:124
+msgid "Alt Text:"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:128
+msgid "Link Target:"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:130
+msgid "Open in the same window"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:131
+msgid "Open in a new window"
+msgstr ""
+
+#: ../core/widgets/widget-ads.php:135 ../core/widgets/widget-contact.php:142
+#: ../core/widgets/widget-fbfans.php:123 ../core/widgets/widget-flickr.php:224
+#: ../core/widgets/widget-opening-hours.php:166
+#: ../core/widgets/widget-post-type-random.php:208
+#: ../core/widgets/widget-post-type.php:254
+#: ../core/widgets/widget-subscribe.php:106
+msgid "Custom CSS:"
+msgstr ""
+
+#: ../core/widgets/widget-contact.php:20
+msgid "A custom widget to display your contact details."
+msgstr ""
+
+#: ../core/widgets/widget-contact.php:29
+msgid "Tokokoo - Contact Info"
+msgstr ""
+
+#: ../core/widgets/widget-contact.php:122
+msgid "Summary:"
+msgstr ""
+
+#: ../core/widgets/widget-contact.php:126
+msgid "Address:"
+msgstr ""
+
+#: ../core/widgets/widget-contact.php:130
+#: ../core/widgets/widget-social.php:201
+msgid "Email:"
+msgstr ""
+
+#: ../core/widgets/widget-contact.php:134
+msgid "Phone:"
+msgstr ""
+
+#: ../core/widgets/widget-contact.php:138
+msgid "Fax:"
+msgstr ""
+
+#: ../core/widgets/widget-fbfans.php:20
+msgid "A custom widget to display the Facebook fans page box."
+msgstr ""
+
+#: ../core/widgets/widget-fbfans.php:28
+msgid "Tokokoo - Facebook Fans Widget"
+msgstr ""
+
+#: ../core/widgets/widget-fbfans.php:107
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: ../core/widgets/widget-fbfans.php:111
+#: ../core/widgets/widget-google-maps.php:189
+msgid "Width:"
+msgstr ""
+
+#: ../core/widgets/widget-fbfans.php:115
+#: ../core/widgets/widget-google-maps.php:193
+msgid "Height:"
+msgstr ""
+
+#: ../core/widgets/widget-fbfans.php:119
+msgid "Connection:"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:21
+msgid "A custom widget to display photo galleries from your Flickr account."
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:29
+msgid "Tokokoo - Flickr Photostream"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:49
+msgid "Untitled Flickr photo"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:193
+msgid "Display"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:200
+msgid "User"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:201
+msgid "Set"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:202
+msgid "Favorite"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:203
+msgid "Group"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:204
+msgid "Community"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:206
+msgid "photos"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:209
+msgid "User or Group ID"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:211
+msgid "What is my ID ?"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:214
+msgid "Set ID"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:216
+msgid "Use number from the set url"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:219
+msgid "Tags (optional)"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:221
+msgid "Comma separated, no spaces"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:247
+msgid ""
+"<strong>No \"type\" parameter has been setup. Check your settings, or "
+"provide the parameter as an argument.</strong>"
+msgstr ""
+
+#: ../core/widgets/widget-flickr.php:258
+msgid "There was an error while connecting to Feed server, please, try again!"
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:21
+msgid "A custom widget to display Google Maps based on your address."
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:30
+msgid "Tokokoo - Google Maps"
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:156
+msgid "Country:"
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:160
+msgid "State:"
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:164
+msgid "City:"
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:168
+msgid "Street:"
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:172
+msgid "Zip:"
+msgstr ""
+
+#: ../core/widgets/widget-google-maps.php:197
+msgid "Zoom:"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:20
+msgid "A custom widget to display business hours."
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:28
+msgid "Tokokoo - Business Hours"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:59
+#, php-format
+msgid "<li><span class=\"day\">Monday: </span>%s</li>"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:62
+#, php-format
+msgid "<li><span class=\"day\">Tuesday: </span>%s</li>"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:65
+#, php-format
+msgid "<li><span class=\"day\">Wednesday: </span>%s</li>"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:68
+#, php-format
+msgid "<li><span class=\"day\">Thursday: </span>%s</li>"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:71
+#, php-format
+msgid "<li><span class=\"day\">Friday: </span>%s</li>"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:74
+#, php-format
+msgid "<li><span class=\"day\">Saturday: </span>%s</li>"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:77
+#, php-format
+msgid "<li><span class=\"day\">Sunday: </span>%s</li>"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:138
+msgid "Monday:"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:142
+msgid "Tuesday:"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:146
+msgid "Wednesday:"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:150
+msgid "Thursday:"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:154
+msgid "Friday:"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:158
+msgid "Saturday:"
+msgstr ""
+
+#: ../core/widgets/widget-opening-hours.php:162
+msgid "Sunday:"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:20
+msgid "A custom widget to display random data from any post type."
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:28
+msgid "Tokokoo - Post Type Random"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:86
+#: ../core/widgets/widget-post-type.php:107
+msgid " ago"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:164
+#: ../core/widgets/widget-post-type.php:203
+msgid "Limit:"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:168
+#: ../core/widgets/widget-post-type.php:214
+msgid "Display excerpt ?"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:172
+#: ../core/widgets/widget-post-type.php:218
+msgid "Excerpt length:"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:179
+#: ../core/widgets/widget-post-type.php:225
+msgid "Display thumbnail ?"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:183
+#: ../core/widgets/widget-post-type.php:229
+msgid "Thumbnail Size (height x width):"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:191
+#: ../core/widgets/widget-post-type.php:237
+msgid "Display date ?"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:195
+#: ../core/widgets/widget-post-type.php:241
+msgid "Limit to category: "
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:196
+#: ../core/widgets/widget-post-type.php:242
+msgid "All categories"
+msgstr ""
+
+#: ../core/widgets/widget-post-type-random.php:199
+#: ../core/widgets/widget-post-type.php:245
+msgid "Choose the Post Type: "
+msgstr ""
+
+#: ../core/widgets/widget-post-type.php:20
+msgid ""
+"A custom widget to display most recent and popular data from any post type."
+msgstr ""
+
+#: ../core/widgets/widget-post-type.php:28
+msgid "Tokokoo - Post Type"
+msgstr ""
+
+#: ../core/widgets/widget-post-type.php:207
+msgid "Display:"
+msgstr ""
+
+#: ../core/widgets/widget-post-type.php:209
+msgid "Popular"
+msgstr ""
+
+#: ../core/widgets/widget-post-type.php:210
+msgid "Recent"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:20
+msgid "A custom widget to display the social network icons."
+msgstr ""
+
+#: ../core/widgets/widget-social.php:28
+msgid "Tokokoo - Social Connect"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:197
+msgid "Rss URL:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:205
+msgid "Twitter Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:209
+msgid "Facebook Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:213
+msgid "Google Plus Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:217
+msgid "Youtube Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:226
+msgid "Flickr Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:230
+msgid "Linkedin Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:234
+msgid "Pinterest Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:239
+msgid "Dribbble Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:243
+msgid "Github Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:247
+msgid "Last FM Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:256
+msgid "Vimeo Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:260
+msgid "Tumblr Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:264
+msgid "Instagram Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:268
+msgid "Soundcloud Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:272
+msgid "Behance Username:"
+msgstr ""
+
+#: ../core/widgets/widget-social.php:276
+msgid "Deviantart Username:"
+msgstr ""
+
+#: ../core/widgets/widget-subscribe.php:20
+msgid "A custom widget to display the Feedburner subscription widget."
+msgstr ""
+
+#: ../core/widgets/widget-subscribe.php:28
+msgid "Tokokoo - Feedburner"
+msgstr ""
+
+#: ../core/widgets/widget-subscribe.php:55
+msgid "Email address &hellip;"
+msgstr ""
+
+#: ../core/widgets/widget-subscribe.php:58
+msgid "Subscribe"
+msgstr ""
+
+#: ../core/widgets/widget-subscribe.php:102
+msgid "Feedburner ID: (http://feeds.feedburner.com/<b>tokokoo</b>):"
+msgstr ""
+
+#: ../core/widgets/widget-testimonials.php:20
+msgid "A custom widget that display three testimonials."
+msgstr ""
+
+#: ../core/widgets/widget-testimonials.php:28
+msgid "Tokokoo - Testimonials"
+msgstr ""
+
+#: ../core/widgets/widget-testimonials.php:171
+#: ../core/widgets/widget-testimonials.php:188
+#: ../core/widgets/widget-testimonials.php:205
+msgid "URL:"
+msgstr ""
+
+#: ../core/widgets/widget-testimonials.php:175
+#: ../core/widgets/widget-testimonials.php:192
+#: ../core/widgets/widget-testimonials.php:209
+msgid "Name:"
+msgstr ""
+
+#: ../core/widgets/widget-testimonials.php:179
+#: ../core/widgets/widget-testimonials.php:196
+#: ../core/widgets/widget-testimonials.php:213
+msgid "Testimonial:"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:22
+msgid ""
+"A custom widget to display your recent tweets. Work with new Twitter API."
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:31
+msgid "Tokokoo - Recent Tweets"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:56
+msgid "Please fill all widget settings."
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:62
+msgid "Couldn't find the required class."
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:169
+msgid "Screen Name:"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:173
+msgid "Consumer Key:"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:177
+msgid "Consumer Secret:"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:181
+msgid "Number of Tweets:"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:186
+msgid "Show avatar image"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:190
+msgid "Show follow button"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:228
+msgid "right now"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:230
+msgid " seconds ago"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:232
+msgid "about 1 minute ago"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:234
+msgid " minutes ago"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:236
+msgid "about 1 hour ago"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:238
+msgid " hours ago"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:240
+msgid "yesterday"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:242
+msgid " days ago"
+msgstr ""
+
+#: ../core/widgets/widget-twitter.php:244
+msgid "over a year ago"
+msgstr ""
+
+#: ../core/widgets/widget-video.php:20
+msgid "A custom widget to display video such as from youtube, vimeo and etc."
+msgstr ""
+
+#: ../core/widgets/widget-video.php:28
+msgid "Tokokoo - Video"
+msgstr ""
+
+#: ../core/widgets/widget-video.php:98
+msgid "Video URL:"
+msgstr ""
+
+#: ../inc/plugins.php:52
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/plugins.php:65
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../inc/theme-customizer.php:34
+msgid "General Colors"
+msgstr ""
+
+#: ../inc/theme-customizer.php:40
+msgid "Menu hover color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:41
+msgid "Menu color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:42
+msgid "Menu dropdown background color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:43
+msgid "Site title color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:44
+msgid "Heading color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:45
+msgid "Global link color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:46
+msgid "Link hover color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:58
+msgid "Ecommerce Color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:64
+msgid "Primary color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:65
+msgid "Secondary color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:66
+msgid "Tabs background color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:67
+msgid "Badge color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:68
+msgid "Button color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:69
+msgid "Button hover color"
+msgstr ""
+
+#: ../inc/theme-customizer.php:79
+msgid "Typography"
+msgstr ""
+
+#: ../inc/theme-customizer.php:105
+msgid "Body Font"
+msgstr ""
+
+#: ../inc/theme-customizer.php:106
+msgid "Site Title"
+msgstr ""
+
+#: ../inc/theme-customizer.php:107
+msgid "Heading Font"
+msgstr ""
+
+#: ../inc/theme-customizer.php:108
+msgid "Content Font"
+msgstr ""
+
+#: ../inc/theme-customizer.php:109
+msgid "Product Title Font"
+msgstr ""
+
+#: ../inc/theme-settings.php:21
+msgid "Banner"
+msgstr ""
+
+#: ../inc/theme-settings.php:27
+msgid "Header Banner"
+msgstr ""
+
+#: ../inc/theme-settings.php:28
+msgid "Banner text on header"
+msgstr ""
+
+#: ../inc/theme-settings.php:34
+msgid "Prolog Message"
+msgstr ""
+
+#: ../inc/theme-settings.php:35
+msgid "Text to show under slider on shop page"
+msgstr ""
+
+#: ../inc/theme-settings.php:41
+msgid "Prolog Button"
+msgstr ""
+
+#: ../inc/theme-settings.php:42
+msgid "Text for prolog button"
+msgstr ""
+
+#: ../inc/theme-settings.php:48
+msgid "Prolog Button Link"
+msgstr ""
+
+#: ../inc/theme-settings.php:49
+msgid "Link to be embedded into button"
+msgstr ""
+
+#: ../inc/theme-settings.php:59
+msgid "Social"
+msgstr ""
+
+#: ../inc/theme-settings.php:64
+msgid "The social icon will appear on footer of your site."
+msgstr ""
+
+#: ../inc/theme-settings.php:69
+msgid "Header"
+msgstr ""
+
+#: ../inc/theme-settings.php:70
+msgid "Insert header for social section"
+msgstr ""
+
+#: ../inc/theme-settings.php:76
+msgid "Flickr"
+msgstr ""
+
+#: ../inc/theme-settings.php:77
+msgid "Insert your flickr username"
+msgstr ""
+
+#: ../inc/theme-settings.php:83
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/theme-settings.php:84
+msgid "Insert your facebook username"
+msgstr ""
+
+#: ../inc/theme-settings.php:90
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/theme-settings.php:91
+msgid "Insert your twitter username"
+msgstr ""
+
+#: ../inc/theme-settings.php:104
+msgid ""
+"Info for your contact page, you can get Latitude and Longitude at location "
+"service such as <a href=\"http://www.latlong.net\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: ../inc/theme-settings.php:109
+msgid "Latitude"
+msgstr ""
+
+#: ../inc/theme-settings.php:110
+msgid "Your location latitude"
+msgstr ""
+
+#: ../inc/theme-settings.php:116
+msgid "Longitude"
+msgstr ""
+
+#: ../inc/theme-settings.php:117
+msgid "Your location longitude"
+msgstr ""
+
+#: ../inc/theme-settings.php:123
+msgid "Street"
+msgstr ""
+
+#: ../inc/theme-settings.php:124
+msgid "Street location"
+msgstr ""
+
+#: ../inc/theme-settings.php:144
+msgid "Slider Shortcode"
+msgstr ""
+
+#: ../inc/theme-settings.php:145
+msgid ""
+"Paste your slider shortcode here, this is will be shown on the home page."
+msgstr ""
+
+#: ../inc/theme-settings.php:151
+msgid "Homepage banner"
+msgstr ""
+
+#: ../inc/theme-settings.php:152
+msgid "Settings for banner that will show up at homepage"
+msgstr ""
+
+#: ../inc/theme-settings.php:158
+msgid "Choose Banner"
+msgstr ""
+
+#: ../inc/theme-settings.php:159
+msgid "Banner 1"
+msgstr ""
+
+#: ../inc/theme-settings.php:160
+msgid "Banner 2"
+msgstr ""
+
+#: ../inc/theme-settings.php:161
+msgid "Banner 3"
+msgstr ""
+
+#: ../inc/theme-settings.php:162
+msgid "Banner 4"
+msgstr ""
+
+#: ../inc/theme-settings.php:167
+msgid "Banner 1 image"
+msgstr ""
+
+#: ../inc/theme-settings.php:168
+msgid "Select image for your Banner 1"
+msgstr ""
+
+#: ../inc/theme-settings.php:175
+msgid "Banner 1 title"
+msgstr ""
+
+#: ../inc/theme-settings.php:176
+msgid "Title for your Banner 1"
+msgstr ""
+
+#: ../inc/theme-settings.php:183
+msgid "Banner 1 text"
+msgstr ""
+
+#: ../inc/theme-settings.php:184
+msgid "Text for your Banner 1"
+msgstr ""
+
+#: ../inc/theme-settings.php:191
+msgid "Banner 1 link"
+msgstr ""
+
+#: ../inc/theme-settings.php:192
+msgid "Link for Banner 1"
+msgstr ""
+
+#: ../inc/theme-settings.php:201
+msgid "Banner 2 image"
+msgstr ""
+
+#: ../inc/theme-settings.php:202
+msgid "Select image for your Banner 2"
+msgstr ""
+
+#: ../inc/theme-settings.php:209
+msgid "Banner 2 title"
+msgstr ""
+
+#: ../inc/theme-settings.php:210
+msgid "Title for your Banner 2"
+msgstr ""
+
+#: ../inc/theme-settings.php:217
+msgid "Banner 2 text"
+msgstr ""
+
+#: ../inc/theme-settings.php:218
+msgid "Text for your Banner 2"
+msgstr ""
+
+#: ../inc/theme-settings.php:225
+msgid "Banner 2 link"
+msgstr ""
+
+#: ../inc/theme-settings.php:226
+msgid "Link for Banner 2"
+msgstr ""
+
+#: ../inc/theme-settings.php:235
+msgid "Banner 3 image"
+msgstr ""
+
+#: ../inc/theme-settings.php:236
+msgid "Select image for your Banner 3"
+msgstr ""
+
+#: ../inc/theme-settings.php:243
+msgid "Banner 3 title"
+msgstr ""
+
+#: ../inc/theme-settings.php:244
+msgid "Title for your Banner 3"
+msgstr ""
+
+#: ../inc/theme-settings.php:251
+msgid "Banner 3 text"
+msgstr ""
+
+#: ../inc/theme-settings.php:252
+msgid "Text for your Banner 3"
+msgstr ""
+
+#: ../inc/theme-settings.php:259
+msgid "Banner 3 link"
+msgstr ""
+
+#: ../inc/theme-settings.php:260
+msgid "Link for Banner 3"
+msgstr ""
+
+#: ../inc/theme-settings.php:269
+msgid "Banner 4 image"
+msgstr ""
+
+#: ../inc/theme-settings.php:270
+msgid "Select image for your Banner 4"
+msgstr ""
+
+#: ../inc/theme-settings.php:277
+msgid "Banner 4 title"
+msgstr ""
+
+#: ../inc/theme-settings.php:278
+msgid "Title for your Banner 4"
+msgstr ""
+
+#: ../inc/theme-settings.php:285
+msgid "Banner 4 text"
+msgstr ""
+
+#: ../inc/theme-settings.php:286
+msgid "Text for your Banner 4"
+msgstr ""
+
+#: ../inc/theme-settings.php:293
+msgid "Banner 4 link"
+msgstr ""
+
+#: ../inc/theme-settings.php:294
+msgid "Link for Banner 4"
+msgstr ""
+
+#: ../inc/theme-settings.php:309
+msgid "Custom logo"
+msgstr ""
+
+#: ../inc/theme-woocommerce.php:31
+#, php-format
+msgid "<a class=\"top-account\" href=\"%s\">My Account</a>"
+msgstr ""
+
+#: ../inc/theme-woocommerce.php:40
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../inc/theme-woocommerce.php:42
+#, php-format
+msgid "%d Item"
+msgid_plural "%d Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/theme-woocommerce.php:109
+msgid "Free!"
+msgstr ""
+
+#: ../library/admin/meta-box-post-seo.php:39
+msgid "SEO"
+msgstr ""
+
+#: ../library/admin/meta-box-post-seo.php:72
+msgid "Document Title:"
+msgstr ""
+
+#: ../library/admin/meta-box-post-seo.php:78
+msgid "Meta Description:"
+msgstr ""
+
+#: ../library/admin/meta-box-post-seo.php:84
+msgid "Meta Keywords:"
+msgstr ""
+
+#: ../library/admin/meta-box-post-template.php:45
+msgid "Template"
+msgstr ""
+
+#: ../library/admin/meta-box-theme-about.php:31
+#: ../library/admin/meta-box-theme-about.php:36
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../library/admin/meta-box-theme-about.php:61
+msgid "Theme:"
+msgstr ""
+
+#: ../library/admin/meta-box-theme-about.php:69
+msgid "Version:"
+msgstr ""
+
+#: ../library/admin/meta-box-theme-about.php:77
+#: ../woocommerce/global/breadcrumb.php:197
+msgid "Author:"
+msgstr ""
+
+#: ../library/admin/meta-box-theme-about.php:85
+msgid "Description:"
+msgstr ""
+
+#: ../library/admin/meta-box-theme-footer.php:29
+msgid "Footer settings"
+msgstr ""
+
+#: ../library/admin/meta-box-theme-footer.php:52
+msgid ""
+"You can add custom <acronym title=\"Hypertext Markup Language\">HTML</"
+"acronym> and/or shortcodes, which will be automatically inserted into your "
+"theme."
+msgstr ""
+
+#: ../library/admin/theme-settings.php:47
+#: ../library/admin/theme-settings.php:171
+#, php-format
+msgid "%s Theme Settings"
+msgstr ""
+
+#: ../library/admin/theme-settings.php:48
+msgid "Theme Settings"
+msgstr ""
+
+#: ../library/admin/theme-settings.php:172
+msgid "Customize"
+msgstr ""
+
+#: ../library/admin/theme-settings.php:205
+msgid "Update Settings"
+msgstr ""
+
+#: ../library/admin/theme-settings.php:266
+msgid "Support"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"archives."
+msgstr ""
+
+#: ../library/classes/widget-archives.php:79
+msgid "Select Year"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:82
+msgid "Select Month"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:85
+msgid "Select Week"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:88
+msgid "Select Day"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:91
+msgid "Select Post"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:157
+msgid "Alphabetical"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:158
+msgid "Daily"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:159
+msgid "Monthly"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:160
+msgid "Post By Post"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:161
+msgid "Weekly"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:162
+msgid "Yearly"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:167
+#: ../library/classes/widget-authors.php:141
+#: ../library/classes/widget-bookmarks.php:182
+#: ../library/classes/widget-bookmarks.php:194
+#: ../library/classes/widget-categories.php:171
+#: ../library/classes/widget-pages.php:152
+#: ../library/classes/widget-tags.php:186
+msgid "Ascending"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:168
+#: ../library/classes/widget-authors.php:142
+#: ../library/classes/widget-bookmarks.php:183
+#: ../library/classes/widget-bookmarks.php:195
+#: ../library/classes/widget-categories.php:172
+#: ../library/classes/widget-pages.php:153
+#: ../library/classes/widget-tags.php:187
+msgid "Descending"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:173
+msgid "Custom"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:174
+msgid "HTML"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:175
+msgid "Option"
+msgstr ""
+
+#: ../library/classes/widget-archives.php:225
+#: ../library/classes/widget-authors.php:208
+msgid "Show post count?"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"author lists."
+msgstr ""
+
+#: ../library/classes/widget-authors.php:44
+#: ../library/classes/widget-authors.php:123
+msgid "Authors"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:146
+msgid "Display Name"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:148
+#: ../library/classes/widget-bookmarks.php:188
+#: ../library/classes/widget-bookmarks.php:199
+#: ../library/classes/widget-categories.php:177
+#: ../library/classes/widget-pages.php:159
+msgid "ID"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:149
+msgid "Nice Name"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:150
+msgid "Post Count"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:151
+msgid "Registered"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:152
+#: ../library/classes/widget-bookmarks.php:211
+msgid "URL"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:186
+#: ../library/classes/widget-categories.php:167
+msgid "None"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:204
+msgid "<acronym title=\"Hypertext Markup Language\">HTML</acronym>?"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:212
+msgid "Exclude admin?"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:216
+msgid "Show full name?"
+msgstr ""
+
+#: ../library/classes/widget-authors.php:220
+#: ../library/classes/widget-categories.php:298
+#: ../library/classes/widget-tags.php:318
+msgid "Hide empty?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"bookmarks (links)."
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:44
+#: ../library/classes/widget-bookmarks.php:86
+#: ../library/classes/widget-bookmarks.php:150
+msgid "Bookmarks"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:187
+#: ../library/classes/widget-categories.php:176
+#: ../library/classes/widget-tags.php:192
+msgid "Count"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:190
+#: ../library/classes/widget-categories.php:179
+#: ../library/classes/widget-pages.php:162
+msgid "Slug"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:201
+msgid "Length"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:203
+msgid "Notes"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:204
+msgid "Owner"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:205
+#: ../library/classes/widget-tags.php:188
+msgid "Random"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:206
+msgid "Rating"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:207
+msgid "Rel"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:208
+#: ../library/classes/widget-categories.php:187
+msgid "RSS"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:209
+msgid "Target"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:210
+msgid "Updated"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:319
+msgid "Categorize?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:323
+msgid "Show description?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:327
+msgid "Hide invisible?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:331
+msgid "Show rating?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:335
+msgid "Show updated?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:339
+msgid "Show images?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:343
+msgid "Show name?"
+msgstr ""
+
+#: ../library/classes/widget-bookmarks.php:347
+msgid "Show private?"
+msgstr ""
+
+#: ../library/classes/widget-calendar.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"calendar."
+msgstr ""
+
+#: ../library/classes/widget-calendar.php:44
+#: ../library/classes/widget-calendar.php:99
+msgid "Calendar"
+msgstr ""
+
+#: ../library/classes/widget-calendar.php:113
+msgid "One-letter abbreviation?"
+msgstr ""
+
+#: ../library/classes/widget-categories.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"category links."
+msgstr ""
+
+#: ../library/classes/widget-categories.php:180
+msgid "Term Group"
+msgstr ""
+
+#: ../library/classes/widget-categories.php:185
+msgid "Atom"
+msgstr ""
+
+#: ../library/classes/widget-categories.php:186
+msgid "RDF"
+msgstr ""
+
+#: ../library/classes/widget-categories.php:188
+msgid "RSS 2.0"
+msgstr ""
+
+#: ../library/classes/widget-categories.php:286
+#: ../library/classes/widget-pages.php:277
+msgid "Hierarchical?"
+msgstr ""
+
+#: ../library/classes/widget-categories.php:290
+msgid "Use description?"
+msgstr ""
+
+#: ../library/classes/widget-categories.php:294
+msgid "Show count?"
+msgstr ""
+
+#: ../library/classes/widget-nav-menu.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"menus."
+msgstr ""
+
+#: ../library/classes/widget-nav-menu.php:44
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../library/classes/widget-pages.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your page "
+"links."
+msgstr ""
+
+#: ../library/classes/widget-pages.php:44
+#: ../library/classes/widget-pages.php:125
+msgid "Pages"
+msgstr ""
+
+#: ../library/classes/widget-pages.php:157
+msgid "Author"
+msgstr ""
+
+#: ../library/classes/widget-pages.php:158
+msgid "Date"
+msgstr ""
+
+#: ../library/classes/widget-pages.php:160
+msgid "Menu Order"
+msgstr ""
+
+#: ../library/classes/widget-pages.php:161
+#: ../library/classes/widget-pages.php:169
+msgid "Modified"
+msgstr ""
+
+#: ../library/classes/widget-pages.php:168
+msgid "Created"
+msgstr ""
+
+#: ../library/classes/widget-search.php:33
+msgid ""
+"An advanced widget that gives you total control over the output of your "
+"search form."
+msgstr ""
+
+#: ../library/classes/widget-search.php:45
+#: ../library/classes/widget-search.php:132
+msgid "Search"
+msgstr ""
+
+#: ../library/classes/widget-search.php:148
+msgid "Search Label:"
+msgstr ""
+
+#: ../library/classes/widget-search.php:152
+msgid "Search Text:"
+msgstr ""
+
+#: ../library/classes/widget-search.php:159
+msgid "Search Submit:"
+msgstr ""
+
+#: ../library/classes/widget-search.php:164
+msgid "Use theme's <code>searchform.php</code>?"
+msgstr ""
+
+#: ../library/classes/widget-tags.php:32
+msgid ""
+"An advanced widget that gives you total control over the output of your tags."
+msgstr ""
+
+#: ../library/classes/widget-tags.php:44
+#: ../library/classes/widget-tags.php:146
+msgid "Tags"
+msgstr ""
+
+#: ../library/classes/widget-tags.php:176
+msgid "View"
+msgstr ""
+
+#: ../library/classes/widget-tags.php:181
+msgid "Flat"
+msgstr ""
+
+#: ../library/classes/widget-tags.php:314
+msgid "Pad counts?"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:178
+msgid "Browse:"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:180
+#: ../library/functions/context.php:582
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:181
+#: ../library/functions/context.php:586
+msgid "404 Not Found"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:182
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:184
+#: ../library/functions/context.php:553
+msgid "g:i a"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:185
+#, php-format
+msgid "Minute %d"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:186
+#: ../library/functions/context.php:559
+msgid "g a"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:187
+msgid "d"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:188
+#, php-format
+msgid "Week %d"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:189
+msgid "F"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:190
+#: ../library/extensions/breadcrumb-trail.php:1031
+#: ../library/functions/context.php:565 ../library/functions/context.php:571
+#: ../library/functions/core-seo.php:94 ../library/functions/shortcodes.php:70
+msgid "Y"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:1035
+#: ../library/functions/core-seo.php:90
+msgid "F Y"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:1039
+msgid "F j, Y"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:1158
+msgid "Split"
+msgstr ""
+
+#: ../library/extensions/breadcrumb-trail.php:1162
+msgid "Merge"
+msgstr ""
+
+#: ../library/extensions/custom-field-series.php:86
+msgid "Articles in this series"
+msgstr ""
+
+#: ../library/extensions/custom-field-series.php:212
+msgid "Series"
+msgstr ""
+
+#: ../library/extensions/featured-header.php:202
+msgid "Featured Header"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:96
+#: ../library/functions/post-formats.php:111
+msgid "Asides"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:97
+#: ../library/functions/post-formats.php:112
+msgid "Audio"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:98
+#: ../library/functions/post-formats.php:113
+msgid "Chats"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:99
+#: ../library/functions/post-formats.php:114
+msgid "Images"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:100
+#: ../library/functions/post-formats.php:115
+msgid "Galleries"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:101
+#: ../library/functions/post-formats.php:116
+msgid "Links"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:102
+#: ../library/functions/post-formats.php:117
+msgid "Quotes"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:103
+#: ../library/functions/post-formats.php:118
+msgid "Status Updates"
+msgstr ""
+
+#: ../library/extensions/post-format-tools.php:104
+#: ../library/functions/post-formats.php:119
+msgid "Videos"
+msgstr ""
+
+#: ../library/extensions/post-stylesheets.php:286
+msgid "Stylesheet"
+msgstr ""
+
+#: ../library/extensions/theme-fonts.php:401
+msgid "Fonts"
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:345
+msgid "One Column"
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:346
+msgid "Two Columns, Left"
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:347
+msgid "Two Columns, Right"
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:348
+msgid "Three Columns, Left"
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:349
+msgid "Three Columns, Right"
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:350
+msgid "Three Columns, Center"
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:461
+msgid "Layout is a theme-specific structure for the single view of the post."
+msgstr ""
+
+#: ../library/extensions/theme-layouts.php:663
+msgid "Global Layout"
+msgstr ""
+
+#: ../library/functions/comments.php:185
+msgid "*"
+msgstr ""
+
+#: ../library/functions/comments.php:198
+msgid "Comment"
+msgstr ""
+
+#: ../library/functions/comments.php:199
+#, php-format
+msgid ""
+"You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+"comment."
+msgstr ""
+
+#: ../library/functions/comments.php:200
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: ../library/functions/comments.php:200
+msgid "Log out of this account"
+msgstr ""
+
+#: ../library/functions/comments.php:200
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../library/functions/comments.php:205
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../library/functions/comments.php:206
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../library/functions/comments.php:207
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: ../library/functions/context.php:553 ../library/functions/context.php:559
+#: ../library/functions/context.php:562 ../library/functions/context.php:568
+#: ../library/functions/context.php:571
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: ../library/functions/context.php:556
+#, php-format
+msgid "Archive for minute %s"
+msgstr ""
+
+#: ../library/functions/context.php:556
+msgid "i"
+msgstr ""
+
+#: ../library/functions/context.php:562
+msgid "F jS, Y"
+msgstr ""
+
+#: ../library/functions/context.php:565
+#, php-format
+msgid "Archive for week %s of %s"
+msgstr ""
+
+#: ../library/functions/context.php:565
+msgid "W"
+msgstr ""
+
+#: ../library/functions/context.php:590
+#, php-format
+msgid "%1$s Page %2$s"
+msgstr ""
+
+#: ../library/functions/core-seo.php:97
+#, php-format
+msgid "Copyright (c) %1$s"
+msgstr ""
+
+#: ../library/functions/core-seo.php:116
+#: ../library/functions/shortcodes.php:237
+#: ../library/functions/shortcodes.php:451
+#: ../library/functions/shortcodes.php:455
+msgid "l, F jS, Y, g:i a"
+msgstr ""
+
+#: ../library/functions/customize.php:63 ../library/functions/customize.php:88
+msgid "Footer"
+msgstr ""
+
+#: ../library/functions/deprecated.php:684
+#, php-format
+msgid ""
+"<code>%1$s</code> &mdash; This function has been removed or replaced by "
+"another function."
+msgstr ""
+
+#: ../library/functions/menus.php:38
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr ""
+
+#: ../library/functions/menus.php:42
+msgctxt "nav menu location"
+msgid "Secondary"
+msgstr ""
+
+#: ../library/functions/menus.php:46
+msgctxt "nav menu location"
+msgid "Subsidiary"
+msgstr ""
+
+#: ../library/functions/settings.php:83 ../library/functions/settings.php:87
+msgid "Copyright &#169; [the-year] [site-link]."
+msgstr ""
+
+#: ../library/functions/settings.php:83
+msgid "Powered by [wp-link], [theme-link], and [child-link]."
+msgstr ""
+
+#: ../library/functions/settings.php:87
+msgid "Powered by [wp-link] and [theme-link]."
+msgstr ""
+
+#: ../library/functions/shortcodes.php:93
+msgid "State-of-the-art semantic personal publishing platform"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:93
+msgid "WordPress"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:106
+#, php-format
+msgid "%s WordPress Theme"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:134
+msgid "Log out"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:136
+msgid "Log in"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:151
+#, php-format
+msgid "This page loaded in %1$s seconds with %2$s database queries."
+msgstr ""
+
+#: ../library/functions/shortcodes.php:205
+#: ../library/functions/shortcodes.php:527
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:257
+msgid "Leave a response"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:258
+#, php-format
+msgid "%1$s Response"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:259
+#, php-format
+msgid "%1$s Responses"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:274
+#: ../library/functions/shortcodes.php:276
+#: ../library/functions/shortcodes.php:278
+#, php-format
+msgid "Comment on %1$s"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:385
+msgid "Shortlink"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:410
+#: ../library/functions/shortcodes.php:506
+msgid "Permalink"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:455
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:506
+#, php-format
+msgid "Permalink to comment %1$s"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:546
+msgid "Reply"
+msgstr ""
+
+#: ../library/functions/shortcodes.php:547
+msgid "Log in to reply."
+msgstr ""
+
+#: ../library/functions/sidebars.php:87
+msgctxt "sidebar"
+msgid "Primary"
+msgstr ""
+
+#: ../library/functions/sidebars.php:88
+msgid "The main (primary) widget area, most often used as a sidebar."
+msgstr ""
+
+#: ../library/functions/sidebars.php:91
+msgctxt "sidebar"
+msgid "Secondary"
+msgstr ""
+
+#: ../library/functions/sidebars.php:92
+msgid ""
+"The second most important widget area, most often used as a secondary "
+"sidebar."
+msgstr ""
+
+#: ../library/functions/sidebars.php:95
+msgctxt "sidebar"
+msgid "Subsidiary"
+msgstr ""
+
+#: ../library/functions/sidebars.php:96
+msgid "A widget area loaded in the footer of the site."
+msgstr ""
+
+#: ../library/functions/sidebars.php:99
+msgctxt "sidebar"
+msgid "Header"
+msgstr ""
+
+#: ../library/functions/sidebars.php:100
+msgid "Displayed within the site's header area."
+msgstr ""
+
+#: ../library/functions/sidebars.php:103
+msgctxt "sidebar"
+msgid "Before Content"
+msgstr ""
+
+#: ../library/functions/sidebars.php:104
+msgid "Loaded before the page's main content area."
+msgstr ""
+
+#: ../library/functions/sidebars.php:107
+msgctxt "sidebar"
+msgid "After Content"
+msgstr ""
+
+#: ../library/functions/sidebars.php:108
+msgid "Loaded after the page's main content area."
+msgstr ""
+
+#: ../library/functions/sidebars.php:111
+msgctxt "sidebar"
+msgid "After Singular"
+msgstr ""
+
+#: ../library/functions/sidebars.php:112
+msgid ""
+"Loaded on singular post (page, attachment, etc.) views before the comments "
+"area."
+msgstr ""
+
+#: ../library/functions/utility.php:197
+msgid "(Untitled)"
+msgstr ""
+
+#: ../page-templates/blog_ii.php:51
+msgid "Load More Posts"
+msgstr ""
+
+#: ../page-templates/contact.php:35
+msgid "View Larger Map"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:28
+msgid "Product Name"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:29
+msgid "Unit Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:30
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:31
+msgid "Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:46
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:75
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:99
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:126
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:126
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:133
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:133
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:37
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/global/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/global/breadcrumb.php:91
+#: ../woocommerce/global/breadcrumb.php:188
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: ../woocommerce/global/breadcrumb.php:146
+msgid "Error 404"
+msgstr ""
+
+#: ../woocommerce/global/breadcrumb.php:192
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/loop/add-to-cart.php:17
+#: ../woocommerce/loop/add-to-cart.php:41
+#: ../woocommerce/loop/add-to-cart.php:50
+msgid "Read More"
+msgstr ""
+
+#: ../woocommerce/loop/add-to-cart.php:33
+msgid "Select options"
+msgstr ""
+
+#: ../woocommerce/loop/add-to-cart.php:37
+msgid "View options"
+msgstr ""
+
+#: ../woocommerce/loop/add-to-cart.php:46
+msgid "Add to cart"
+msgstr ""
+
+#: ../woocommerce/loop/no-products-found.php:14
+msgid "No products found which match your selection."
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:21
+msgid "Default sorting"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:22
+msgid "Sort by popularity"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:23
+msgid "Sort by average rating"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:24
+msgid "Sort by newness"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:25
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: ../woocommerce/loop/orderby.php:26
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:32
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr ""
+
+#: ../woocommerce/loop/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:37
+msgid "Dimensions"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:34
+msgid "Don't Miss This Cool Stuff Too!"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:33
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:40
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:37
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+#: ../woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""

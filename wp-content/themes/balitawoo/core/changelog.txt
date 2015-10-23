@@ -1,0 +1,7 @@
+Changelog for Tokokoo Core 
+
+1.1 -
+- Options backup
+
+1.0 -  30 July 2013
+- Released

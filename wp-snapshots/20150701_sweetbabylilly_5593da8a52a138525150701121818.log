@@ -1,0 +1,93 @@
+********************************************************************************
+PACKAGE-LOG: 2015-07-01 12:18:18
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.2
+WORDPRESS:	3.8.3
+PHP INFO:	5.4.13 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Not Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:25 | filtered:0 | create:25 
+FILTERED: [] 
+wp_commentmeta (156) 
+wp_comments (52) 
+wp_duplicator_packages (3) 
+wp_ism_share_counts (0) 
+wp_links (0) 
+wp_options (508) 
+wp_postmeta (1377) 
+wp_posts (274) 
+wp_revslider_css (54) 
+wp_revslider_layer_animations (0) 
+wp_revslider_settings (0) 
+wp_revslider_sliders (3) 
+wp_revslider_slides (6) 
+wp_term_relationships (49) 
+wp_term_taxonomy (32) 
+wp_terms (31) 
+wp_usermeta (1565) 
+wp_users (49) 
+wp_woocommerce_attribute_taxonomies (0) 
+wp_woocommerce_downloadable_product_permissions (0) 
+wp_woocommerce_order_itemmeta (182) 
+wp_woocommerce_order_items (33) 
+wp_woocommerce_tax_rate_locations (0) 
+wp_woocommerce_tax_rates (0) 
+wp_woocommerce_termmeta (7) 
+SQL CREATED: 20150701_sweetbabylilly_5593da8a52a138525150701121818_database.sql 
+SQL FILE SIZE: 1.27MB 
+SQL RUNTIME: 0.20 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /var/www/vhosts/showmyadventure.com/sweetbabylilly 
+ARCHIVE FILE: 20150701_sweetbabylilly_5593da8a52a138525150701121818_archive.zip 
+FILTER DIRS:   
+FILTER EXTS:   
+---------------------------------------- 
+SCANNING 
+FILTERS *OFF* 
+STATS:	Dirs 437 | Files 3936 | Links 0 
+SIZE:	147.61MB 
+TIME:	1.73 sec. 
+---------------------------------------- 
+COMPRESSING 
+SQL ADDED: 20150701_sweetbabylilly_5593da8a52a138525150701121818_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4374
+    [filename] => /var/www/vhosts/showmyadventure.com/sweetbabylilly/wp-snapshots/tmp/20150701_sweetbabylilly_5593da8a52a138525150701121818_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 99.14MB 
+ARCHIVE RUNTIME: 22.68 sec. 
+
+******************************************************************************** 
+INSTALLER: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Template parsed with new data 
+INSTALLER FILE: Complete [/var/www/vhosts/showmyadventure.com/sweetbabylilly/wp-snapshots/tmp/20150701_sweetbabylilly_5593da8a52a138525150701121818_installer.php] 
+
+********************************************************************************
+RECORD ID:[3]
+FILE SIZE: Archive:99.14MB | SQL:1.27MB | Installer:408.56KB
+TOTAL PROCESS RUNTIME: 22.95 sec.
+DONE PROCESSING => 20150701_sweetbabylilly 2015-07-01 12:18:41
+********************************************************************************
+ 

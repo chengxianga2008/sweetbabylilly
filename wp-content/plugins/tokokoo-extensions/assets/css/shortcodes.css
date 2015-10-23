@@ -1,0 +1,831 @@
+/*
+Description: CSS for shortcodes
+Version: 1.0
+Author: Tokokoo
+License: GPLv2
+*/
+/* 
+
+Table of Contents
+=============================================================================
+	0 Columns
+	1 Accordions
+	2 Alert
+	3 Box
+	4 Buttons
+	5 Highlight
+	6 Tabs
+	7 Toggle
+	8 Tooltip
+=============================================================================
+*/
+  
+/* =============================================================================
+0 Columns
+============================================================================= */
+.koo-one-half {
+	width: 48%;
+}
+
+.koo-one-third {
+	width: 30.66%;
+}
+
+.koo-two-third {
+	width: 65.33%;
+}
+
+.koo-one-fourth {
+	width: 22%;
+}
+
+.koo-three-fourth {
+	width: 74%;
+}
+
+.koo-one-fifth {
+	width: 16.8%;
+}
+
+.koo-two-fifth {
+	width: 37.6%;
+}
+
+.koo-three-fifth {
+	width: 58.4%;
+}
+
+.koo-four-fifth {
+	width: 79.2%;
+}
+
+.koo-one-sixth {
+	width: 13.33%;
+}
+
+.koo-five-sixth {
+	width: 82.67%;
+}
+
+.koo-one-half,
+.koo-one-third,
+.koo-two-third,
+.koo-three-fourth,
+.koo-one-fourth,
+.koo-one-fifth,
+.koo-two-fifth,
+.koo-three-fifth,
+.koo-four-fifth,
+.koo-one-sixth,
+.koo-five-sixth {
+	position: relative;
+	margin-right: 4%;
+	margin-bottom: 2em;
+	display: inline;
+	float: left;
+}
+.koo-one-half p:last-child,
+.koo-one-third p:last-child,
+.koo-two-third p:last-child,
+.koo-three-fourth p:last-child,
+.koo-one-fourth p:last-child,
+.koo-one-fifth p:last-child,
+.koo-two-fifth p:last-child,
+.koo-three-fifth p:last-child,
+.koo-four-fifth p:last-child,
+.koo-one-sixth p:last-child,
+.koo-five-sixth p:last-child {
+	margin-bottom: 0;
+}
+
+.koo-column-last {
+	margin-right: 0!important;
+	clear: right;
+}
+
+/* =============================================================================
+1 Accordions
+============================================================================= */
+.koo-accordion {
+	margin: 0 0 2em 0;
+}
+
+.koo-accordion .koo-accordion-title {
+	background: #fbfbfb;
+	border: 1px solid #dfdfdf;
+	cursor: pointer;
+	display: block;
+	margin: 10px 0 0;
+	outline: none;
+	padding: 10px 10px 10px 30px;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.koo-accordion .koo-accordion-title:hover {
+	background: #f9f9f9;
+}
+
+.koo-accordion-inner {
+	background: white;
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	padding: 10px;
+}
+.koo-accordion-inner p:last-child {
+	margin-bottom: 0;
+}
+
+.koo-accordion span.ui-icon {
+	background: url('../img/toggle-closed.png') no-repeat;
+	height: 12px;
+	left: 10px;
+	margin: -6px 0 0 0;
+	position: absolute;
+	top: 50%;
+	width: 12px;
+}
+
+.koo-accordion .ui-state-active .ui-icon {
+	background: url('../img/toggle-open.png') no-repeat;
+}
+
+/* =============================================================================
+2 Alert
+============================================================================= */
+.koo-alert {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	line-height: 1.6em;
+	margin: 0 0 1.5em 0;
+	padding: 0.8em;
+}
+.koo-alert.white {
+	background: white;
+	border: 1px solid #dfdfdf;
+	color: #373737;
+}
+.koo-alert.red {
+	background: #ffe6e3;
+	border: 1px solid #f2c3bf;
+	color: #bf210e;
+}
+.koo-alert.yellow {
+	background: #fff7d6;
+	border: 1px solid #e9d477;
+	color: #956433;
+}
+.koo-alert.green {
+	background: #edfdd3;
+	border: 1px solid #c4dba0;
+	color: #657e3c;
+}
+.koo-alert.grey {
+	background: #f9f9f9;
+	border: 1px solid #dddddd;
+	color: #666;
+}
+.koo-alert.blue {
+	background: #e9f7fe;
+	border: 1px solid #b6d7e8;
+	color: #5091B2;
+}
+.koo-alert p:last-child {
+	margin-bottom: 0;
+}
+
+/* =============================================================================
+3 Box
+============================================================================= */
+.koo-box {
+	margin: 0 0 1.5em 0;
+}
+.koo-box .koo-box-content {
+	padding: 15px;
+}
+.koo-box .koo-box-content p:last-child {
+	margin-bottom: 0;
+}
+.koo-box .koo-box-title {
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 15px;
+	text-shadow: none;
+}
+.koo-box.white {
+	border: 1px solid #dfdfdf;
+}
+.koo-box.white .koo-box-title {
+	border-bottom: 1px solid #dfdfdf;
+	color: black;
+}
+.koo-box.black {
+	border: 1px solid #262626;
+}
+.koo-box.black .koo-box-title {
+	background: #333333;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(100%, #262626));
+	background: -webkit-linear-gradient(#333333, #262626);
+	background: -moz-linear-gradient(#333333, #262626);
+	background: -o-linear-gradient(#333333, #262626);
+	background: linear-gradient(#333333, #262626);
+	border-bottom: 1px solid #262626;
+	color: white;
+}
+.koo-box.grey {
+	border: 1px solid #9d9d9d;
+}
+.koo-box.grey .koo-box-title {
+	background: #aaaaaa;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaaaaa), color-stop(100%, #9d9d9d));
+	background: -webkit-linear-gradient(#aaaaaa, #9d9d9d);
+	background: -moz-linear-gradient(#aaaaaa, #9d9d9d);
+	background: -o-linear-gradient(#aaaaaa, #9d9d9d);
+	background: linear-gradient(#aaaaaa, #9d9d9d);
+	border-bottom: 1px solid #9d9d9d;
+	color: white;
+}
+.koo-box.red {
+	border: 1px solid #a71d0c;
+}
+.koo-box.red .koo-box-title {
+	background: #bf210e;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bf210e), color-stop(100%, #a71d0c));
+	background: -webkit-linear-gradient(#bf210e, #a71d0c);
+	background: -moz-linear-gradient(#bf210e, #a71d0c);
+	background: -o-linear-gradient(#bf210e, #a71d0c);
+	background: linear-gradient(#bf210e, #a71d0c);
+	border-bottom: 1px solid #a71d0c;
+	color: white;
+}
+.koo-box.yellow {
+	border: 1px solid #dada16;
+}
+.koo-box.yellow .koo-box-title {
+	background: #e9e920;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e920), color-stop(100%, #dada16));
+	background: -webkit-linear-gradient(#e9e920, #dada16);
+	background: -moz-linear-gradient(#e9e920, #dada16);
+	background: -o-linear-gradient(#e9e920, #dada16);
+	background: linear-gradient(#e9e920, #dada16);
+	border-bottom: 1px solid #dada16;
+	color: white;
+}
+.koo-box.green {
+	border: 1px solid #0dc32b;
+}
+.koo-box.green .koo-box-title {
+	background: #0fdb30;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0fdb30), color-stop(100%, #0dc32b));
+	background: -webkit-linear-gradient(#0fdb30, #0dc32b);
+	background: -moz-linear-gradient(#0fdb30, #0dc32b);
+	background: -o-linear-gradient(#0fdb30, #0dc32b);
+	background: linear-gradient(#0fdb30, #0dc32b);
+	border-bottom: 1px solid #0dc32b;
+	color: white;
+}
+.koo-box.blue {
+	border: 1px solid #0e65dd;
+}
+.koo-box.blue .koo-box-title {
+	background: #1571f0;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1571f0), color-stop(100%, #0e65dd));
+	background: -webkit-linear-gradient(#1571f0, #0e65dd);
+	background: -moz-linear-gradient(#1571f0, #0e65dd);
+	background: -o-linear-gradient(#1571f0, #0e65dd);
+	background: linear-gradient(#1571f0, #0e65dd);
+	border-bottom: 1px solid #0e65dd;
+	color: white;
+}
+.koo-box.orange {
+	border: 1px solid #fd4628;
+}
+.koo-box.orange .koo-box-title {
+	background: #fd5c41;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fd5c41), color-stop(100%, #fd4628));
+	background: -webkit-linear-gradient(#fd5c41, #fd4628);
+	background: -moz-linear-gradient(#fd5c41, #fd4628);
+	background: -o-linear-gradient(#fd5c41, #fd4628);
+	background: linear-gradient(#fd5c41, #fd4628);
+	border-bottom: 1px solid #fd4628;
+	color: white;
+}
+
+/* =============================================================================
+4 Buttons
+============================================================================= */
+.koo-button {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0 5px 8px 0;
+	position: relative;
+	text-decoration: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.koo-button:hover, .koo-button:focus {
+	text-decoration: none;
+}
+.koo-button:active {
+	-webkit-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+	outline: 0;
+}
+.koo-button.round {
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+}
+.koo-button.small {
+	font-size: 14px;
+	padding: 9px 13px;
+}
+.koo-button.medium {
+	font-size: 16px;
+	padding: 13px 16px;
+}
+.koo-button.large {
+	font-size: 18px;
+	padding: 17px 20px;
+}
+.koo-button.white {
+	background: white;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+	background-image: -webkit-linear-gradient(#ffffff, #f2f2f2);
+	background-image: -moz-linear-gradient(#ffffff, #f2f2f2);
+	background-image: -o-linear-gradient(#ffffff, #f2f2f2);
+	background-image: linear-gradient(#ffffff, #f2f2f2);
+	border: 1px solid #e6e6e6;
+	color: #333333;
+	text-shadow: white 0 1px 1px;
+}
+.koo-button.white:hover, .koo-button.white:focus {
+	background: #f2f2f2;
+	color: #333333;
+}
+.koo-button.white:visited {
+	color: #333333;
+}
+.koo-button.blue {
+	background: #006dcc;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #006dcc), color-stop(100%, #005fb3));
+	background-image: -webkit-linear-gradient(#006dcc, #005fb3);
+	background-image: -moz-linear-gradient(#006dcc, #005fb3);
+	background-image: -o-linear-gradient(#006dcc, #005fb3);
+	background-image: linear-gradient(#006dcc, #005fb3);
+	border: 1px solid #005299;
+	color: white;
+	text-shadow: #005299 0 -1px 0;
+}
+.koo-button.blue:hover, .koo-button.blue:focus {
+	background: #005fb3;
+	color: white;
+}
+.koo-button.blue:visited {
+	color: white;
+}
+.koo-button.black {
+	background: #333333;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(100%, #262626));
+	background-image: -webkit-linear-gradient(#333333, #262626);
+	background-image: -moz-linear-gradient(#333333, #262626);
+	background-image: -o-linear-gradient(#333333, #262626);
+	background-image: linear-gradient(#333333, #262626);
+	border: 1px solid #1a1a1a;
+	color: white;
+	text-shadow: #1a1a1a 0 -1px 0;
+}
+.koo-button.black:hover, .koo-button.black:focus {
+	background: #262626;
+	color: white;
+}
+.koo-button.black:visited {
+	color: white;
+}
+.koo-button.green {
+	background: #8bd1ca;
+	color: white;
+	text-shadow: #0cab26 0 -1px 0;
+}
+.koo-button.green:hover, .koo-button.green:focus {
+	background: #aed1ca;
+	color: white;
+}
+.koo-button.green:visited {
+	color: white;
+}
+.koo-button.grey {
+	background: #dddddd;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #d0d0d0));
+	background-image: -webkit-linear-gradient(#dddddd, #d0d0d0);
+	background-image: -moz-linear-gradient(#dddddd, #d0d0d0);
+	background-image: -o-linear-gradient(#dddddd, #d0d0d0);
+	background-image: linear-gradient(#dddddd, #d0d0d0);
+	border: 1px solid #c4c4c4;
+	color: #333333;
+	text-shadow: white 0 1px 1px;
+}
+.koo-button.grey:hover, .koo-button.grey:focus {
+	background: #d0d0d0;
+	color: #333333;
+}
+.koo-button.grey:visited {
+	color: #333333;
+}
+.koo-button.light-blue {
+	background: #1571f0;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1571f0), color-stop(100%, #0e65dd));
+	background-image: -webkit-linear-gradient(#1571f0, #0e65dd);
+	background-image: -moz-linear-gradient(#1571f0, #0e65dd);
+	background-image: -o-linear-gradient(#1571f0, #0e65dd);
+	background-image: linear-gradient(#1571f0, #0e65dd);
+	border: 1px solid #0d5ac5;
+	color: white;
+	text-shadow: #0d5ac5 0 -1px 0;
+}
+.koo-button.light-blue:hover, .koo-button.light-blue:focus {
+	background: #0e65dd;
+	color: white;
+}
+.koo-button.light-blue:visited {
+	color: white;
+}
+.koo-button.red {
+	background: #e3514a;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3514a), color-stop(100%, #e03c34));
+	background-image: -webkit-linear-gradient(#e3514a, #e03c34);
+	background-image: -moz-linear-gradient(#e3514a, #e03c34);
+	background-image: -o-linear-gradient(#e3514a, #e03c34);
+	background-image: linear-gradient(#e3514a, #e03c34);
+	border: 1px solid #d92a21;
+	color: white;
+	text-shadow: #d92a21 0 -1px 0;
+}
+.koo-button.red:hover, .koo-button.red:focus {
+	background: #e03c34;
+	color: white;
+}
+.koo-button.red:visited {
+	color: white;
+}
+.koo-button.orange {
+	background: #fa9e19;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fa9e19), color-stop(100%, #f49305));
+	background-image: -webkit-linear-gradient(#fa9e19, #f49305);
+	background-image: -moz-linear-gradient(#fa9e19, #f49305);
+	background-image: -o-linear-gradient(#fa9e19, #f49305);
+	background-image: linear-gradient(#fa9e19, #f49305);
+	border: 1px solid #db8405;
+	color: white;
+	text-shadow: #db8405 0 -1px 0;
+}
+.koo-button.orange:hover, .koo-button.orange:focus {
+	background: #f49305;
+	color: white;
+}
+.koo-button.orange:visited {
+	color: white;
+}
+.koo-button.purple {
+	background: #9827be;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9827be), color-stop(100%, #8723a9));
+	background-image: -webkit-linear-gradient(#9827be, #8723a9);
+	background-image: -moz-linear-gradient(#9827be, #8723a9);
+	background-image: -o-linear-gradient(#9827be, #8723a9);
+	background-image: linear-gradient(#9827be, #8723a9);
+	border: 1px solid #761e94;
+	color: white;
+	text-shadow: #761e94 0 -1px 0;
+}
+.koo-button.purple:hover, .koo-button.purple:focus {
+	background: #8723a9;
+	color: white;
+}
+.koo-button.purple:visited {
+	color: white;
+}
+.koo-button.pink {
+	background: #e3618d;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3618d), color-stop(100%, #df4b7d));
+	background-image: -webkit-linear-gradient(#e3618d, #df4b7d);
+	background-image: -moz-linear-gradient(#e3618d, #df4b7d);
+	background-image: -o-linear-gradient(#e3618d, #df4b7d);
+	background-image: linear-gradient(#e3618d, #df4b7d);
+	border: 1px solid #db366e;
+	color: white;
+	text-shadow: #db366e 0 -1px 0;
+}
+.koo-button.pink:hover, .koo-button.pink:focus {
+	background: #df4b7d;
+	color: white;
+}
+.koo-button.pink:visited {
+	color: white;
+}
+
+/* =============================================================================
+5 Highlight
+============================================================================= */
+.koo-highlight a {
+	text-decoration: none;
+}
+.koo-highlight.yellow {
+	background: #FFF7A8;
+	color: #695D43;
+}
+.koo-highlight.yellow a {
+	color: #695D43;
+}
+.koo-highlight.blue {
+	background: #e9f7fe;
+	color: #5091b2;
+}
+.koo-highlight.blue a {
+	color: #5091b2;
+}
+.koo-highlight.green {
+	background: #ebf6e0;
+	color: #5f9025;
+}
+.koo-highlight.green a {
+	color: #5f9025;
+}
+.koo-highlight.red {
+	background: #ffe9e9;
+	color: #de5959;
+}
+.koo-highlight.red a {
+	color: #de5959;
+}
+
+/* =============================================================================
+6 Tabs
+============================================================================= */
+.koo-tabs.ui-tabs .ui-tabs-hide {
+	position: absolute;
+	left: -10000px;
+}
+
+.koo-tabs {
+	background: none;
+	margin: 0 0 2em 0;
+}
+
+.koo-tabs ul.koo-nav {
+	list-style: none!important;
+	margin: 0!important;
+	padding: 0;
+	background: none;
+	border: 0;
+	float: none;
+}
+
+.koo-tabs ul.koo-nav li {
+	float: left;
+	position: relative;
+	margin: 0 -1px -1px 0 !important;
+	z-index: 10;
+	list-style: none!important;
+}
+
+.koo-tabs ul.koo-nav li a {
+	border: 1px solid #dfdfdf !important;
+	border-bottom: none!important;
+	display: block;
+	overflow: hidden;
+	padding: 5px 20px 0 20px;
+	height: 26px;
+	background: #f5f5f5;
+	margin: 0!important;
+	text-decoration: none;
+	color: #373737!important;
+}
+
+.koo-tabs ul.koo-nav li a:hover {
+	background: #fff!important;
+	margin: 0!important;
+}
+
+.koo-tabs ul.koo-nav li a:focus {
+	outline: 0;
+}
+
+.koo-tabs ul.koo-nav li.ui-tabs-selected a,
+.koo-tabs ul.koo-nav li.ui-tabs-active a {
+	height: 27px;
+	background: #fff;
+}
+
+.koo-tabs .koo-tab {
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #dfdfdf;
+}
+.koo-tabs .koo-tab p:last-child {
+	margin-bottom: 0;
+}
+
+/* =============================================================================
+7 Toggle
+============================================================================= */
+.koo-toggle {
+	margin: 0 0 2em 0;
+}
+
+.koo-toggle .koo-toggle-title {
+	background: #fbfbfb;
+	border: 1px solid #dfdfdf;
+	cursor: pointer;
+	display: block;
+	outline: none;
+	padding: 10px 10px 10px 30px;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.koo-toggle .koo-toggle-title:hover {
+	background: #f9f9f9;
+}
+
+.koo-toggle-inner {
+	background: white;
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	padding: 10px;
+}
+.koo-toggle-inner p:last-child {
+	margin-bottom: 0;
+}
+
+.koo-toggle span.ui-icon {
+	background: url('../img/toggle-closed.png') no-repeat;
+	height: 12px;
+	left: 10px;
+	margin: -6px 0 0 0;
+	position: absolute;
+	top: 50%;
+	width: 12px;
+}
+
+.koo-toggle .ui-state-active .ui-icon {
+	background: url('../img/toggle-open.png') no-repeat;
+}
+
+/* =============================================================================
+8 Tooltip
+============================================================================= */
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity 0.15s linear;
+	-moz-transition: opacity 0.15s linear;
+	-o-transition: opacity 0.15s linear;
+	transition: opacity 0.15s linear;
+}
+
+.fade.in {
+	opacity: 1;
+}
+
+.tooltip {
+	position: absolute;
+	z-index: 1030;
+	display: block;
+	font-size: 11px;
+	line-height: 1.4;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	visibility: visible;
+}
+
+.tooltip.in {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.tooltip.top {
+	padding: 5px 0;
+	margin-top: -3px;
+}
+
+.tooltip.right {
+	padding: 0 5px;
+	margin-left: 3px;
+}
+
+.tooltip.bottom {
+	padding: 5px 0;
+	margin-top: 3px;
+}
+
+.tooltip.left {
+	padding: 0 5px;
+	margin-left: -3px;
+}
+
+.tooltip-inner {
+	max-width: 200px;
+	padding: 8px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+}
+
+.tooltip.top .tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-top-color: #000000;
+	border-width: 5px 5px 0;
+}
+
+.tooltip.right .tooltip-arrow {
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	border-right-color: #000000;
+	border-width: 5px 5px 5px 0;
+}
+
+.tooltip.left .tooltip-arrow {
+	top: 50%;
+	right: 0;
+	margin-top: -5px;
+	border-left-color: #000000;
+	border-width: 5px 0 5px 5px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-bottom-color: #000000;
+	border-width: 0 5px 5px;
+}
+
+[data-toggle=tooltip] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+a[data-toggle=tooltip] {
+	border-bottom: 1px dotted;
+	cursor: pointer;
+}
+
+/* Clearfix */
+.koo-clear {
+	clear: both;
+}
+
+.koo-clearfix:before,
+.koo-clearfix:after {
+	content: "";
+	display: table;
+}
+
+.koo-clearfix:after {
+	clear: both;
+}
+
+.koo-clearfix {
+	zoom: 1;
+	/* For IE 6/7 (trigger hasLayout) */
+}

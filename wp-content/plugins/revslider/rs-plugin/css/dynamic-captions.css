@@ -1,0 +1,73 @@
+.tp-caption.slider_button {
+font-size:20px;
+font-weight:400;
+color:#ffffff;
+text-decoration:none;
+background-color:rgb(139, 209, 202);
+background-color:rgba(139, 209, 202, 1);
+display:block;
+padding:10px 20px 10px 20px;
+line-height:20px;
+border-radius:4px 4px 4px 4px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+background-transparency:1;
+}
+
+.tp-caption.black2 {
+text-align:center;
+color:rgb(69, 192, 174);
+line-height:17px;
+font-family:open sans, sans-serif;
+font-size:10px;
+font-variant:normal;
+font-weight:700;
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.header {
+font-size:40px;
+line-height:42px;
+font-weight:700;
+font-family:"open sans", sans-serif;
+color:#45c0ae;
+text-decoration:none;
+text-align:center;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.sub_header {
+text-decoration:none;
+text-align:center;
+background-color:transparent;
+font-size:24px;
+line-height:20px;
+font-weight:300;
+color:#757575;
+font-family:"open sans", sans serif;
+border-width:0px;
+border-color:rgb(117, 117, 117);
+border-style:none;
+}
+
+.tp-caption.list {
+font-size:14px;
+line-height:18px;
+font-weight:400;
+color:#757575;
+text-decoration:none;
+background-color:transparent;
+text-align:left;
+border-width:0px;
+border-color:rgb(117, 117, 117);
+border-style:none;
+}
+

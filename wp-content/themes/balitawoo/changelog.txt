@@ -1,0 +1,34 @@
+2014-02-09 - 1.3 
+  - Supported to wordpress 3.8
+  - Supported to woocommerce 2.1
+  - Replace obsolete functions with new functions
+  - Update Hybrid core to the v1.6.2
+  - Prettify line code
+  - Fix regular search result
+  - Fix no result page
+  - Fix 404 page
+  - Fix Primary Menu Callback functions
+  - Fix theme option missing field style
+  - Update content post format display code 
+
+2013-11-22 - 1.2.1
+  - Show Product Meta on Single Product (SKU, Category, Tags)
+  - Add sidebar support to Product page
+  - Fix product page layout
+  - Fix text domain translation
+  - Fix Upsell, Related, And Cross Sells product
+
+2013-11-12 - 1.2
+  - Add responsive support
+
+2013-09-20 - 1.1.1
+  - Update the screenshot
+  - Fixing author box
+  - Styling slider in page template Blog-ii
+  - Update contact style. 
+
+2013-08-24 1.1
+  - Minor Update
+  
+2013-07-29 1.0
+  - Initial released

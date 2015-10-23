@@ -1,0 +1,1193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tokokoo Extensions 1.0\n"
+"POT-Creation-Date: 2013-07-26 11:02+0700\n"
+"PO-Revision-Date: 2013-07-26 11:02+0700\n"
+"Last-Translator: M.Satrya <satrya@tokokoo.com>\n"
+"Language-Team: Tokokoo <support@tokokoo.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../assets\n"
+"X-Poedit-SearchPath-1: ../includes\n"
+
+#: ../assets/tinymce/config.php:21
+msgid "Accordion shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:25
+msgid "Add more accordion"
+msgstr ""
+
+#: ../assets/tinymce/config.php:30
+msgid "Accordion title"
+msgstr ""
+
+#: ../assets/tinymce/config.php:36
+msgid "Accordion content"
+msgstr ""
+
+#: ../assets/tinymce/config.php:37
+msgid "Insert the accordion content."
+msgstr ""
+
+#: ../assets/tinymce/config.php:52
+msgid "Alert shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:56 ../assets/tinymce/config.php:100
+#: ../assets/tinymce/config.php:170 ../assets/tinymce/config.php:323
+msgid "Color"
+msgstr ""
+
+#: ../assets/tinymce/config.php:59 ../assets/tinymce/config.php:103
+#: ../assets/tinymce/config.php:173
+msgid "White"
+msgstr ""
+
+#: ../assets/tinymce/config.php:60 ../assets/tinymce/config.php:112
+#: ../assets/tinymce/config.php:175
+msgid "Grey"
+msgstr ""
+
+#: ../assets/tinymce/config.php:61 ../assets/tinymce/config.php:109
+#: ../assets/tinymce/config.php:176 ../assets/tinymce/config.php:328
+msgid "Red"
+msgstr ""
+
+#: ../assets/tinymce/config.php:62 ../assets/tinymce/config.php:177
+#: ../assets/tinymce/config.php:326
+msgid "Yellow"
+msgstr ""
+
+#: ../assets/tinymce/config.php:63 ../assets/tinymce/config.php:106
+#: ../assets/tinymce/config.php:178 ../assets/tinymce/config.php:329
+msgid "Green"
+msgstr ""
+
+#: ../assets/tinymce/config.php:64 ../assets/tinymce/config.php:104
+#: ../assets/tinymce/config.php:179 ../assets/tinymce/config.php:327
+msgid "Blue"
+msgstr ""
+
+#: ../assets/tinymce/config.php:70
+msgid "Alert Text"
+msgstr ""
+
+#: ../assets/tinymce/config.php:71
+msgid "Insert the alert text."
+msgstr ""
+
+#: ../assets/tinymce/config.php:84
+msgid "Button Shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:89
+msgid "Text"
+msgstr ""
+
+#: ../assets/tinymce/config.php:95
+msgid "Url"
+msgstr ""
+
+#: ../assets/tinymce/config.php:96
+msgid "Insert url to the button. eg: http://example.com."
+msgstr ""
+
+#: ../assets/tinymce/config.php:105 ../assets/tinymce/config.php:174
+msgid "Black"
+msgstr ""
+
+#: ../assets/tinymce/config.php:107
+msgid "Light Blue"
+msgstr ""
+
+#: ../assets/tinymce/config.php:108
+msgid "Pink"
+msgstr ""
+
+#: ../assets/tinymce/config.php:110 ../assets/tinymce/config.php:180
+msgid "Orange"
+msgstr ""
+
+#: ../assets/tinymce/config.php:111
+msgid "Purple"
+msgstr ""
+
+#: ../assets/tinymce/config.php:117
+msgid "Size"
+msgstr ""
+
+#: ../assets/tinymce/config.php:120
+msgid "Small"
+msgstr ""
+
+#: ../assets/tinymce/config.php:121
+msgid "Medium"
+msgstr ""
+
+#: ../assets/tinymce/config.php:122
+msgid "Large"
+msgstr ""
+
+#: ../assets/tinymce/config.php:127 ../assets/tinymce/config.php:283
+#: ../includes/slides-type/slides.php:225
+msgid "Type"
+msgstr ""
+
+#: ../assets/tinymce/config.php:130
+msgid "Square"
+msgstr ""
+
+#: ../assets/tinymce/config.php:131
+msgid "Round"
+msgstr ""
+
+#: ../assets/tinymce/config.php:136
+msgid "Target"
+msgstr ""
+
+#: ../assets/tinymce/config.php:137
+msgid "_self = open in same window. _blank = open in new window."
+msgstr ""
+
+#: ../assets/tinymce/config.php:154
+msgid "Box Shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:159 ../includes/shortcodes.php:170
+#: ../includes/shortcodes.php:459 ../includes/slides-type/slides.php:224
+msgid "Title"
+msgstr ""
+
+#: ../assets/tinymce/config.php:165
+msgid "Box content"
+msgstr ""
+
+#: ../assets/tinymce/config.php:195
+msgid "Columns shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:200
+msgid "Add more column"
+msgstr ""
+
+#: ../assets/tinymce/config.php:204
+msgid "Column type"
+msgstr ""
+
+#: ../assets/tinymce/config.php:205
+msgid "Select the width of the column."
+msgstr ""
+
+#: ../assets/tinymce/config.php:207
+msgid "One Half"
+msgstr ""
+
+#: ../assets/tinymce/config.php:208
+msgid "One Half Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:209
+msgid "One Third"
+msgstr ""
+
+#: ../assets/tinymce/config.php:210
+msgid "One Third Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:211
+msgid "One Fourth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:212
+msgid "One Fourth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:213
+msgid "One Fifth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:214
+msgid "One Fifth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:215
+msgid "One Sixth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:216
+msgid "One Sixth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:217
+msgid "Two Thirds"
+msgstr ""
+
+#: ../assets/tinymce/config.php:218
+msgid "Two Thirds Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:219
+msgid "Two Fifth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:220
+msgid "Two Fifth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:221
+msgid "Three Fourth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:222
+msgid "Three Fourth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:223
+msgid "Three Fifth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:224
+msgid "Three Fifth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:225
+msgid "Four Fifth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:226
+msgid "Four Fifth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:227
+msgid "Five Sixth"
+msgstr ""
+
+#: ../assets/tinymce/config.php:228
+msgid "Five Sixth Last"
+msgstr ""
+
+#: ../assets/tinymce/config.php:234
+msgid "Column content"
+msgstr ""
+
+#: ../assets/tinymce/config.php:235
+msgid "Insert the column content."
+msgstr ""
+
+#: ../assets/tinymce/config.php:249
+msgid "Google Maps shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:254
+msgid "Country"
+msgstr ""
+
+#: ../assets/tinymce/config.php:260
+msgid "State"
+msgstr ""
+
+#: ../assets/tinymce/config.php:266
+msgid "City"
+msgstr ""
+
+#: ../assets/tinymce/config.php:272
+msgid "Street"
+msgstr ""
+
+#: ../assets/tinymce/config.php:278
+msgid "Zip"
+msgstr ""
+
+#: ../assets/tinymce/config.php:286
+msgid "Dynamic"
+msgstr ""
+
+#: ../assets/tinymce/config.php:287
+msgid "Static"
+msgstr ""
+
+#: ../assets/tinymce/config.php:293 ../includes/metabox.php:26
+#: ../includes/slides-type/slides-tax.php:64
+msgid "Width"
+msgstr ""
+
+#: ../assets/tinymce/config.php:294 ../assets/tinymce/config.php:300
+msgid "In pixel (px)"
+msgstr ""
+
+#: ../assets/tinymce/config.php:299 ../includes/metabox.php:35
+#: ../includes/slides-type/slides-tax.php:65
+msgid "Height"
+msgstr ""
+
+#: ../assets/tinymce/config.php:313
+msgid "Highlight shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:318
+msgid "Highlight's text"
+msgstr ""
+
+#: ../assets/tinymce/config.php:344
+msgid "Tabs shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:348
+msgid "Add more tab"
+msgstr ""
+
+#: ../assets/tinymce/config.php:353
+msgid "Tab title"
+msgstr ""
+
+#: ../assets/tinymce/config.php:359
+msgid "Tab content"
+msgstr ""
+
+#: ../assets/tinymce/config.php:374
+msgid "Toggle Shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:379
+msgid "Toggle title"
+msgstr ""
+
+#: ../assets/tinymce/config.php:385
+msgid "Toggle content"
+msgstr ""
+
+#: ../assets/tinymce/config.php:390
+msgid "Toggle state"
+msgstr ""
+
+#: ../assets/tinymce/config.php:391
+msgid "Select the state of the toggle on page load."
+msgstr ""
+
+#: ../assets/tinymce/config.php:393
+msgid "Open"
+msgstr ""
+
+#: ../assets/tinymce/config.php:394
+msgid "Closed"
+msgstr ""
+
+#: ../assets/tinymce/config.php:408
+msgid "Tooltip shortcode"
+msgstr ""
+
+#: ../assets/tinymce/config.php:413
+msgid "Tooltip title"
+msgstr ""
+
+#: ../assets/tinymce/config.php:414
+msgid "Specify content text of the tooltip."
+msgstr ""
+
+#: ../assets/tinymce/config.php:419
+msgid "Tooltip help text"
+msgstr ""
+
+#: ../assets/tinymce/config.php:420
+msgid "Specify content text inside the tooltip."
+msgstr ""
+
+#: ../assets/tinymce/config.php:424
+msgid "Tooltip placement"
+msgstr ""
+
+#: ../assets/tinymce/config.php:425
+msgid "Location of the tooltip."
+msgstr ""
+
+#: ../assets/tinymce/config.php:427
+msgid "Top"
+msgstr ""
+
+#: ../assets/tinymce/config.php:428
+msgid "Bottom"
+msgstr ""
+
+#: ../assets/tinymce/config.php:429
+msgid "Left"
+msgstr ""
+
+#: ../assets/tinymce/config.php:430
+msgid "Right"
+msgstr ""
+
+#: ../assets/tinymce/config.php:436
+msgid "URL"
+msgstr ""
+
+#: ../assets/tinymce/config.php:437
+msgid "If you want a hyperlink tooltip please insert the url in the box above."
+msgstr ""
+
+#: ../includes/custom-css.php:59 ../includes/custom-css.php:81
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/custom-css.php:91
+#, php-format
+msgid "Easily add custom css rules to %s theme and its child themes"
+msgstr ""
+
+#: ../includes/custom-css.php:93
+msgid "Save CSS"
+msgstr ""
+
+#: ../includes/customizer.php:45
+msgid "General Colors"
+msgstr ""
+
+#: ../includes/customizer.php:48
+msgid "Global Layouts"
+msgstr ""
+
+#: ../includes/customizer.php:52
+msgid "Footer Text"
+msgstr ""
+
+#: ../includes/customizer.php:63
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/customizer.php:75
+msgid "Custom Logo"
+msgstr ""
+
+#: ../includes/customizer.php:89
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../includes/facebook-app.php:34
+msgid "Facebook App"
+msgstr ""
+
+#: ../includes/facebook-app.php:56
+#, php-format
+msgid "Facebook App for %s"
+msgstr ""
+
+#: ../includes/facebook-app.php:89
+msgid "Enter your App ID here."
+msgstr ""
+
+#: ../includes/facebook-app.php:92
+msgid "Save Settings"
+msgstr ""
+
+#: ../includes/metabox.php:22
+msgid "Group Settings"
+msgstr ""
+
+#: ../includes/metabox.php:29
+msgid "Set the image width in this group(px). eg: 960"
+msgstr ""
+
+#: ../includes/metabox.php:38
+msgid "Set the image height in this group(px). eg: 400"
+msgstr ""
+
+#: ../includes/metabox.php:44 ../includes/slides-type/slides-tax.php:66
+msgid "Crop"
+msgstr ""
+
+#: ../includes/metabox.php:47
+msgid "Hard crop?"
+msgstr ""
+
+#: ../includes/metabox.php:73
+msgid "Slide Options"
+msgstr ""
+
+#: ../includes/metabox.php:77
+msgid "Slide URL"
+msgstr ""
+
+#: ../includes/metabox.php:80
+msgid ""
+"Where you'd like the slide to link to. If you leave this field blank the "
+"slide will not link anywhere."
+msgstr ""
+
+#: ../includes/metabox.php:86 ../includes/slides-type/slides.php:253
+msgid "Video"
+msgstr ""
+
+#: ../includes/metabox.php:89
+msgid ""
+"Paste any video URL here, support video such as from youtube, vimeo and etc "
+"(<a href=\"http://codex.wordpress.org/Embeds\">oEmbed</a> support)."
+msgstr ""
+
+#: ../includes/metabox.php:116 ../includes/metabox.php:120
+msgid "Project Galleries"
+msgstr ""
+
+#: ../includes/metabox.php:123
+msgid "Upload the project images as many as you want!"
+msgstr ""
+
+#: ../includes/metabox.php:127 ../includes/slides-type/slides.php:255
+msgid "Image"
+msgstr ""
+
+#: ../includes/metabox.php:139
+msgid "Add Image"
+msgstr ""
+
+#: ../includes/metabox.php:164
+msgid "Project URL"
+msgstr ""
+
+#: ../includes/metabox.php:168
+msgid "URL of your project"
+msgstr ""
+
+#: ../includes/metabox.php:171
+msgid ""
+"(eg: http://example.com/) Leave it blank if your project does not have url."
+msgstr ""
+
+#: ../includes/metabox.php:198
+msgid "Video Options"
+msgstr ""
+
+#: ../includes/metabox.php:202
+msgid "Video Embed Code"
+msgstr ""
+
+#: ../includes/metabox.php:205
+msgid "Enter the video embed code for your video (YouTube, Vimeo or similar)."
+msgstr ""
+
+#: ../includes/shortcodes.php:215
+msgid "This is box title"
+msgstr ""
+
+#: ../includes/shortcodes.php:432
+msgid "Tab"
+msgstr ""
+
+#: ../includes/shortcodes.php:445
+msgid "Title goes here"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:26
+msgctxt "taxonomy general name"
+msgid "Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:27
+msgctxt "taxonomy singular name"
+msgid "Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:28
+msgid "Search Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:29
+msgid "All Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:30
+msgid "Parent Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:31
+msgid "Parent Project Category:"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:32
+msgid "Edit Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:33
+msgid "Update Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:34
+msgid "Add New Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:35
+msgid "New Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:36
+#: ../includes/video-type/video-tax.php:33
+#: ../includes/video-type/video.php:231
+msgid "Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:60
+msgctxt "taxonomy general name"
+msgid "Roles"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:61
+msgctxt "taxonomy singular name"
+msgid "Role"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:62
+msgid "Search Roles"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:63
+msgid "All Roles"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:64
+msgid "Parent Role"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:65
+msgid "Parent Role:"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:66
+msgid "Edit Role"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:67
+msgid "Update Role"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:68
+msgid "Add New Role"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:69
+msgid "New Role"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:70
+#: ../includes/portfolio-type/portfolio.php:232
+msgid "Roles"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:71
+msgid "Separate roles with commas"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio-tax.php:72
+msgid "Choose from the most used roles"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:49
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:50
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:51
+msgctxt "Portfolio"
+msgid "Add New Project"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:52
+msgid "Add New Project"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:53
+msgid "Edit Project"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:54
+msgid "New Project"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:55
+msgid "All Projects"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:56
+msgid "View Projects"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:57
+msgid "Search Projects"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:58
+msgid "No Projects Found"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:59
+#: ../includes/portfolio-type/portfolio.php:318
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:151
+#, php-format
+msgid "Portfolio updated. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:152
+#: ../includes/slides-type/slides.php:157 ../includes/video-type/video.php:152
+msgid "Custom field updated."
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:153
+#: ../includes/slides-type/slides.php:158 ../includes/video-type/video.php:153
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:154
+msgid "Portfolio updated."
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:155
+#, php-format
+msgid "Portfolio restored to revision from %s"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:156
+#, php-format
+msgid "Portfolio published. <a href=\"%s\">View Portfolio</a>"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:157
+msgid "Portfolio saved."
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:158
+#, php-format
+msgid ""
+"Portfolio submitted. <a target=\"_blank\" href=\"%s\">Preview Portfolio</a>"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:159
+#, php-format
+msgid ""
+"Portfolio scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Portfolio</a>"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:161
+#: ../includes/slides-type/slides.php:165 ../includes/video-type/video.php:161
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:162
+#, php-format
+msgid ""
+"Portfolio draft updated. <a target=\"_blank\" href=\"%s\">Preview Portfolio</"
+"a>"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:175
+msgid "Enter project title here"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:201
+msgid "Publish Project"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:204
+msgid "Project Order"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:207
+#: ../includes/portfolio-type/portfolio.php:230
+#: ../includes/video-type/video.php:230
+msgid "Cover"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:210
+msgid "Click here to set the project cover"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:213
+msgid "Click here to remove the project cover"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:229
+msgid "Project Title"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:231
+msgid "Project Category"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:233
+#: ../includes/slides-type/slides.php:227 ../includes/video-type/video.php:232
+msgid "Order"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:234
+#: ../includes/slides-type/slides.php:228 ../includes/video-type/video.php:233
+msgid "Date"
+msgstr ""
+
+#: ../includes/portfolio-type/portfolio.php:258
+#: ../includes/video-type/video.php:257
+msgid "No Cover"
+msgstr ""
+
+#: ../includes/slides-type/slides-button.php:42
+#: ../includes/slides-type/slides-button.php:43
+#: ../includes/slides-type/slides-button.php:46
+msgid "Add Slides"
+msgstr ""
+
+#: ../includes/slides-type/slides-button.php:77
+msgid "Please select the slides first!"
+msgstr ""
+
+#: ../includes/slides-type/slides-button.php:92
+#, php-format
+msgid "You don't create any slides group yet. Let's %s"
+msgstr ""
+
+#: ../includes/slides-type/slides-button.php:97
+msgid "Choose Your Slides"
+msgstr ""
+
+#: ../includes/slides-type/slides-button.php:105
+msgid "Insert Slides"
+msgstr ""
+
+#: ../includes/slides-type/slides-button.php:106
+msgid "Cancel"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:27
+msgctxt "taxonomy general name"
+msgid "Slide Groups"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:28
+msgctxt "taxonomy singular name"
+msgid "Slide Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:29
+msgid "Search Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:30
+msgid "All Slide Groups"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:31
+msgid "Parent Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:32
+msgid "Parent Group:"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:33
+msgid "Edit Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:34
+msgid "Update Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:35
+msgid "Add New Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:36
+msgid "New Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:37
+msgid "Slide Groups"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:62
+#: ../includes/slides-type/slides.php:226
+msgid "Group"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:63
+#: ../includes/slides-type/slides.php:56
+#: ../includes/slides-type/slides.php:320
+msgid "Slides"
+msgstr ""
+
+#: ../includes/slides-type/slides-tax.php:67
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:46
+msgctxt "post type general name"
+msgid "Slides"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:47
+msgctxt "post type singular name"
+msgid "Slide"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:48
+msgctxt "slides"
+msgid "Add New"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:49
+msgid "Add New Slide"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:50
+msgid "Edit Slide"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:51
+msgid "New Slide"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:52
+msgid "All Slides"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:53
+msgid "View Slide"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:54
+msgid "Search Slides"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:55
+msgid "No Slides Found"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:156
+#: ../includes/slides-type/slides.php:159
+msgid "Slide updated."
+msgstr ""
+
+#: ../includes/slides-type/slides.php:160
+#, php-format
+msgid "Slide restored to revision from %s"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:161
+msgid "Slide published."
+msgstr ""
+
+#: ../includes/slides-type/slides.php:162
+msgid "Slide saved."
+msgstr ""
+
+#: ../includes/slides-type/slides.php:163
+msgid "Slide submitted."
+msgstr ""
+
+#: ../includes/slides-type/slides.php:164
+#, php-format
+msgid "Slide scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../includes/slides-type/slides.php:166
+msgid "Slide draft updated."
+msgstr ""
+
+#: ../includes/slides-type/slides.php:180
+msgid "Enter slide title here"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:196
+msgid "Publish Slide"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:199
+msgid "Slide Order"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:202
+msgid "Slide Image"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:205
+msgid "Click here to set the image or video cover"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:208
+msgid "Click here to remove the image"
+msgstr ""
+
+#: ../includes/slides-type/slides.php:257
+msgid "Unknown"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:23
+msgctxt "taxonomy general name"
+msgid "Video Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:24
+msgctxt "taxonomy singular name"
+msgid "Video Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:25
+msgid "Search Video Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:26
+msgid "All Video Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:27
+msgid "Parent Video Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:28
+msgid "Parent Video Category:"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:29
+msgid "Edit Video Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:30
+msgid "Update Video Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:31
+msgid "Add New Category"
+msgstr ""
+
+#: ../includes/video-type/video-tax.php:32
+msgid "New Video Category"
+msgstr ""
+
+#: ../includes/video-type/video.php:49
+msgctxt "post type general name"
+msgid "Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:50
+msgctxt "post type singular name"
+msgid "Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:51
+msgctxt "video"
+msgid "Add New Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:52
+msgid "Add New Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:53
+msgid "Edit Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:54
+msgid "New Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:55
+msgid "All Videos"
+msgstr ""
+
+#: ../includes/video-type/video.php:56
+msgid "View Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:57
+msgid "Search Videos"
+msgstr ""
+
+#: ../includes/video-type/video.php:58
+msgid "No Videos Found"
+msgstr ""
+
+#: ../includes/video-type/video.php:59
+msgid "Videos"
+msgstr ""
+
+#: ../includes/video-type/video.php:151
+#, php-format
+msgid "Video updated. <a href=\"%s\">View Video</a>"
+msgstr ""
+
+#: ../includes/video-type/video.php:154
+msgid "Video updated."
+msgstr ""
+
+#: ../includes/video-type/video.php:155
+#, php-format
+msgid "Video restored to revision from %s"
+msgstr ""
+
+#: ../includes/video-type/video.php:156
+#, php-format
+msgid "Video published. <a href=\"%s\">View Video</a>"
+msgstr ""
+
+#: ../includes/video-type/video.php:157
+msgid "Video saved."
+msgstr ""
+
+#: ../includes/video-type/video.php:158
+#, php-format
+msgid "Video submitted. <a target=\"_blank\" href=\"%s\">Preview Video</a>"
+msgstr ""
+
+#: ../includes/video-type/video.php:159
+#, php-format
+msgid ""
+"Video scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Video</a>"
+msgstr ""
+
+#: ../includes/video-type/video.php:162
+#, php-format
+msgid "Video draft updated. <a target=\"_blank\" href=\"%s\">Preview Video</a>"
+msgstr ""
+
+#: ../includes/video-type/video.php:175
+msgid "Enter video title here"
+msgstr ""
+
+#: ../includes/video-type/video.php:201
+msgid "Publish Video"
+msgstr ""
+
+#: ../includes/video-type/video.php:204
+msgid "Video Order"
+msgstr ""
+
+#: ../includes/video-type/video.php:207
+msgid "Video Cover"
+msgstr ""
+
+#: ../includes/video-type/video.php:210
+msgid "Click here to set the video cover"
+msgstr ""
+
+#: ../includes/video-type/video.php:213
+msgid "Click here to remove the video cover"
+msgstr ""
+
+#: ../includes/video-type/video.php:229
+msgid "Video Title"
+msgstr ""
+
+#: ../includes/video-type/video.php:317
+msgid "video"
+msgstr ""
