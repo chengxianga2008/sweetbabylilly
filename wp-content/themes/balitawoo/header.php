@@ -24,14 +24,14 @@
 
 	wp_enqueue_style ( 'animate-style', get_stylesheet_directory_uri () . '/css/animate.min.css', array (), '1.0.0' );
 	
-
+	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/css/custom.css', 'style', ''  );
 	wp_enqueue_style( 'theme-style', get_template_directory_uri() . '/theme_style.css', 'style', ''  );
  
 	wp_enqueue_script ( 'bootstrap3-js', get_stylesheet_directory_uri () . '/js/bootstrap3.min.js', array (
 	'jquery'
 			), '2014-07-18', true );
 	
-	wp_enqueue_script ( 'bootstrap3-js', get_stylesheet_directory_uri () . '/js/masonry.pkgd.min.js', array (
+	wp_enqueue_script ( 'masonry-js', get_stylesheet_directory_uri () . '/js/masonry.pkgd.min.js', array (
 	'jquery'
 			), '2014-07-18', true );
 	
