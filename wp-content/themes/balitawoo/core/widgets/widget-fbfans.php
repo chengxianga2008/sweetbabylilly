@@ -53,7 +53,6 @@ class tokokoo_facebook_fans extends WP_Widget {
 		?>
 
 			<div class="fb-like">
-  				</div>
   				<div class="fb-page" data-href="<?php echo $fb_url; ?>" data-width="<?php echo $width; ?>" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
   					<div class="fb-xfbml-parse-ignore">
   						<blockquote cite="https://www.facebook.com/sweetbabylilly">
