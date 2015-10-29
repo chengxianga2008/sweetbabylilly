@@ -161,6 +161,7 @@ body{
 	background-color: #e50278;
 }
 
+
 @media (max-width: 1200px){
 	.ebook-wrapper img{
 		margin-left: 0px;
@@ -358,4 +359,3 @@ body{
 .download-contract a{
 	 width: 200px;
 }
-

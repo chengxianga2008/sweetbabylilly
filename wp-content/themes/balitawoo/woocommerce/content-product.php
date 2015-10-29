@@ -43,7 +43,7 @@ $classes[] = 'grid-item';
 	<div <?php post_class( $classes ); ?>> 
 		<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 	
-			<a href="<?php the_permalink()?>">
+			<a class="custom-product-img" href="<?php the_permalink()?>">
 				<?php
 					/**
 					 * woocommerce_before_shop_loop_item_title hook
@@ -54,8 +54,13 @@ $classes[] = 'grid-item';
 					do_action( 'woocommerce_before_shop_loop_item_title' );
 				?>
 			</a>
-	
-			<h4><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h4>
+			
+			<?php 
+			$title_str = get_the_title();
+			$truncated = strlen($title_str) > 50 ? substr($title_str,0,50)."..." : $title_str;
+			?>
+			<h4 class="custom-product-title" ><a href="<?php the_permalink()?>" data-toggle="tooltip" title="<?php the_title();?>"  "
+			><?php echo $truncated; ?></a></h4>
 			<p>
 				<strong>	
 					<?php

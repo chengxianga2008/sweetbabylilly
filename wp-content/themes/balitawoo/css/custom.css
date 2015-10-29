@@ -1,0 +1,23 @@
+
+/* product page */
+
+.pagination {
+	display: block;
+}
+
+.custom-product-title{
+	display:block;
+	height: 120px;
+}
+
+.custom-product-title a{
+	overflow: hidden;
+  	text-overflow: ellipsis;
+  	height: 95px;
+}
+
+.custom-product-img{
+	display:block;
+	margin-bottom: 10px;
+}
+
