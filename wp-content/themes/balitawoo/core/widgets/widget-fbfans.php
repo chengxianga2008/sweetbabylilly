@@ -53,10 +53,10 @@ class tokokoo_facebook_fans extends WP_Widget {
 		?>
 
 			<div class="fb-like">
-				<div class="fb-page" data-href="https://www.facebook.com/imdb" 
-  data-width="<?php echo $width; ?>" data-hide-cover="false" data-show-facepile="<?php echo $height; ?>"
-  data-show-posts="false"></div>
-				<iframe src="//www.facebook.com/plugins/likebox.php?href=<?php echo $fb_url; ?>&amp;width=<?php echo $width; ?>&amp;height=<?php echo $height; ?>&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;connections=<?php echo $connections; ?>&amp;border_color&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:<?php echo $width; ?>px; height:<?php echo $height; ?>px;" allowTransparency="true"></iframe>
+				<div class="fb-page" data-href="<?php echo $fb_url; ?>" 
+  data-width="<?php echo $width; ?>" data-hide-cover="false" data-show-facepile="true"
+  data-show-posts="false">
+  				</div>
 			</div>
 
 		<?php
