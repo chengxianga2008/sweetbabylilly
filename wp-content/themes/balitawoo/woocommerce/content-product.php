@@ -37,35 +37,37 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 	$classes[] = 'last';
 
 $classes[] = 'item';
+$classes[] = 'grid-item';
 ?>
- <div <?php post_class( $classes ); ?>> 
-	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
-		<a href="<?php the_permalink()?>">
-			<?php
-				/**
-				 * woocommerce_before_shop_loop_item_title hook
-				 *
-				 * @hooked woocommerce_show_product_loop_sale_flash - 10
-				 * @hooked woocommerce_template_loop_product_thumbnail - 10
-				 */
-				do_action( 'woocommerce_before_shop_loop_item_title' );
-			?>
-		</a>
-
-		<h4><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h4>
-		<p>
-			<strong>	
+	<div <?php post_class( $classes ); ?>> 
+		<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
+	
+			<a href="<?php the_permalink()?>">
 				<?php
 					/**
-					 * woocommerce_after_shop_loop_item_title hook
+					 * woocommerce_before_shop_loop_item_title hook
 					 *
-					 * @hooked woocommerce_template_loop_price - 10
+					 * @hooked woocommerce_show_product_loop_sale_flash - 10
+					 * @hooked woocommerce_template_loop_product_thumbnail - 10
 					 */
-					do_action( 'woocommerce_after_shop_loop_item_title' );
+					do_action( 'woocommerce_before_shop_loop_item_title' );
 				?>
-			</strong>
-		</p>
+			</a>
 	
-	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
-</div>
+			<h4><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h4>
+			<p>
+				<strong>	
+					<?php
+						/**
+						 * woocommerce_after_shop_loop_item_title hook
+						 *
+						 * @hooked woocommerce_template_loop_price - 10
+						 */
+						do_action( 'woocommerce_after_shop_loop_item_title' );
+					?>
+				</strong>
+			</p>
+		
+		<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+	</div>
