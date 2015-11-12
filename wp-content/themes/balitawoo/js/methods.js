@@ -55,11 +55,11 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$('#slider').nivoSlider();
-    $('#slides').slides({
-		preload: true,
-		generateNextPrev: true
-	});
+//	$('#slider').nivoSlider();
+//    $('#slides').slides({
+//		preload: true,
+//		generateNextPrev: true
+//	});
 
 	$(document).imagesLoaded(function(){
 		// Hanya untuk method slider & tabs
