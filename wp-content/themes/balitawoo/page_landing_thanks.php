@@ -71,10 +71,10 @@ if ( !defined('ABSPATH')) exit;
       <div class="left-col">
        <a href="" class="logo"><img src="<?php echo get_stylesheet_directory_uri();?>/css/images/logo.png" width="191" height="80" alt=""></a>   
       <h1>Thank You</h1>
-       <p>Thank you for signing up to <a href="<?php echo get_home_url();?>" class="link">sweetbabylilly.com.au.</a> We’ve sent you an email with all the details on report.</p>
+       <p>Thank you for signing up to <a href="<?php echo get_home_url();?>" class="link">sweetbabylilly.com.au.</a> We’ve sent you an email with a download link for your ebook.</p>
       
       <p class="sign-up"><strong>
-        <a href="<?php echo get_home_url();?>">Click here to check out our latest specials.</a>
+        <a href="<?php echo get_home_url();?>">Click here to check out our latest products.</a>
         </strong>
         
       </p>
