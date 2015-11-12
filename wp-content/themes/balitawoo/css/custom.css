@@ -49,7 +49,7 @@
     display: block;
 }
 #home_section_2 { 
-    background: url(../images/about.png) 50% 0 no-repeat fixed; 
+    background: #fff 50% 0 no-repeat fixed; 
    
     height: auto;  
     margin: 0 auto; 
@@ -71,7 +71,7 @@
 }
 
 #home_section_4 { 
-    background: url(../images/about.png) 50% 0 fixed; 
+    background: #fff 50% 0 fixed; 
     height: auto;
     margin: 0 auto; 
     width: 100%; 
