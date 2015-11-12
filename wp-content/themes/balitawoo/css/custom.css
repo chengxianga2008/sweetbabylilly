@@ -21,3 +21,47 @@
 	margin-bottom: 10px;
 }
 
+/* home parralax */
+#home_section_1 { 
+    background: url(../images/slide1.jpg) 50% 0 no-repeat fixed; 
+    background-size: 100% auto;
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+/*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+    padding: 300px 0;
+}
+#home_section_2 { 
+    background: url(../images/about.png) 50% 0 no-repeat fixed; 
+   
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+/*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+/*     padding: 200px 0; */
+}
+#home_section_3 { 
+    background: url(../images/slide2.jpg) 50% 0 no-repeat fixed; 
+    background-size: 100% auto;
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+/*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+    padding: 300px 0;
+    color: #fff;
+}
+
+#home_section_4 { 
+    background: url(../images/about.png) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+/*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+/*     padding: 100px 0; */
+    color: #fff;
+}
+

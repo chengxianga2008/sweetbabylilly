@@ -17,9 +17,12 @@ get_header();
 
 
 ?>
-	<?php get_template_part( 'contents', 'slider' ); ?>
-    <?php putRevSlider( "home" ) ?>
-	<div class="content-area no-sidebar no-sidebar2" id="primary">
+
+	<section id="home_section_1" data-speed="4" data-type="background">
+	
+	</section>
+
+	<section id="home_section_2" data-speed="2" data-type="background">
     <?php if (have_posts()) : $count = 0; ?>
             <?php while (have_posts()) : the_post(); $count++; ?>
                                                                             
@@ -47,7 +50,16 @@ get_header();
 			</div><!-- /.post -->
         
         <?php endif; ?>  
-		<div id="content" class="site-content">
+		
+		
+		
+	</section>
+	
+	<section id="home_section_3" data-speed="4" data-type="background">
+	
+	</section>
+	
+	<section id="home_section_4" data-speed="2" data-type="background">
 			<?php
 				$post_num = 15;
 				$args = array( 'post_type' => 'product', 'posts_per_page' => $post_num, 'meta_key' => '_featured', 'meta_value' => 'yes' );
@@ -97,8 +109,34 @@ get_header();
 			<?php 	endif;
 				endfor; ?>
 			<div class="clear"></div>
-		</div><!-- #content .site-content -->
-	</div>
+	</section><!-- #content .site-content -->
+	
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+	   // cache the window object
+	   $window = $(window);
+	 
+	   $('section[data-type="background"]').each(function(){
+	     // declare the variable to affect the defined data-type
+	     var $scroll = $(this);
+	                     
+	      $(window).scroll(function() {
+	        // HTML5 proves useful for helping with creating JS functions!
+	        // also, negative value because we're scrolling upwards                             
+	        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+	         
+	        // background position
+	        var coords = '50% '+ yPos + 'px';
+	 
+	        // move the background
+	        $scroll.css({ backgroundPosition: coords });    
+	      }); // end window scroll
+	   });  // end section function
+}); // close out script
+
+
+</script>
 
 <?php 
 	// Loads the footer.php template.

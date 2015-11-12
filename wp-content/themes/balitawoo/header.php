@@ -78,7 +78,7 @@
 		</div>
 		<?php endif; ?>
 		
-		<div id="container">
+		<div id="root_container">
 			<header id="masthead" class="site-header" role="banner">
 			
 			<?php tokokoo_site_title(); ?>
