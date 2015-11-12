@@ -1256,9 +1256,7 @@ body {
 }
 
 /* line 42, sass/template/_all.scss */
-#container {
-  width: 1170px;
-  margin: -10px auto 0 auto;
+#root_container {
   background-color: #fff;
 }
 
@@ -4479,7 +4477,7 @@ tr.total td strong {
 \*------------------------------------*/
 @media only screen and (max-width: 1024px) {
   /* line 3, sass/responsive/_responsive.scss */
-  #container {
+  #root_container {
     width: 100%;
   }
 
