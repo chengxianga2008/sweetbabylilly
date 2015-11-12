@@ -276,7 +276,7 @@ function balita_load_scripts() {
         wp_enqueue_script( 'nivo-slider-pack', get_template_directory_uri() . '/js/jquery.nivo.slider.pack.js', array('jquery'), '' );
         wp_enqueue_script( 'method', get_template_directory_uri() . '/js/methods.js', array('jquery'), '', true );
         wp_enqueue_script( 'plugin', get_template_directory_uri() . '/js/plugins.js', array('jquery'), '' );
-        wp_enqueue_script( 'slides', get_template_directory_uri() . '/js/slides.min.jquery.js', array('jquery'), '' );
+        //wp_enqueue_script( 'slides', get_template_directory_uri() . '/js/slides.min.jquery.js', array('jquery'), '' );
         // Load Default stylesheet 
         wp_enqueue_style( 'nivo-slider', get_template_directory_uri() . '/css/nivo-slider.css', '', ''  );
         wp_enqueue_style( 'nivo-slider-default', get_template_directory_uri() . '/css/default/default.css', '', ''  );
