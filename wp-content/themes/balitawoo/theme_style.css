@@ -1316,7 +1316,7 @@ body {
 /* line 58, sass/template/_all.scss */
 #logo {
   float: left;
-  margin: 15px 0 0 40px;
+  margin: 15px 0 0 -40px;
   padding: 0px;
 }
 
@@ -1987,6 +1987,8 @@ body {
   height: 160px;
   background: url(img/bg_footer.png) center;
   margin: -70px 0 0 0;
+  margin-left: -20px;
+  width: 110%;
 }
 
 /* line 611, sass/template/_all.scss */

@@ -33,6 +33,11 @@
 	'jquery'
 			), '2014-07-18', true );
 	
+	wp_enqueue_script ( 'parallax-js', get_stylesheet_directory_uri () . '/js/jquery.parallax.min.js', array (
+			'jquery'
+	), '2014-07-18', true );
+	
+	
 	wp_enqueue_script ( 'masonry-js', get_stylesheet_directory_uri () . '/js/masonry.pkgd.min.js', array (
 	'jquery'
 			), '2014-07-18', true );
@@ -83,7 +88,9 @@
 		<div id="root_container">
 			<header id="masthead" class="site-header" role="banner">
 			<div class="container">
+			    <div class="logo-animation">
 				<?php tokokoo_site_title(); ?>
+				</div>
 				<!-- logo -->
 				<div style="float:right; max-width:780px;">
 				<div id="loginsearch">

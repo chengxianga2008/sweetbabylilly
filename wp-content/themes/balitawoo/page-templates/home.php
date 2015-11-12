@@ -20,19 +20,21 @@ get_header();
 
     
 
-	<section id="home_section_1" data-speed="8" data-type="background">
+	<section id="home_section_1" class="parallax_section"  data-speed="8" data-type="background">
 	
-	<div class="button-wrapper">
-	<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s hidden-xs">
-										<span>G</span><span>o</span><span>&nbsp;</span><span>t</span><span>o</span><span>&nbsp;</span>
-										<span>S</span><span>h</span><span>o</span><span>p</span>
-									</a>
+	<div class="layer" data-depth="0.50">
+		<div class="button-wrapper">
+		<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s hidden-xs">
+											<span>G</span><span>o</span><span>&nbsp;</span><span>t</span><span>o</span><span>&nbsp;</span>
+											<span>S</span><span>h</span><span>o</span><span>p</span>
+										</a>
+		</div>
 	</div>
 	
 	</section>
 
 	<section id="home_section_2" data-speed="2" data-type="background">
-	<div class="container">
+	<div class="container mt40">
 	    <?php if (have_posts()) : $count = 0; ?>
 	            <?php while (have_posts()) : the_post(); $count++; ?>
 	                                                                            
@@ -65,9 +67,9 @@ get_header();
 	</div>	
 	</section>
 	
-	<section id="home_section_3" data-speed="4" data-type="background">
+<!-- 	<section id="home_section_3" data-speed="4" data-type="background"> -->
 	
-	</section>
+<!-- 	</section> -->
 	
 	<section id="home_section_4" data-speed="2" data-type="background">
 			<?php
