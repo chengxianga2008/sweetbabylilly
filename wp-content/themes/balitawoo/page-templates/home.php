@@ -18,41 +18,51 @@ get_header();
 
 ?>
 
-	<section id="home_section_1" data-speed="4" data-type="background">
+    
+
+	<section id="home_section_1" data-speed="8" data-type="background">
+	
+	<div class="button-wrapper">
+	<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s hidden-xs">
+										<span>G</span><span>o</span><span>&nbsp;</span><span>t</span><span>o</span><span>&nbsp;</span>
+										<span>S</span><span>h</span><span>o</span><span>p</span>
+									</a>
+	</div>
 	
 	</section>
 
 	<section id="home_section_2" data-speed="2" data-type="background">
-    <?php if (have_posts()) : $count = 0; ?>
-            <?php while (have_posts()) : the_post(); $count++; ?>
-                                                                            
-                <div <?php post_class(); ?>>
-
-                    <div class="entry">
-                      	<?php the_content(); ?>
-
-        				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'balitawoo' ), 'after' => '</div>' ) ); ?>
-                    </div><!-- /.entry -->
-
-        				<?php edit_post_link( __( '{ Edit }', 'balitawoo' ), '<span class="small">', '</span>' ); ?>
-                        
-                    </div><!-- /.post -->
-                    
-                        <?php $comm = $woo_options[ 'woo_comments' ]; if ( ($comm == "page" || $comm == "both") ) : ?>
-                            <?php comments_template(); ?>
-                        <?php endif; ?>
-                                                    
-    	   <?php endwhile; ?>
-        <?php else: ?>
-
-    		<div <?php post_class(); ?>>
-               	<p><?php _e( 'Sorry, no posts matched your criteria.', 'balitawoo' ); ?></p>
-			</div><!-- /.post -->
-        
-        <?php endif; ?>  
+	<div class="container">
+	    <?php if (have_posts()) : $count = 0; ?>
+	            <?php while (have_posts()) : the_post(); $count++; ?>
+	                                                                            
+	                <div <?php post_class(); ?>>
+	
+	                    <div class="entry">
+	                      	<?php the_content(); ?>
+	
+	        				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'balitawoo' ), 'after' => '</div>' ) ); ?>
+	                    </div><!-- /.entry -->
+	
+	        				<?php edit_post_link( __( '{ Edit }', 'balitawoo' ), '<span class="small">', '</span>' ); ?>
+	                        
+	                    </div><!-- /.post -->
+	                    
+	                        <?php $comm = $woo_options[ 'woo_comments' ]; if ( ($comm == "page" || $comm == "both") ) : ?>
+	                            <?php comments_template(); ?>
+	                        <?php endif; ?>
+	                                                    
+	    	   <?php endwhile; ?>
+	        <?php else: ?>
+	
+	    		<div <?php post_class(); ?>>
+	               	<p><?php _e( 'Sorry, no posts matched your criteria.', 'balitawoo' ); ?></p>
+				</div><!-- /.post -->
+	        
+	        <?php endif; ?>  
 		
 		
-		
+	</div>	
 	</section>
 	
 	<section id="home_section_3" data-speed="4" data-type="background">

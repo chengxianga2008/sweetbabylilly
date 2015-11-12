@@ -1222,7 +1222,7 @@ a:visited {
 /* line 14, sass/template/_all.scss */
 body {
   background: #bde2e5 url(img/bg_all.png) repeat top center;
-  font: normal 12px/20px 'Montserrat', arial, helvetica, sans-serif;
+  font: normal 14px/20px 'Montserrat', arial, helvetica, sans-serif;
   color: #6b6b6b;
 }
 
@@ -1386,7 +1386,7 @@ body {
 /* line 109, sass/template/_all.scss */
 .cartbox-top {
   position: relative;
-  margin-top: 10px;
+  margin-top: -10px;
   background: url("img/ico_cart.png") no-repeat scroll 30px 16px #8bd1ca;
   min-height: 90px;
 }
@@ -1414,10 +1414,10 @@ body {
 
 /* line 136, sass/template/_all.scss */
 .cartbox {
-  bottom: 0;
+/*   bottom: 0; */
   color: #FFFFFF;
   float: right;
-  min-height: 100px;
+/*   min-height: 100px; */
   position: absolute;
   right: 20px;
   width: 320px;
@@ -3114,7 +3114,7 @@ ul.tabswidget li a {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 870px;
+/*   width: 870px; */
   text-align: left;
   margin-top: 40px;
 }
@@ -3202,7 +3202,7 @@ ul.tabswidget li a {
   width: 210px;
   z-index: 100;
   display: none;
-  margin-left: 12px;
+/*   margin-left: 12px; */
 }
 /* line 107, sass/template/_navigation.scss */
 .menu .sub-menu li {

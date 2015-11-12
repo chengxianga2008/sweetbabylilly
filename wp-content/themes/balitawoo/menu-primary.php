@@ -23,7 +23,8 @@ if ( has_nav_menu( 'primary' ) ) : ?>
 				'theme_location' 	=> 'primary',
 				'container' 		=> 'nav',
 				'container_id' 		=> 'mainnav', 
-				'menu_class' 		=> 'menu'
+					'container_class' 		=> 'navbar',
+				'menu_class' 		=> 'menu nav'
 			)
 		);
 	?>
@@ -31,7 +32,9 @@ if ( has_nav_menu( 'primary' ) ) : ?>
 	<?php do_action( 'balitawoo_menu_primary_open' ); ?>
 	<?php do_action( 'balitawoo_menu_primary_after' ); ?>
 
-<?php else : ?>
+<?php else :
+
+?>
 
 	<nav id="mainnav">
 		<ul class="menu">

@@ -22,15 +22,31 @@
 }
 
 /* home parralax */
+
+#mainnav{
+	float:left;
+	
+}
+
+#masthead .cartbox{
+	position: relative;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	border: 0px;
+}
+
 #home_section_1 { 
     background: url(../images/slide1.jpg) 50% 0 no-repeat fixed; 
-    background-size: 100% auto;
-    height: auto;  
+    background-size: cover;
+    height: 600px;  
     margin: 0 auto; 
-    width: 100%; 
+    width:100%;
     position: relative; 
 /*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
-    padding: 300px 0;
+/*     padding: 300px 0; */
+    display: block;
 }
 #home_section_2 { 
     background: url(../images/about.png) 50% 0 no-repeat fixed; 
@@ -44,8 +60,8 @@
 }
 #home_section_3 { 
     background: url(../images/slide2.jpg) 50% 0 no-repeat fixed; 
-    background-size: 100% auto;
-    height: auto;
+    background-size: cover;
+    height: 600px;
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
@@ -65,3 +81,21 @@
     color: #fff;
 }
 
+.button-wrapper{
+	border: 2px solid #8BD1CA;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 0 auto;
+	width: 160px;
+	top:400px;
+	position: relative;
+}
+
+.button{
+	float: none;
+	margin: 0;
+}
+
+.button span{
+	color: #fff;
+}
