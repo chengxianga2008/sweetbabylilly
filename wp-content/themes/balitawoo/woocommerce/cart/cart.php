@@ -123,7 +123,7 @@ global $woocommerce;?>
 				<?php if ( $woocommerce->cart->coupons_enabled() ) { ?>
 					<div class="coupon">
 
-						<label for="coupon_code"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label> <input name="coupon_code" class="input-text" id="coupon_code" value="" /> <input type="submit" class="button" name="apply_coupon" value="<?php _e( 'Apply Coupon', 'woocommerce' ); ?>" />
+						<label for="coupon_code"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label> <input name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="Enter Coupon Code Here" /> <input type="submit" class="button" name="apply_coupon" value="<?php _e( 'Apply Coupon', 'woocommerce' ); ?>" />
 
 						<?php do_action('woocommerce_cart_coupon'); ?>
 
