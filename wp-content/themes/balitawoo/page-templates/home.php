@@ -13,6 +13,17 @@ if ( !defined('ABSPATH')) exit;
  * @since 	1.0
  *
  */
+
+
+if(isset($_POST['submit']) && ($_POST['submit'] == "ebook-download")) {
+
+	$widget_email = esc_attr(strip_tags($_POST['widget-email']));
+	$widget_name = esc_attr(strip_tags($_POST['widget-name']));
+	
+	wp_redirect(get_stylesheet_directory_uri()."/resources/AUS-2015-Sweet-Baby-Lilly-Ebook-downsized.pdf"); exit;
+
+}
+
 get_header();
 
 
@@ -91,7 +102,7 @@ get_header();
 						  	        </div>
 						  	        
 						  	        <div class="col-lg-2">
-						  	            <button type="submit" name="submit" class="ebook-download-btn btn btn-primary"><span class="fa fa-lg fa-cloud-download" aria-hidden="true"></span> Download</button>
+						  	            <button type="submit" name="submit" value="ebook-download" class="ebook-download-btn btn btn-primary"><span class="fa fa-lg fa-cloud-download" aria-hidden="true"></span> Download</button>
 						  	        </div>	       
 
 	                        	</form>
