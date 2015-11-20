@@ -27,11 +27,7 @@ get_header();
     
 
 	<section id="home_section_1" class="parallax_section"  data-speed="8" data-type="background">
-	
-	<div class="bcg"
-        data-center="background-position: 50% 0px;"
-        data-top-bottom="background-position: 50% -100px;"
-        data-anchor-target="#home_section_1">
+
 	
 	<div class="layer" data-depth="0.50">
 		<div class="button-wrapper">
@@ -41,7 +37,7 @@ get_header();
 										</a>
 		</div>
 	</div>
-	</div>
+
 	
 	</section>
 
@@ -182,26 +178,26 @@ get_header();
 
 jQuery(document).ready(function($){
 	   // cache the window object
-// 	   $window = $(window);
+	   $window = $(window);
 	 
-// 	   $('section[data-type="background"]').each(function(){
-// 	     // declare the variable to affect the defined data-type
-// 	     var $scroll = $(this);
+	   $('section[data-type="background"]').each(function(){
+	     // declare the variable to affect the defined data-type
+	     var $scroll = $(this);
 	                     
-// 	      $(window).scroll(function() {
-// 	        // HTML5 proves useful for helping with creating JS functions!
-// 	        // also, negative value because we're scrolling upwards                             
-// 	        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+	      $(window).scroll(function() {
+	        // HTML5 proves useful for helping with creating JS functions!
+	        // also, negative value because we're scrolling upwards                             
+	        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
 	         
-// 	        // background position
-// 	        var coords = '50% '+ yPos + 'px';
+	        // background position
+	        var coords = '50% '+ yPos + 'px';
 	 
-// 	        // move the background
-// 	        $scroll.css({ backgroundPosition: coords });    
-// 	      }); // end window scroll
-// 	   });  // end section function
+	        // move the background
+	        $scroll.css({ backgroundPosition: coords });    
+	      }); // end window scroll
+	   });  // end section function
 
-	var s = skrollr.init();
+// 	var s = skrollr.init();
 
 	//s.refresh($('#home_section_1'));
 }); // close out script
