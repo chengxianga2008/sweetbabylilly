@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php global $woo_options; ?>
 <div class="content-area no-sidebar no-sidebar2" id="primary">
-<?php putRevSlider( "safesleep" ) ?>
+<?php //putRevSlider( "safesleep" ) ?>
     <?php woocommerce_breadcrumb(); ?>
 
         <?php if (have_posts()) : $count = 0; ?>
