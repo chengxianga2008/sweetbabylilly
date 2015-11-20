@@ -35,8 +35,10 @@ get_header();
 
 	<section id="home_section_2" data-speed="2" data-type="background">
 	<div class="container mt40">
-	    <?php if (have_posts()) : $count = 0; ?>
-	            <?php while (have_posts()) : the_post(); $count++; ?>
+	    <?php $query = new WP_Query( array( 'category_name' => 'home-post' ) );
+	    
+	    	if ($query->have_posts()) : $count = 0; ?>
+	            <?php while ($query->have_posts()) : $query->the_post(); $count++; ?>
 	                                                                            
 	                <div <?php post_class(); ?>>
 	
