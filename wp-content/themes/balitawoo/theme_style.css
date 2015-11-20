@@ -1316,7 +1316,7 @@ body {
 /* line 58, sass/template/_all.scss */
 #logo {
   float: left;
-  margin: 15px 0 0 -40px;
+  margin: -70px 0 0 -40px;
   padding: 0px;
 }
 
@@ -4779,7 +4779,7 @@ tr.total td strong {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   /* line 292, sass/responsive/_responsive.scss */
   .feat {
     display: block;
