@@ -44,7 +44,7 @@ if(isset($_POST['landing_form_name']) && isset($_POST['post_nonce_field']) && wp
 				'send_welcome'      => false,
 		));
 
-		wp_redirect( get_home_url(null,"landing-thanks") );
+		wp_redirect( $landing_redirect );
 		exit;
 
 	}

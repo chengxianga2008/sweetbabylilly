@@ -41,6 +41,8 @@ if ( !defined('ABSPATH')) exit;
 	wp_enqueue_script ( 'ripples-js', get_stylesheet_directory_uri () . '/js/ripples.min.js', array (
 	'material-js'
 			), '2014-07-18', true );
+	
+	$landing_redirect = get_home_url(null,"landing-thanks");
 
     include_once "landing_logic.php";
 ?>

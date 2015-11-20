@@ -15,14 +15,9 @@ if ( !defined('ABSPATH')) exit;
  */
 
 
-if(isset($_POST['submit']) && ($_POST['submit'] == "ebook-download")) {
+$landing_redirect = get_stylesheet_directory_uri()."/resources/AUS-2015-Sweet-Baby-Lilly-Ebook-downsized.pdf";
 
-	$widget_email = esc_attr(strip_tags($_POST['widget-email']));
-	$widget_name = esc_attr(strip_tags($_POST['widget-name']));
-	
-	wp_redirect(get_stylesheet_directory_uri()."/resources/AUS-2015-Sweet-Baby-Lilly-Ebook-downsized.pdf"); exit;
-
-}
+require_once __DIR__.'/../landing_logic.php';
 
 get_header();
 
@@ -33,6 +28,11 @@ get_header();
 
 	<section id="home_section_1" class="parallax_section"  data-speed="8" data-type="background">
 	
+	<div class="bcg"
+        data-center="background-position: 50% 0px;"
+        data-top-bottom="background-position: 50% -100px;"
+        data-anchor-target="#home_section_1">
+	
 	<div class="layer" data-depth="0.50">
 		<div class="button-wrapper">
 		<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s">
@@ -40,6 +40,7 @@ get_header();
 											<span>S</span><span>h</span><span>o</span><span>p</span>
 										</a>
 		</div>
+	</div>
 	</div>
 	
 	</section>
@@ -75,11 +76,11 @@ get_header();
 	               <section id="home_section_2" data-speed="8" data-type="background">
 	                  	<div class="container mt40"> 
 	                  		<div class="row"> 
-	                        	<div class="col-lg-4">
+	                        	<div class="col-md-4 text-center">
 	                        		<img class="home-ebook-img" src="<?php echo get_stylesheet_directory_uri(); ?>/css/images/ebook.jpg">
 	                        		
 	                        	</div>
-	                        	<div class="col-lg-8">
+	                        	<div class="col-md-8">
 	                        		<div class="text-center">
 	                        			<span class="home-ebook-txt1"> Grab your free copy of<br>"10 Must-Have Baby Gifts for 2015"</span>
 	                        		</div>
@@ -87,22 +88,24 @@ get_header();
 	                        	</div>
 	                        	<div class="clearfix"></div>
 	                        	<form class="form-horizontal form-style " action="" method="post">
-		                        	<div class="col-lg-5 no-padding">
+		                        	<div class="col-md-5 no-padding">
 		                        		<span class="home-ebook-txt2">
 		                        		Enter your details to download your copy
 		                        	    </span>
 		                        	</div>
 		                    
-						  	        <div class="col-lg-2">
-						  	            <input class="form-control" name="widget-name" placeholder="Name" type="text">
+						  	        <div class="col-md-2">
+						  	            <input class="form-control" name="landing_form_name" placeholder="Name" type="text">
 						  	        </div>	       
 	  	          				
-						  	        <div class="col-lg-3">
-						  	            <input class="form-control" name="widget-email" placeholder="Email" type="text">
+						  	        <div class="col-md-3">
+						  	            <input class="form-control" name="landing_form_email" placeholder="Email" type="text">
 						  	        </div>
 						  	        
-						  	        <div class="col-lg-2">
-						  	            <button type="submit" name="submit" value="ebook-download" class="ebook-download-btn btn btn-primary"><span class="fa fa-lg fa-cloud-download" aria-hidden="true"></span> Download</button>
+						  	         <?php wp_nonce_field('post_nonce', 'post_nonce_field'); ?>
+						  	        
+						  	        <div class="col-md-2">
+						  	            <button type="submit" name="submit" value="ebook-download" class="ebook-download-btn btn btn-primary center-block"><span class="fa fa-lg fa-cloud-download" aria-hidden="true"></span> Download</button>
 						  	        </div>	       
 
 	                        	</form>
@@ -179,24 +182,28 @@ get_header();
 
 jQuery(document).ready(function($){
 	   // cache the window object
-	   $window = $(window);
+// 	   $window = $(window);
 	 
-	   $('section[data-type="background"]').each(function(){
-	     // declare the variable to affect the defined data-type
-	     var $scroll = $(this);
+// 	   $('section[data-type="background"]').each(function(){
+// 	     // declare the variable to affect the defined data-type
+// 	     var $scroll = $(this);
 	                     
-	      $(window).scroll(function() {
-	        // HTML5 proves useful for helping with creating JS functions!
-	        // also, negative value because we're scrolling upwards                             
-	        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+// 	      $(window).scroll(function() {
+// 	        // HTML5 proves useful for helping with creating JS functions!
+// 	        // also, negative value because we're scrolling upwards                             
+// 	        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
 	         
-	        // background position
-	        var coords = '50% '+ yPos + 'px';
+// 	        // background position
+// 	        var coords = '50% '+ yPos + 'px';
 	 
-	        // move the background
-	        $scroll.css({ backgroundPosition: coords });    
-	      }); // end window scroll
-	   });  // end section function
+// 	        // move the background
+// 	        $scroll.css({ backgroundPosition: coords });    
+// 	      }); // end window scroll
+// 	   });  // end section function
+
+	var s = skrollr.init();
+
+	//s.refresh($('#home_section_1'));
 }); // close out script
 
 

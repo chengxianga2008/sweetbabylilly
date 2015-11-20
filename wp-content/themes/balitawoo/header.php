@@ -39,6 +39,10 @@
 			'jquery'
 	), '2014-07-18', true );
 	
+	wp_enqueue_script ( 'skrollr-js', get_stylesheet_directory_uri () . '/js/skrollr.min.js', array (
+			'jquery'
+	), '2014-07-18', true );
+	
 	
 	wp_enqueue_script ( 'masonry-js', get_stylesheet_directory_uri () . '/js/masonry.pkgd.min.js', array (
 	'jquery'
