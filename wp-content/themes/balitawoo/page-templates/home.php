@@ -24,7 +24,7 @@ get_header();
 	
 	<div class="layer" data-depth="0.50">
 		<div class="button-wrapper">
-		<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s hidden-xs">
+		<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s">
 											<span>G</span><span>o</span><span>&nbsp;</span><span>t</span><span>o</span><span>&nbsp;</span>
 											<span>S</span><span>h</span><span>o</span><span>p</span>
 										</a>

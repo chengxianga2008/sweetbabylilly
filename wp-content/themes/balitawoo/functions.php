@@ -1,5 +1,72 @@
 <?php
 
+/* banner settings */
+
+function banner_settings_api_init() {
+	// Add the section to reading settings so we can add our
+	// fields to it
+	add_settings_section(
+			'banner_setting_section',
+			'Sweet Lilly Banner Settings',
+			'banner_setting_section_callback_function',
+			'general'
+	);
+
+	// Add the field with the names and function to use for our new
+	// settings, put it in our new section
+	add_settings_field(
+			'banner_setting_text',
+			'Banner Text',
+			'banner_setting_callback_function',
+			'general',
+			'banner_setting_section'
+	);
+	
+	add_settings_field(
+			'banner_setting_text_width',
+			'Banner Text Width',
+			'banner_setting_text_width_callback_function',
+			'general',
+			'banner_setting_section'
+	);
+
+	// Register our setting so that $_POST handling is done for us and
+	// our callback function just has to echo the <input>
+	register_setting( 'general', 'banner_setting_text' );
+	register_setting( 'general', 'banner_setting_text_width' );
+} // eg_settings_api_init()
+
+add_action( 'admin_init', 'banner_settings_api_init' );
+
+
+// ------------------------------------------------------------------
+// Settings section callback function
+// ------------------------------------------------------------------
+//
+// This function is needed if we added a new section. This function
+// will be run at the start of our section
+//
+
+function banner_setting_section_callback_function() {
+	echo '<p>Enter banner settings below</p>';
+}
+
+// ------------------------------------------------------------------
+// Callback function for our example setting
+// ------------------------------------------------------------------
+//
+// creates a checkbox true/false option. Other types are surely possible
+//
+
+function banner_setting_callback_function() {
+	echo '<textarea name="banner_setting_text" cols="50" rows="5" class="banner_setting_text" />'.get_option( 'banner_setting_text' ).'</textarea>';
+}
+
+function banner_setting_text_width_callback_function() {
+	echo '<input name="banner_setting_text_width" value="'.get_option( 'banner_setting_text_width' ).'" type="text" class="banner_setting_text_width" />';
+}
+
+
 /* Load the core theme framework. */
 require_once( trailingslashit( get_template_directory() ) . 'library/hybrid.php' );
 new Hybrid();

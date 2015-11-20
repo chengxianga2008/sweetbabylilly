@@ -88,43 +88,81 @@
 		<div id="root_container">
 			<header id="masthead" class="site-header" role="banner">
 			<div class="container">
-			    <div class="logo-animation">
-				<?php tokokoo_site_title(); ?>
+			    <div class="visible-lg logo-animation">
+				<div id="logo">
+					<a rel="home" title="Sweet Baby Lilly" href="<?php echo get_home_url(); ?>">
+						<img class="logo" alt="Sweet Baby Lilly" src="<?php echo get_stylesheet_directory_uri () . '/images/hanging-logo.png'; ?>">
+						
+					</a>
 				</div>
+				</div>
+				<div class="hidden-lg">
+				<div id="logo-static">
+					<a rel="home" title="Sweet Baby Lilly" href="<?php echo get_home_url(); ?>">
+						<img class="logo" alt="Sweet Baby Lilly" src="<?php echo get_stylesheet_directory_uri () . '/images/logo.png'; ?>">
+					
+					</a>
+				</div>
+				</div>
+				<div class="hidden-lg hidden-md clearfix"></div>
 				<!-- logo -->
-				<div style="float:right; max-width:780px;">
-				<div id="loginsearch">
-					<p class="loginmenu">
-	
-	<a class="" title="USD" href="http://sweetbabylilly.com/">
-	
-	    <img alt="USD" src="<?php echo get_site_url(); ?>/wp-content/uploads/2015/08/eng.png"></img>
-	
-	</a>
-	<a class=" " title="AUD"  href="http://sweetbabylilly.com.au/">
-	
-	    <img alt="AUD" src="<?php echo get_site_url(); ?>/wp-content/uploads/2015/08/aus.jpg"></img>
-	
-	</a>
-	
-	
-	               <span style="color: #FFFFFF; font-size: 1.3em;"><img src="http://sweetbabylilly.com.au/wp-content/themes/balitawoo/core/assets/img/phone16.png" alt=""/> 1300 661 072</span><span>|</span>
-						<?php if ( ! is_user_logged_in() ) { ?>
-	
-							<a href="<?php echo wp_login_url( home_url() ); ?>"><?php _e( 'Login', 'balitawoo' ); ?></a><span>|</span>
-							<a href="<?php echo site_url( 'wp-login.php?action=register' ); ?>"><?php _e( 'Register', 'balitawoo' ); ?></a>
-	
-						<?php } else { ?>
-	
-							<a href="<?php echo get_permalink( wc_get_page_id( 'myaccount' ) ); ?>"><?php _e( 'My Account', 'balitawoo' ); ?></a><span>|</span>
-							<a href="<?php echo wp_logout_url( home_url() ); ?>"><?php _e( 'Logout', 'balitawoo' ); ?></a>
-	
-						<?php } ?> 
-					</p>
-					<?php get_template_part( 'searchform' ); ?>
-	                </div>
-	                <div style="float:right; color: #FFFFFF; font-size: 1.5em; text-align:right; margin: 15px 20px 0 0;"> Free Shipping on orders over $98!</div>
-	                </div>
+				<div class="header-wrapper">
+					<div id="loginsearch">
+						<p class="loginmenu">
+		
+							<a class="" title="USD" href="http://sweetbabylilly.com/">
+							
+							    <img alt="USD" src="<?php echo get_site_url(); ?>/wp-content/uploads/2015/08/eng.png"></img>
+							
+							</a>
+							<a class=" " title="AUD"  href="http://sweetbabylilly.com.au/">
+							
+							    <img alt="AUD" src="<?php echo get_site_url(); ?>/wp-content/uploads/2015/08/aus.jpg"></img>
+							
+							</a>
+		
+		
+			                <span style="color: #FFFFFF; font-size: 1.3em;"><img src="http://sweetbabylilly.com.au/wp-content/themes/balitawoo/core/assets/img/phone16.png" alt=""/> 1300 661 072</span><span>|</span>
+								<?php if ( ! is_user_logged_in() ) { ?>
+			
+									<a href="<?php echo wp_login_url( home_url() ); ?>"><?php _e( 'Login', 'balitawoo' ); ?></a><span>|</span>
+									<a href="<?php echo site_url( 'wp-login.php?action=register' ); ?>"><?php _e( 'Register', 'balitawoo' ); ?></a>
+			
+								<?php } else { ?>
+			
+									<a href="<?php echo get_permalink( wc_get_page_id( 'myaccount' ) ); ?>"><?php _e( 'My Account', 'balitawoo' ); ?></a><span>|</span>
+									<a href="<?php echo wp_logout_url( home_url() ); ?>"><?php _e( 'Logout', 'balitawoo' ); ?></a>
+			
+								<?php } ?> 
+						</p>
+						<?php get_template_part( 'searchform' ); ?>
+		            </div>
+		            <div class="hidden-lg hidden-md clearfix"></div>
+		            <div class="banner-wrapper" style="width: <?php echo get_option( 'banner_setting_text_width' );?>px;">
+		            	<div class="banner">
+		            		<div class="bk l">
+    							<div class="arrow top"></div> 
+    							<div class="arrow bottom"></div>
+  							</div>
+
+ 							<div class="skew l"></div>
+
+  							<div class="main">
+    							<div><?php echo get_option( 'banner_setting_text' );?></div>   
+  							</div>
+
+  							<div class="skew r"></div>
+  
+  							<div class="bk r">
+    							<div class="arrow top"></div> 
+    							<div class="arrow bottom"></div>
+  							</div>
+			            	
+         				</div>
+         			</div>
+      				<div class="hidden-lg hidden-md clearfix"></div>	
+	                <div class="header-highlight"> Free Shipping on orders over $98!</div>
+	            </div>
 				<div class="clear">
 				</div>
 				<?php
