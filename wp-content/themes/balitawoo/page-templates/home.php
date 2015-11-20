@@ -33,28 +33,74 @@ get_header();
 	
 	</section>
 
-	<section id="home_section_2" data-speed="2" data-type="background">
-	<div class="container mt40">
 	    <?php $query = new WP_Query( array( 'category_name' => 'home-post', "order" => 'ASC' ) );
 	    
 	    	if ($query->have_posts()) : $count = 0; ?>
 	            <?php while ($query->have_posts()) : $query->the_post(); $count++; ?>
-	                                                                            
-	                <div <?php post_class(); ?>>
-	
-	                    <div class="entry">
-	                      	<?php the_content(); ?>
-	
-	        				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'balitawoo' ), 'after' => '</div>' ) ); ?>
-	                    </div><!-- /.entry -->
-	
-	        				<?php edit_post_link( __( '{ Edit }', 'balitawoo' ), '<span class="small">', '</span>' ); ?>
-	                        
-	                    </div><!-- /.post -->
+	                 <section data-speed="2" data-type="background">
+						<div class="container mt40">                  
+	                                                          
+			                <div <?php post_class(); ?>>
+			
+			                    <div class="entry">
+			                      	<?php the_content(); ?>
+			
+			        				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'balitawoo' ), 'after' => '</div>' ) ); ?>
+			                    </div><!-- /.entry -->
+			
+			        				<?php edit_post_link( __( '{ Edit }', 'balitawoo' ), '<span class="small">', '</span>' ); ?>
+			                        
+			                </div><!-- /.post -->
 	                    
-	                        <?php $comm = $woo_options[ 'woo_comments' ]; if ( ($comm == "page" || $comm == "both") ) : ?>
-	                            <?php comments_template(); ?>
-	                        <?php endif; ?>
+	                        <?php $comm = $woo_options[ 'woo_comments' ]; 
+	                              if ( ($comm == "page" || $comm == "both") ) : ?>
+	                            		<?php comments_template(); ?>
+	                        <?php endif; ?> 
+	                        
+	                    </div>
+	                  </section>
+	                        
+	                  <?php if($count == 1){ ?>
+	               <section id="home_section_2" data-speed="8" data-type="background">
+	                  	<div class="container mt40"> 
+	                  		<div class="row"> 
+	                        	<div class="col-lg-4">
+	                        		<img class="home-ebook-img" src="<?php echo get_stylesheet_directory_uri(); ?>/css/images/ebook.jpg">
+	                        		
+	                        	</div>
+	                        	<div class="col-lg-8">
+	                        		<div class="text-center">
+	                        			<span class="home-ebook-txt1"> Grab your free copy of<br>"10 Must-Have Baby Gifts for 2015"</span>
+	                        		</div>
+	                        		
+	                        	</div>
+	                        	<div class="clearfix"></div>
+	                        	<form class="form-horizontal form-style " action="" method="post">
+		                        	<div class="col-lg-5 no-padding">
+		                        		<span class="home-ebook-txt2">
+		                        		Enter your details to download your copy
+		                        	    </span>
+		                        	</div>
+		                    
+						  	        <div class="col-lg-2">
+						  	            <input class="form-control" name="widget-name" placeholder="Name" type="text">
+						  	        </div>	       
+	  	          				
+						  	        <div class="col-lg-3">
+						  	            <input class="form-control" name="widget-email" placeholder="Email" type="text">
+						  	        </div>
+						  	        
+						  	        <div class="col-lg-2">
+						  	            <button type="submit" name="submit" class="ebook-download-btn btn btn-primary"><span class="fa fa-lg fa-cloud-download" aria-hidden="true"></span> Download</button>
+						  	        </div>	       
+
+	                        	</form>
+	                        	
+	                        </div>
+	                  	</div>
+				   </section>
+	                        
+	            <?php }?>
 	                                                    
 	    	   <?php endwhile; ?>
 	        <?php else: ?>
@@ -65,13 +111,6 @@ get_header();
 	        
 	        <?php endif; ?>  
 		
-		
-	</div>	
-	</section>
-	
-<!-- 	<section id="home_section_3" data-speed="4" data-type="background"> -->
-	
-<!-- 	</section> -->
 	
 	<section id="home_section_4" data-speed="2" data-type="background">
 			<?php
