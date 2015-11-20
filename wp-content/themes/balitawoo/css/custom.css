@@ -433,7 +433,7 @@
 	padding: 3px;
 	margin: 0 auto;
 	width: 160px;
-	top:400px;
+	top: 500px;
 	position: relative;
 }
 
@@ -499,7 +499,7 @@ body.custom-background{
 
 .header-highlight{
 	float:right; 
-	color: #FFFFFF; 
+	color: #555; 
 	font-size: 1.5em; 
 	text-align:right; 
 	margin: 15px 20px 0 0;
@@ -699,4 +699,14 @@ body.custom-background{
 	}
 }
 
+#masthead{
+	background-color: #fff !important;
+}
 
+.loginmenu a{
+	color: #555 !important;
+}
+
+#s{
+	border: 1px solid #555 !important;
+}

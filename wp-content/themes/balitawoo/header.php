@@ -21,6 +21,8 @@
 
 	
 	wp_enqueue_style ( 'bootstrap3-style', get_stylesheet_directory_uri () . '/css/bootstrap3.min.css', array (), '1.0.0' );
+	
+	wp_enqueue_style ( 'fa-style', get_stylesheet_directory_uri () . '/css/font-awesome.min.css', array (), '1.0.0' );
 
 	wp_enqueue_style ( 'animate-style', get_stylesheet_directory_uri () . '/css/animate.min.css', array (), '1.0.0' );
 	
@@ -122,7 +124,7 @@
 							</a>
 		
 		
-			                <span style="color: #FFFFFF; font-size: 1.3em;"><img src="http://sweetbabylilly.com.au/wp-content/themes/balitawoo/core/assets/img/phone16.png" alt=""/> 1300 661 072</span><span>|</span>
+			                <span style="color: #555; font-size: 1.3em;"><i class="fa fa-phone"></i> 1300 661 072</span><span>|</span>
 								<?php if ( ! is_user_logged_in() ) { ?>
 			
 									<a href="<?php echo wp_login_url( home_url() ); ?>"><?php _e( 'Login', 'balitawoo' ); ?></a><span>|</span>
