@@ -332,15 +332,24 @@
 }
 
 #home_section_1 { 
-    background: url(../images/slide1.jpg) 50% 0 no-repeat fixed; 
+    background-image: url(../images/slide1.jpg);
     height: 600px;  
     margin: 0 auto; 
     width:100%;
-    position: relative; 
 /*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
 /*     padding: 300px 0; */
-    display: block;
+/*     display: block; */
 }
+
+.bg-fixed {
+    background-attachment: fixed;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+
 #home_section_2 { 
     background: #E50278 50% 0 no-repeat fixed; 
     background-size: cover; 
@@ -744,3 +753,14 @@ body.custom-background{
 	opacity: 0;
 }
 
+.clr:after{
+	clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.layer{
+	width: 80%;
+	margin: 0 auto;
+}

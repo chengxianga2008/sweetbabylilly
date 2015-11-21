@@ -183,5 +183,6 @@
 			 	<?php if ( function_exists( 'balitawoo_your_cart_url' ) ) balitawoo_your_cart_url(); ?>
 		 	</div>
 			</header>
+			<div class="clearfix"></div>
 		<div id="main" class="site-main cl">
 	<?php //echo do_shortcode( '[koo-slides id="14"]' ); ?>
