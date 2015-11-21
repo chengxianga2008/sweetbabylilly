@@ -99,11 +99,13 @@
 			<header id="masthead" class="site-header" role="banner">
 			<div class="container">
 			    <div class="visible-lg logo-animation">
-				<div id="logo">
-					<a rel="home" title="Sweet Baby Lilly" href="<?php echo get_home_url(); ?>">
-						<img class="logo" alt="Sweet Baby Lilly" src="<?php echo get_stylesheet_directory_uri () . '/images/hanging-logo.png'; ?>">
-						
-					</a>
+				<div id="logo" class="animated">
+					<div id="logo-wrapper">
+						<a rel="home" title="Sweet Baby Lilly" href="<?php echo get_home_url(); ?>">
+							<img class="logo" alt="Sweet Baby Lilly" src="<?php echo get_stylesheet_directory_uri () . '/images/logo.png'; ?>">
+							
+						</a>
+					</div>
 				</div>
 				</div>
 				<div class="hidden-lg">

@@ -73,7 +73,7 @@ get_header();
 	                  	<div class="container mt40"> 
 	                  		<div class="row"> 
 	                        	<div class="col-md-4 text-center">
-	                        		<img class="home-ebook-img" src="<?php echo get_stylesheet_directory_uri(); ?>/css/images/ebook.jpg">
+	                        		<img class="animated home-ebook-img text-section" src="<?php echo get_stylesheet_directory_uri(); ?>/css/images/ebook.jpg">
 	                        		
 	                        	</div>
 	                        	<div class="col-md-8">
@@ -217,6 +217,30 @@ jQuery(document).ready(function($){
 		 }, {
  		   offset: '70%'
 		 });
+
+	   $('.home-ebook-img').waypoint(function(direction) {
+		   $(this.element).toggleClass("rollIn");
+		 }, {
+ 		   offset: '70%'
+		 });
+
+	   var animation_arr = ["wobble", "bounce", "flash","rubberBand","shake", "jello"];
+	   var i = 0;
+
+	   
+	   $('#logo').toggleClass("wobble");
+
+	   $('#logo').on('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		   $('#logo').toggleClass(animation_arr[i]);
+		   i++;
+		   if(i==6){
+			   i=0;
+		   }
+		   $('#logo').toggleClass(animation_arr[i]);
+		   
+		   
+	   });
+
 	//s.refresh($('#home_section_1'));
 }); // close out script
 

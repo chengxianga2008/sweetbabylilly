@@ -394,9 +394,15 @@
 }
 
 .logo-animation{
-	 -webkit-animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-     -moz-animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-     animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+/* 	 -webkit-animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+/*      -moz-animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+/*      animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+}
+
+#logo{
+   animation-duration: 3s;
+   animation-delay: 2s;
+/*    animation-iteration-count: infinite; */
 }
 
 
@@ -427,7 +433,21 @@ body.custom-background{
 }
 
 #logo img.logo{
-	width: 250px;
+	width: 150px;
+	
+}
+
+#logo{
+	
+}
+
+#logo-wrapper{
+	border-image-slice: 45 50 50 45;
+	border-image-width: 45px 42px 50px 42px;
+	border-image-outset: 50px 60px 50px 60px;
+	border-image-repeat: round round;
+	border-image-source: url("images/logo-border-image.png"); 
+	display: block;
 }
 
 #logo-static img.logo{
