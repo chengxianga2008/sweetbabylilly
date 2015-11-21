@@ -213,7 +213,7 @@ jQuery(document).ready(function($){
 		 });
 
 	   $('.footer-animation').waypoint(function(direction) {
-		   $(this.element).toggleClass("fadeInUp");
+		   $(this.element).toggleClass("fadeIn");
 		 }, {
  		   offset: '70%'
 		 });
