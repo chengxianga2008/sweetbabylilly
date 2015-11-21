@@ -673,6 +673,11 @@ body.custom-background{
 	.banner-wrapper {
     	margin-left: -30px;
 	}
+	
+	.cartbox{
+		right:0px !important;
+		width: 300px !important;
+	}
 }
 
 @media all and (max-width: 992px){
@@ -729,8 +734,14 @@ body.custom-background{
 	
 	#home_section_1 { 
     	background-image: url(../images/slide1_992.jpg);
+	}	
+	
+	.cartbox{
+		display: none;
 	}
 }
+
+
 
 #masthead{
 	background-color: #fff !important;
@@ -768,5 +779,9 @@ body.custom-background{
 
 .ebook-download-btn{
 	margin-bottom: 20px;
+}
+
+.text-section{
+	opacity: 0;
 }
 

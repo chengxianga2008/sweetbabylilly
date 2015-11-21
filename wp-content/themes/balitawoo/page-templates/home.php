@@ -45,12 +45,12 @@ get_header();
 	    
 	    	if ($query->have_posts()) : $count = 0; ?>
 	            <?php while ($query->have_posts()) : $query->the_post(); $count++; ?>
-	                 <section data-speed="2" data-type="background">
+	                 <section  data-speed="2" data-type="background">
 						<div class="container mt40">                  
 	                                                          
 			                <div <?php post_class(); ?>>
 			
-			                    <div class="entry">
+			                    <div class="animated text-section text-section-<?php echo $count; ?> entry">
 			                      	<?php the_content(); ?>
 			
 			        				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'balitawoo' ), 'after' => '</div>' ) ); ?>
@@ -199,6 +199,24 @@ jQuery(document).ready(function($){
 
 // 	var s = skrollr.init();
 
+	   $('.text-section-1').waypoint(function(direction) {
+		   $(this.element).toggleClass("fadeInLeft");
+		 }, {
+ 		   offset: '70%'
+		 });
+
+		 
+	   $('.text-section-2').waypoint(function(direction) {
+		   $(this.element).toggleClass("fadeInRight");
+		 }, {
+ 		   offset: '70%'
+		 });
+
+	   $('.footer-animation').waypoint(function(direction) {
+		   $(this.element).toggleClass("fadeInUp");
+		 }, {
+ 		   offset: '70%'
+		 });
 	//s.refresh($('#home_section_1'));
 }); // close out script
 

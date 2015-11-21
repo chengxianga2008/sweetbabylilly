@@ -35,6 +35,10 @@
 	'jquery'
 			), '2014-07-18', true );
 	
+	wp_enqueue_script ( 'waypoints-js', get_stylesheet_directory_uri () . '/js/jquery.waypoints.min.js', array (
+			'jquery'
+	), '2014-07-18', true );
+	
 	wp_enqueue_script ( 'parallax-js', get_stylesheet_directory_uri () . '/js/jquery.parallax.min.js', array (
 			'jquery'
 	), '2014-07-18', true );

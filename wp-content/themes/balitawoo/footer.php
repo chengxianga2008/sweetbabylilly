@@ -1,4 +1,5 @@
-</div>	
+</div>
+<div class="animated text-section footer-animation">
 <div class="wave"></div>
 		<!-- #colophon .site-footer -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
@@ -29,6 +30,7 @@
 		</div>
 	</footer>
 	</div>
+</div>
 	
 	
 	<!-- container -->
