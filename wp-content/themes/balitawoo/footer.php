@@ -1,6 +1,6 @@
 </div>
 <div class="animated text-section footer-animation">
-<div class="wave"></div>
+	<div class="wave"></div>
 		<!-- #colophon .site-footer -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
@@ -29,12 +29,9 @@
 			<div class="clear"></div>
 		</div>
 	</footer>
-	</div>
-</div>
-	
-	
+
 	<!-- container -->
-	<div  id="parallax_footer"  class="foot">
+	<div  id="footer"  class="foot">
 		<div class="container">
 		<div class="footer-w1170">
 		
@@ -55,7 +52,8 @@
 		
 		<!-- w1170 -->
 	</div>
-	
+</div>	
+</div>
 	
 
 	<!-- foot -->
