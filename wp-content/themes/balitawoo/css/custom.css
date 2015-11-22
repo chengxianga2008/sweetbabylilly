@@ -807,3 +807,7 @@ body.custom-background{
 	width: 100%;
 	min-height: auto;
 }
+
+.chzn-container{
+	z-index: 999;
+}
