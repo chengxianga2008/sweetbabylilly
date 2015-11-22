@@ -343,7 +343,7 @@
 
 .bg-fixed {
     background-attachment: fixed;
-    background-position: center 0%;
+    background-position: center 0px;
     background-repeat: no-repeat;
     position: relative;
  
@@ -662,6 +662,10 @@ body.custom-background{
 		float: none;
 	}
 	
+	.button-wrapper{
+		top: 300px;
+	}
+	
 	.header-wrapper{
 		float:none; 
 		max-width:none;
@@ -702,11 +706,17 @@ body.custom-background{
 	
 	#home_section_1 { 
     	background-image: url(../images/slide1_992.jpg);
+    	height: 380px;
 	}	
 	
 	.cartbox{
 		display: none;
 	}
+	
+	.bg-fixed {
+		background-position: center 250px;
+	}
+	
 }
 
 
