@@ -212,13 +212,18 @@ get_header();
 					echo '		<div class="animated bottom-slide">';
 					while ( $slider->have_posts() ): $slider->the_post(); ?>
 						<div class="item">
-		<a href="<?php the_permalink(); ?>"><img
-			src="<?php balitawoo_get_thumbnail_src( 'secondary-slider' ); ?>"></a>
-		<h4>
-			<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-		</h4>
-		<p><?php echo $product->get_price_html(); ?></p>
-	</div>
+							<a class="custom-product-img" href="<?php the_permalink(); ?>">
+								<img src="<?php balitawoo_get_thumbnail_src( 'secondary-slider' ); ?>">
+							</a>
+							<?php 
+							$title_str = get_the_title();
+							$truncated = strlen($title_str) > 50 ? substr($title_str,0,50)."..." : $title_str;
+							?>
+							<h4 class="custom-product-title" >
+								<a href="<?php the_permalink(); ?>" data-toggle="tooltip" title="<?php the_title();?>"><?php echo $truncated; ?></a>
+							</h4>
+							<p><?php echo $product->get_price_html(); ?></p>
+						</div>
 						<?php if ( 0 == $counter%5 AND $post_num != $counter )
 							echo '</div><div class="slide">';
 						$counter++;

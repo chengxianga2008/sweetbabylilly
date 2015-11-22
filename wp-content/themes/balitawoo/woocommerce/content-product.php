@@ -59,8 +59,10 @@ $classes[] = 'grid-item';
 			$title_str = get_the_title();
 			$truncated = strlen($title_str) > 50 ? substr($title_str,0,50)."..." : $title_str;
 			?>
-			<h4 class="custom-product-title" ><a href="<?php the_permalink()?>" data-toggle="tooltip" title="<?php the_title();?>"  "
-			><?php echo $truncated; ?></a></h4>
+			<h4 class="custom-product-title" >
+				<a href="<?php the_permalink()?>" data-toggle="tooltip" title="<?php the_title();?>"><?php echo $truncated; ?>
+				</a>
+			</h4>
 			<p>
 				<strong>	
 					<?php
