@@ -26,8 +26,8 @@ get_header();
 
     
 
-	<section id="home_section_1" class="parallax_section bg-fixed clr"  data-speed="8" data-type="background">
-
+	<section id="home_section_1" class="bg-fixed clr"  data-speed="8" data-type="background">
+	<div class="parallax_section" >
 	
 	<div class="layer" data-depth="0.50">
 		<div class="button-wrapper">
@@ -37,7 +37,7 @@ get_header();
 										</a>
 		</div>
 	</div>
-
+	</div>
 	
 	</section>
 
