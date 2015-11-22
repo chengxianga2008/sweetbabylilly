@@ -337,13 +337,13 @@
     margin: 0 auto; 
     width:100%;
 /*     box-shadow: 0 0 50px rgba(0,0,0,0.8); */
-/*     padding: 300px 0; */
-/*     display: block; */
+/*      padding: 400px 0; */
+    display: block;
 }
 
 .bg-fixed {
     background-attachment: fixed;
-    background-position: center 50%;
+    background-position: center 0%;
     background-repeat: no-repeat;
     position: relative;
  
@@ -763,4 +763,8 @@ body.custom-background{
 .layer{
 	width: 80%;
 	margin: 0 auto;
+}
+
+#main{
+	margin-top: 243px;
 }
