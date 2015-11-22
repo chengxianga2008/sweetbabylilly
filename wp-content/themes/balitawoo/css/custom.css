@@ -626,20 +626,15 @@ body.custom-background{
   }
 }
 
-@media all and (max-width: 460px) {
-  .skew.l {
-    left: 5%;
-    transform: skew(00deg,40deg);
-  }
-  .skew.r {
-    right: 5%;
-    transform: skew(00deg,-40deg);
-  }
-}
+
 
 @media all and (max-width: 1200px){
 	.banner-wrapper {
     	margin-left: -30px;
+	}
+	
+	.button-wrapper{
+		top: -150px;
 	}
 	
 	.cartbox{
@@ -662,9 +657,7 @@ body.custom-background{
 		float: none;
 	}
 	
-	.button-wrapper{
-		top: 300px;
-	}
+	
 	
 	.header-wrapper{
 		float:none; 
@@ -717,6 +710,27 @@ body.custom-background{
 		background-position: center 250px;
 	}
 	
+}
+
+@media all and (max-width: 768px) {
+
+  .button-wrapper{
+		top: -110px;
+  }
+}
+
+	
+@media all and (max-width: 460px) {
+  .skew.l {
+    left: 5%;
+    transform: skew(00deg,40deg);
+  }
+  .skew.r {
+    right: 5%;
+    transform: skew(00deg,-40deg);
+  }
+  
+  
 }
 
 
@@ -773,8 +787,23 @@ body.custom-background{
 .layer{
 	width: 80%;
 	margin: 0 auto;
+	left: 0;
+	right: 0;
+	height: 0;
+/* 	position: absolute !important; */
 }
 
 #main{
 /* 	margin-top: 243px; */
+}
+
+.bottom-slide{
+	opacity: 0;
+}
+
+.carousel-inner .item{
+	float: none;
+	margin: 0 auto;
+	width: 100%;
+	min-height: auto;
 }
