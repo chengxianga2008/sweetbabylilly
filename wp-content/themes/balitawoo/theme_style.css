@@ -1310,7 +1310,7 @@ body {
   background-color: #F0DACE;
   padding: 10px 0 0 0;
   min-height: 140px;
-  position: fixed;
+  position: relative;
   z-index: 999;
   width: 100%;
 }
