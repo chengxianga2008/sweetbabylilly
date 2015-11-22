@@ -1812,10 +1812,10 @@ body {
 
 /* line 473, sass/template/_all.scss */
 .item {
-  float: left;
+/*   float: left; */
   width: 170px;
   min-height: 170px;
-  margin: 0 15px;
+  margin: 0 auto;
   text-align: center;
 }
 /* line 480, sass/template/_all.scss */
@@ -4886,7 +4886,7 @@ display: none;
   }
   /* line 374, sass/responsive/_responsive.scss */
   #main #slides {
-    width: 320px;
+/*     width: 320px; */
   }
   /* line 377, sass/responsive/_responsive.scss */
   #main .slides_container {
