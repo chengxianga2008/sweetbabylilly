@@ -209,8 +209,10 @@ get_header();
 					$counter = 1;
 					echo '<div id="slides">';
 					echo '	<div class="container">';
+					echo '	  <div class="row">';
 					echo '		<div class="animated bottom-slide">';
 					while ( $slider->have_posts() ): $slider->the_post(); ?>
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
 						<div class="item">
 							<a class="custom-product-img" href="<?php the_permalink(); ?>">
 								<img src="<?php balitawoo_get_thumbnail_src( 'secondary-slider' ); ?>">
@@ -224,11 +226,13 @@ get_header();
 							</h4>
 							<p><?php echo $product->get_price_html(); ?></p>
 						</div>
+					</div>
 						<?php if ( 0 == $counter%5 AND $post_num != $counter )
 							echo '</div><div class="slide">';
 						$counter++;
 					endwhile;
 					echo '		</div>';
+					echo '	  </div>';
 					echo '	</div>';
 					echo '</div>';
 				endif;
