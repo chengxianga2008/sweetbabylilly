@@ -153,8 +153,8 @@
 		            <div class="banner-wrapper" style="width: <?php echo get_option( 'banner_setting_text_width' );?>px;">
 		            	<div class="banner">
 		            		<div class="bk l">
-    							<div class="arrow top"></div> 
-    							<div class="arrow bottom"></div>
+    							<div class="hidden-xs arrow top"></div> 
+    							<div class="hidden-xs arrow bottom"></div>
   							</div>
 
  							<div class="skew l"></div>
@@ -166,8 +166,8 @@
   							<div class="skew r"></div>
   
   							<div class="bk r">
-    							<div class="arrow top"></div> 
-    							<div class="arrow bottom"></div>
+    							<div class="hidden-xs arrow top"></div> 
+    							<div class="hidden-xs arrow bottom"></div>
   							</div>
 			            	
          				</div>
