@@ -26,17 +26,17 @@ get_header();
 
     
 
-	<section id="home_section_1" class="bg-fixed clr"  data-speed="8" data-type="background">
+	<section id="home_section_1" class="visible-lg visible-md bg-fixed clr"  data-speed="8" data-type="background">
 	<div class="parallax_section" >
 	
-	<div class="layer" data-depth="0.50">
-		<div class="button-wrapper">
-		<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s">
-											<span>G</span><span>o</span><span>&nbsp;</span><span>t</span><span>o</span><span>&nbsp;</span>
-											<span>S</span><span>h</span><span>o</span><span>p</span>
-										</a>
+		<div class="layer" data-depth="0.50">
+			<div class="button-wrapper">
+			<a href="<?php echo get_home_url(null, "shop"); ?>" class="button button--nanuk button--border-thin button--round-s">
+												<span>G</span><span>o</span><span>&nbsp;</span><span>t</span><span>o</span><span>&nbsp;</span>
+												<span>S</span><span>h</span><span>o</span><span>p</span>
+											</a>
+			</div>
 		</div>
-	</div>
 	</div>
 	
 	</section>
