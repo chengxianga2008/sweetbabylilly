@@ -51,6 +51,7 @@ get_header();
 			<ol class="carousel-indicators">
 				<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
 				<li data-target="#home-carousel" data-slide-to="1"></li>
+				<li data-target="#home-carousel" data-slide-to="2"></li>
 			</ol>
 
 			<!-- Wrapper for slides -->
@@ -65,6 +66,12 @@ get_header();
 					<img
 						src="<?php echo get_stylesheet_directory_uri(); ?>/images/slide2.jpg"
 						alt="Slide2">
+					<div class="carousel-caption"></div>
+				</div>
+				<div class="item">
+					<img
+						src="<?php echo get_stylesheet_directory_uri(); ?>/images/slide3.jpg"
+						alt="Slide3">
 					<div class="carousel-caption"></div>
 				</div>
 			</div>
