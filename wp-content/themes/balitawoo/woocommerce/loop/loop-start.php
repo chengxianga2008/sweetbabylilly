@@ -7,4 +7,5 @@
  * @version     2.0.0
  */
 ?>
-<div class="products grid" data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 30 }'>
+<div class="container">
+	<div class="products grid row" data-masonry-options='{ }'>

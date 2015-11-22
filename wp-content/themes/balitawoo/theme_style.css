@@ -1815,7 +1815,7 @@ body {
 /*   float: left; */
   width: 170px;
   min-height: 170px;
-  margin: 0 auto;
+  margin: 0 auto !important;
   text-align: center;
 }
 /* line 480, sass/template/_all.scss */
