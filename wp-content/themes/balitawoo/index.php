@@ -2,15 +2,19 @@
 	// Loads the header.php template.
 	get_header(); 
 ?>
-
+	<div class="container">
 	<div class="content-area has-sidebar" id="primary">
 		<!-- Kalo ada sidebarnya tambahin class .has-sidebar -->
 		<div id="content" class="site-content page-blog">
+			
 			<?php get_template_part( 'breadcrumbs' ); ?>
 			
-			<?php if ( have_posts() ) : ?>
+			<?php 
+			$query = new WP_Query( array( 'cat' => '-36',  ) );
+			
+			if ( $query->have_posts() ) : ?>
 
-				<?php while ( have_posts() ) : the_post(); ?>
+				<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 				
 					<?php hybrid_get_content_template(); // Loads the content template. ?>
 
@@ -34,8 +38,12 @@
 
 			<?php loop_pagination(); ?>
 			
+	
+			
 		</div><!-- #content .site-content -->
 	</div>
+	
+	<div>
 	
 	<?php get_sidebar( 'primary' ); ?>
 	

@@ -15,7 +15,8 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 
 
-
+<div class="container">
+<div class="row">
 <div class="content-area has-sidebar" id="primary">
 	<div id="content" class="site-content page-product">
 			<?php woocommerce_breadcrumb(); ?>
@@ -41,9 +42,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 	</div>
 
-	<div class="produktxt">
-		<h2><?php the_title(); ?></h2>
-		<h4 class="price"><?php woocommerce_template_single_price(); ?></h4>
+	<div class="produktxt clearfix">
+		<div class="clearfix"><h2><?php the_title(); ?></h2></div>
+		<div class="clearfix"><h4 class="price"><?php woocommerce_template_single_price(); ?></h4></div>
 		<?php woocommerce_template_single_excerpt(); ?>
 
 
@@ -85,3 +86,5 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
 <?php woocommerce_get_sidebar(); ?>
+</div>
+</div>

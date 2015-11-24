@@ -2441,7 +2441,7 @@ body {
   width: 770px;
   display: block;
   float: left;
-  margin: 20px 0 20px 70px;
+/*   margin: 20px 0 20px 70px; */
 }
 
 /* line 931, sass/template/_all.scss */
@@ -2940,7 +2940,7 @@ ul.tabswidget li a {
 /* line 1303, sass/template/_all.scss */
 .sidebar {
   float: right;
-  margin: 45px 70px 20px 0;
+  margin: 45px 0px 20px 0;
   width: 230px;
 }
 
@@ -4924,7 +4924,7 @@ display: none;
   /* line 413, sass/responsive/_responsive.scss */
   .produkimg .slides_container div.slide {
     width: auto;
-    margin-left: -120px;
+/*     margin-left: -120px; */
   }
   /* line 417, sass/responsive/_responsive.scss */
   .produkimg .item {
