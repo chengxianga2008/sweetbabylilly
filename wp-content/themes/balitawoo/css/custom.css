@@ -811,3 +811,54 @@ body.custom-background{
 .chzn-container{
 	z-index: 999;
 }
+
+.produkimg .slide .item{
+	float: left;
+	width: 80px;
+}
+
+#primary .produkimg .slides_container{
+	margin-top: 50px;
+}
+
+#primary .produkimg .slides_container{
+	width: 100%;
+}
+
+.summary .label{
+	border-radius: 0.25em;
+    color: inherit;
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.9em 0.6em 0.3em;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+@media (max-width: 1200px){
+	
+	#secondary.sidebar{
+		float: left;
+		width: 90%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+}
+
+@media (max-width: 992px){
+	#primary .produkimg{
+		float: none;
+		margin: 0 auto;
+	}
+	
+	#primary .produktxt{
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+		overflow: hidden;
+	}
+}
