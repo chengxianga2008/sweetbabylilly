@@ -1,5 +1,42 @@
 <?php
 
+// change by Jack overwrite woocommerce product tabs
+
+function woocommerce_default_product_tabs( $tabs = array() ) {
+	global $product, $post;
+
+	// Description tab - shows product content
+	if ( $post->post_content ) {
+		$tabs['description'] = array(
+				'title'    => __( 'Description', 'woocommerce' ),
+				'priority' => 20,
+				'callback' => 'woocommerce_product_description_tab'
+		);
+	}
+
+	// Additional information tab - shows attributes
+	if ( $product && ( $product->has_attributes() || ( $product->enable_dimensions_display() && ( $product->has_dimensions() || $product->has_weight() ) ) ) ) {
+		$tabs['additional_information'] = array(
+				'title'    => __( 'Additional Information', 'woocommerce' ),
+				'priority' => 30,
+				'callback' => 'woocommerce_product_additional_information_tab'
+		);
+	}
+
+	// Reviews tab - shows comments
+	if ( comments_open() ) {
+		$tabs['reviews'] = array(
+				'title'    => sprintf( __( 'Reviews (%d)', 'woocommerce' ), get_comments_number( $post->ID ) ),
+				'priority' => 10,
+				'callback' => 'comments_template'
+		);
+	}
+
+	return $tabs;
+}
+
+
+
 /* banner settings */
 
 function banner_settings_api_init() {

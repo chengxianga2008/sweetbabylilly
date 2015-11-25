@@ -132,6 +132,10 @@ jQuery(document).ready(function($){
 		   
 	   });
 
+	   $(".parallax_section").parallax({
+			
+	   });
+
 	//s.refresh($('#home_section_1'));
 }); // close out script
 

@@ -389,7 +389,7 @@
 	padding: 3px;
 	margin: 0 auto;
 	width: 160px;
-	top: 500px;
+	top: 350px;
 	position: relative;
 }
 
@@ -861,4 +861,12 @@ body.custom-background{
 		width: 90%;
 		overflow: hidden;
 	}
+}
+
+.button--nanuk{
+	background: #D61177 none repeat scroll 0 0;
+}
+
+.button--nanuk:hover{
+	background-color: #EC5656;
 }
