@@ -39,7 +39,7 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 $classes[] = 'item';
 $classes[] = 'grid-item';
 ?>
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 	<div <?php post_class( $classes ); ?>> 
 		<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 	
