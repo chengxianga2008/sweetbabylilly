@@ -10,7 +10,10 @@
 			<?php get_template_part( 'breadcrumbs' ); ?>
 			
 			<?php 
-			$query = new WP_Query( array( 'cat' => '-36',  ) );
+			
+			$home_cat_obj = get_category_by_slug("home-post");
+			
+			$query = new WP_Query( array( 'cat' => "-$home_cat_obj->term_id",  ) );
 			
 			if ( $query->have_posts() ) : ?>
 
