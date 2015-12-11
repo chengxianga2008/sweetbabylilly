@@ -11,7 +11,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 global $woocommerce_loop;
-$woocommerce_loop['columns'] = 5;
+$woocommerce_loop['columns'] = 3;
 get_header('shop'); 
 ?>
 	<?php get_template_part( 'contents', 'slider' ); ?>
