@@ -173,7 +173,7 @@
          				</div>
          			</div>
       				<div class="hidden-lg hidden-md clearfix"></div>	
-	                <div class="header-highlight"> Free Shipping on orders over $98!</div>
+	                <div class="header-highlight"> Free Shipping on all orders!</div>
 	            </div>
 				<div class="clear">
 				</div>
