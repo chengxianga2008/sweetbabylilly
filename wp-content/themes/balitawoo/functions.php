@@ -30,10 +30,28 @@ function woocommerce_default_product_tabs( $tabs = array() ) {
 				'priority' => 10,
 				'callback' => 'comments_template'
 		);
+		
+		$tabs['write_review'] = array(
+				'title'    => sprintf( __( 'Write A Review', 'woocommerce' ) ),
+				'priority' => 15,
+				'callback' => 'woocommerce_write_review_tab'
+		);
 	}
 
 	return $tabs;
 }
+
+/**
+	 * Output the reviews tab content.
+	 *
+	 * @access public
+	 * @subpackage	Product/Tabs
+	 * @return void
+	 */
+function woocommerce_write_review_tab() {
+	wc_get_template( 'single-product/tabs/write_review.php' );
+}
+
 
 
 
@@ -384,7 +402,8 @@ function balita_load_scripts() {
         // Load Default stylesheet 
         wp_enqueue_style( 'nivo-slider', get_template_directory_uri() . '/css/nivo-slider.css', '', ''  );
         wp_enqueue_style( 'nivo-slider-default', get_template_directory_uri() . '/css/default/default.css', '', ''  );
-        wp_enqueue_style( 'font-montserrat', 'http://fonts.googleapis.com/css?family=Montserrat:400,700', '', ''  );
+        wp_enqueue_style( 'font-google', 'http://fonts.googleapis.com/css?family=Roboto', '', '1.0.0'  );
+        
         wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', '', ''  );
     
 	}

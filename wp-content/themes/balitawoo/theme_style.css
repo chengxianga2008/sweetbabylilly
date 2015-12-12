@@ -522,7 +522,11 @@ border-radius: 4px;
 background-color: #8bd1ca;
 display: inline-block;
 margin: 10px 0 20px 0;
+<<<<<<< HEAD
 font: bold 12px 'Lato', sans-serif;
+=======
+font: bold 12px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   letter-spacing: 1px;
   padding: 2px 18px;
   text-align: center;
@@ -1222,7 +1226,11 @@ a:visited {
 /* line 14, sass/template/_all.scss */
 body {
   background: #bde2e5 url(img/bg_all.png) repeat top center;
+<<<<<<< HEAD
   font: normal 14px/20px 'Lato', sans-serif;
+=======
+  font: normal 14px/24px 'Roboto', arial, helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   color: #6b6b6b;
 }
 
@@ -1242,7 +1250,11 @@ body {
   background: url(img/bg_top.png) repeat-x top center;
   display: block;
   text-align: center;
+<<<<<<< HEAD
   font: normal 400 12px/45px 'Lato', sans-serif;
+=======
+  font: normal 400 12px/45px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   color: #f8d1c1;
   height: 52px;
   position: relative;
@@ -1252,7 +1264,11 @@ body {
 /* line 38, sass/template/_all.scss */
 #headbanner strong {
   color: #6b6b6b;
+<<<<<<< HEAD
   font: normal 700 13px/45px 'Lato', sans-serif;
+=======
+  font: normal 700 13px/45px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 42, sass/template/_all.scss */
@@ -1330,7 +1346,11 @@ body {
 
 /* line 67, sass/template/_all.scss */
 .loginmenu {
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   color: #3abdaa;
   float: left;
@@ -1371,7 +1391,11 @@ body {
   background-color: #8bd1ca;
   border-radius: 4px;
   padding: 0 15px;
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   margin: 0 0 0 10px;
   height: 30px;
@@ -1472,7 +1496,11 @@ body {
   border-radius: 4px 4px 4px 4px;
   color: #FFFFFF;
   display: block;
+<<<<<<< HEAD
   font: 700 11px/30px 'Lato', sans-serif;
+=======
+  font: 700 11px/30px 'Roboto',Arial,Helvetica,sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
@@ -1564,7 +1592,11 @@ body {
 
 /* line 274, sass/template/_all.scss */
 .cartbox .stat {
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   padding: 0 0 0 95px;
   margin: 0;
@@ -1615,7 +1647,11 @@ body {
 /* line 310, sass/template/_all.scss */
 .cartitem h4 {
   padding: 0 0 5px 0;
+<<<<<<< HEAD
   font: normal 700 11px 'Lato', sans-serif;
+=======
+  font: normal 700 11px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 314, sass/template/_all.scss */
@@ -1662,7 +1698,11 @@ body {
   color: #fff;
   display: block;
   border-radius: 4px;
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   text-align: center;
   margin: 10px 30px;
@@ -1756,7 +1796,11 @@ body {
   border: 0px;
   color: #fff;
   background-color: #8bd1ca;
+<<<<<<< HEAD
   font: normal 700 13px/40px 'Lato', sans-serif;
+=======
+  font: normal 700 13px/40px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   width: 270px;
   display: block !important;
   border-radius: 4px;
@@ -1772,7 +1816,11 @@ body {
 /* line 442, sass/template/_all.scss */
 .prolog {
   display: block;
+<<<<<<< HEAD
   font: normal 700 16px/70px 'Lato', sans-serif;
+=======
+  font: normal 700 16px/70px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-align: center;
   color: #fff;
   background-color: #8bd1ca;
@@ -1783,7 +1831,11 @@ body {
 .btn2 {
   background-color: #fff;
   color: #e5447c !important;
+<<<<<<< HEAD
   font: normal 700 16px/40px 'Lato', sans-serif;
+=======
+  font: normal 700 16px/40px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   width: 200px;
   display: inline-block;
   border-radius: 4px;
@@ -1813,7 +1865,7 @@ body {
 /* line 473, sass/template/_all.scss */
 .item {
 /*   float: left; */
-  width: 170px;
+  width: 90%;
   min-height: 170px;
   margin: 0 auto !important;
   text-align: center;
@@ -1835,7 +1887,11 @@ body {
 
 /* line 497, sass/template/_all.scss */
 .item h4 {
+<<<<<<< HEAD
   font: normal 14px/30px 'Lato', sans-serif;
+=======
+  font: normal 14px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 500, sass/template/_all.scss */
@@ -1861,7 +1917,7 @@ body {
 /* line 514, sass/template/_all.scss */
 .item p {
   color: #e5447c;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 /* line 518, sass/template/_all.scss */
@@ -1955,7 +2011,11 @@ body {
 .feat p {
   margin: 0 0 10px 20px;
   width: 100px;
+<<<<<<< HEAD
   font: normal 12px/100% 'Lato', sans-serif;
+=======
+  font: normal 12px/100% 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   color: #491e11;
 }
 
@@ -1965,7 +2025,11 @@ body {
   background-color: #663223;
   color: #fff;
   padding: 0 30px;
+<<<<<<< HEAD
   font: normal 14px/30px 'Lato', sans-serif;
+=======
+  font: normal 14px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   margin: 0 0 0 20px;
   border-radius: 4px;
 }
@@ -2154,7 +2218,11 @@ body {
   background-color: #898f2a;
   display: block;
   border-radius: 4px;
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
@@ -2222,7 +2290,11 @@ body {
   background: url(img/ico_quote.png) no-repeat top left;
   border-left: 0px;
   margin-left: 20px;
+<<<<<<< HEAD
   font: normal 12px/20px 'Lato', sans-serif;
+=======
+  font: normal 12px/20px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   letter-spacing: 0px;
 }
 
@@ -2248,7 +2320,11 @@ body {
 
 /* line 790, sass/template/_all.scss */
 .author h3 {
+<<<<<<< HEAD
   font: normal 12px 'Lato', sans-serif;
+=======
+  font: normal 12px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   padding: 0px;
   margin: 0px;
   background-image: none;
@@ -2294,7 +2370,7 @@ body {
 /* line 821, sass/template/_all.scss */
 .comment-content {
   display: block;
-  margin: 25px 50px 0 50px;
+  margin: 25px 50px 0 25px;
   border-bottom: 1px solid #e0d9ce;
 }
 
@@ -2306,8 +2382,8 @@ body {
 /* line 829, sass/template/_all.scss */
 .comment-wrap {
   display: block;
-  float: right;
-  width: 90%;
+/*   float: right; */
+/*   width: 90%; */
 }
 
 /* line 834, sass/template/_all.scss */
@@ -2354,7 +2430,11 @@ body {
   background-color: #898f2a;
   display: block;
   border-radius: 4px;
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
@@ -2506,8 +2586,14 @@ body {
 
 /* line 973, sass/template/_all.scss */
 .page-product h3 {
+<<<<<<< HEAD
   font: normal 30px/100% 'Lato', sans-serif;
   margin: 18px 0;
+=======
+/*   font: normal 30px/100% ActionManBold, arial helvetica, sans-serif; */
+/*   margin: 18px 0; */
+	font-size: 24px;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 977, sass/template/_all.scss */
@@ -2772,7 +2858,11 @@ html ul.tabs li.active a:hover {
   background-color: #8bd1ca;
   display: inline-block;
   margin: 10px 0 20px 0;
+<<<<<<< HEAD
   font: bold 12px 'Lato', sans-serif;
+=======
+  font: bold 12px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 1179, sass/template/_all.scss */
@@ -2822,7 +2912,11 @@ html ul.tabs li.active a:hover {
 .button a {
   background-color: #8bd1ca;
   border-radius: 4px;
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   text-align: center;
   margin: 10px 0;
@@ -2873,7 +2967,11 @@ html ul.tabs li.active a:hover {
 
 /* line 1255, sass/template/_all.scss */
 .toprated h4 {
+<<<<<<< HEAD
   font: bold 12px 'Lato', sans-serif;
+=======
+  font: bold 12px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 1258, sass/template/_all.scss */
@@ -2952,7 +3050,11 @@ ul.tabswidget li a {
 /* line 1311, sass/template/_all.scss */
 .sidebar section h3 {
   color: #aba49a;
+<<<<<<< HEAD
   font: bold 11px 'Lato', sans-serif;
+=======
+  font: bold 11px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   border-bottom: 1px solid #e0d9ce;
   padding: 0 0 20px 0;
@@ -2977,7 +3079,11 @@ ul.tabswidget li a {
   background-color: #898f2a;
   display: block;
   border-radius: 4px;
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 10px 0;
@@ -3012,7 +3118,11 @@ ul.tabswidget li a {
 /* line 1357, sass/template/_all.scss */
 .category li {
   border-bottom: 1px solid #efe2cf;
+<<<<<<< HEAD
   font: normal 11px/28px 'Lato', sans-serif;
+=======
+  font: normal 11px/28px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 1361, sass/template/_all.scss */
@@ -3057,7 +3167,11 @@ ul.tabswidget li a {
 
 /* line 1388, sass/template/_all.scss */
 .widget-tags {
+<<<<<<< HEAD
   font: bold 11px 'Lato', sans-serif;
+=======
+  font: bold 11px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 1395, sass/template/_all.scss */
@@ -3152,7 +3266,11 @@ ul.tabswidget li a {
 }
 /* line 47, sass/template/_navigation.scss */
 .menu li {
+<<<<<<< HEAD
   font: normal 700 13px/40px 'Lato', sans-serif;
+=======
+  font: normal 700 13px/40px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   display: -moz-inline-stack;
   -moz-box-orient: vertical;
   display: inline-block;
@@ -3266,7 +3384,11 @@ ul.tabswidget li a {
   font-size: 11px;
   font-size: 0.6875rem;
   line-height: 2.18182;
+<<<<<<< HEAD
   font-family: 'Lato', sans-serif;
+=======
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   margin: 0;
 }
 /* line 29, sass/template/_widgets.scss */
@@ -3325,7 +3447,11 @@ ul.tabswidget li a {
   border-radius: 4px 4px 4px 4px;
   color: #FFFFFF;
   display: block;
+<<<<<<< HEAD
   font: 700 11px/30px 'Lato', sans-serif;
+=======
+  font: 700 11px/30px 'Roboto',Arial,Helvetica,sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
@@ -3441,7 +3567,7 @@ ul.tabswidget li a {
 \*------------------------------------*/
 /* line 4, sass/template/_comments.scss */
 #respond #reply-title {
-  margin-left: 40px;
+/*   margin-left: 40px; */
 }
 /* line 7, sass/template/_comments.scss */
 #respond form {
@@ -3453,16 +3579,24 @@ ul.tabswidget li a {
 }
 /* line 14, sass/template/_comments.scss */
 #respond textarea#comment {
-  position: absolute;
-  width: 340px;
-  height: 140px;
-  top: 0;
-  right: 0;
+/*   position: absolute; */
+  width: 70%;
+  height: 160px;
+  display: block;
+/*   top: 0; */
+/*   right: 0; */
 }
+
+@media (max-width:768px){
+	#respond textarea#comment {
+		 width: 90%;
+	}
+}
+
 /* line 23, sass/template/_comments.scss */
 #respond .form-submit input[type="submit"] {
   display: inline;
-  float: right;
+/*   float: right; */
   width: 160px;
   text-align: center;
   padding: 6px 0;
@@ -3561,7 +3695,11 @@ ul.tabswidget li a {
   background-color: #8bd1ca;
   border-radius: 4px;
   padding: 0 15px;
+<<<<<<< HEAD
   font: normal 700 11px/30px 'Lato', sans-serif;
+=======
+  font: normal 700 11px/30px 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   text-transform: uppercase;
   margin: 0;
   padding: 8px 12px;
@@ -3678,7 +3816,11 @@ ul.tabswidget li a {
 
 /* line 30, sass/template/_footer.scss */
 .site-footer .blog h4 {
+<<<<<<< HEAD
   font: bold 12px/150% 'Lato', sans-serif;
+=======
+  font: bold 12px/150% 'Roboto', Arial, Helvetica, sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
 }
 
 /* line 33, sass/template/_footer.scss */
@@ -4093,7 +4235,11 @@ ul.tabswidget li a {
   list-style: none;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   font: 700 11px 'Lato', sans-serif;
+=======
+  font: 700 11px 'Roboto',Arial,Helvetica,sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   background-color: #8bd1ca;
   color: #fff;
   -webkit-border-radius: 4px;
@@ -4343,7 +4489,11 @@ ul.tabswidget li a {
   border-radius: 4px 4px 4px 4px;
   color: #FFFFFF;
   display: inline-block;
+<<<<<<< HEAD
   font: 700 11px/30px 'Lato', sans-serif;
+=======
+  font: 700 11px/30px 'Roboto',Arial,Helvetica,sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   line-height: 14px;
   letter-spacing: 1px;
   padding: 12px 18px;
@@ -4452,7 +4602,11 @@ tr.total td strong {
   border: 0 none;
   border-radius: 4px 4px 4px 4px;
   display: inline-block;
+<<<<<<< HEAD
   font: 700 11px/14px 'Lato', sans-serif;
+=======
+  font: 700 11px/14px 'Roboto',Arial,Helvetica,sans-serif;
+>>>>>>> db3da62c79c7e608b1f4df137cfca12213bd77f8
   letter-spacing: 1px;
   margin: 10px 0;
   text-align: center;

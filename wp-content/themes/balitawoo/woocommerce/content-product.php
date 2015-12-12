@@ -76,6 +76,6 @@ $classes[] = 'grid-item';
 				</strong>
 			</p>
 		
-		<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+		<?php //do_action( 'woocommerce_after_shop_loop_item' ); ?>
 	</div>
 </div>
