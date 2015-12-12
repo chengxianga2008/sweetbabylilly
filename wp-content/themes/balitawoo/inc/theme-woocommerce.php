@@ -60,8 +60,8 @@ if ( class_exists( 'woocommerce' ) ) {
 	 */
 	function tokokoo_woocommerce_image_dimensions() {
 		$catalog = array(
-			'width' => '135', // px
-			'height' => '135', // px
+			'width' => '250', // px
+			'height' => '250', // px
 			'crop' => 1 // true
 		);
 

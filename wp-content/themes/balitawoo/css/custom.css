@@ -301,13 +301,13 @@
 
 .custom-product-title{
 	display:block;
-	height: 120px;
+	height: 90px;
 }
 
 .custom-product-title a{
 	overflow: hidden;
   	text-overflow: ellipsis;
-  	height: 95px;
+  	height: 65px;
 }
 
 .custom-product-img{
@@ -870,3 +870,39 @@ body.custom-background{
 .button--nanuk:hover{
 	background-color: #EC5656;
 }
+
+#primary .container{
+	width: 100%;
+}
+
+
+#primary .woocommerce-tabs > ul.tabs{
+	margin-left: 0px;
+}
+
+.woocommerce-tabs .panel{
+	box-shadow: none;
+}
+
+#respond #commentform > p{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#respond #commentform > p input[type="text"]{
+	width: 60%;
+}
+
+@media (max-width:768px){
+	#respond #commentform > p input[type="text"]{
+		display: block;
+		width: 70%;
+	}
+}
+
+.comment-wrap .alert{
+	color: #8bd1ca;
+	padding: 0px;
+}
+
