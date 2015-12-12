@@ -7,8 +7,8 @@
 	<div id ="comments" class="content-area comment-area">
 
 		<ul class="tabs">
-	        <li class="active" style=""><a href="#tab1"><?php comments_number( __( 'No Comment', 'balitawoo' ), __( 'One Comment', 'balitawoo' ), __( '% Comments', 'balitawoo' ) ); ?></a></li>
-	        <li class=""><a href="#tab2">Leave a Comment</a></li>
+	        <li class="active" style=""><a href="#tab1"><?php comments_number( __( 'No REVIEWS', 'balitawoo' ), __( 'One REVIEWS', 'balitawoo' ), __( '% REVIEWS', 'balitawoo' ) ); ?></a></li>
+	        <li class=""><a href="#tab2">WRITE A REVIEW</a></li>
 	    </ul>
 
 		<div class="tab_container">

@@ -24,8 +24,6 @@ get_header();
 
 ?>
 
-
-
 <section id="home_section_1" class="visible-lg bg-fixed clr"
 	data-speed="8" data-type="background">
 	<div class="parallax_section">

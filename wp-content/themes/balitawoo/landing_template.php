@@ -58,7 +58,7 @@ src="https://www.facebook.com/tr?id=1654589674798567&ev=PageView&noscript=1"
 			
 			<div class="landing-form box center-block">
 
-				<form class="form-horizontal" action="" method="post" >
+				<!--<form class="form-horizontal" action="" method="post" >
 				
 				    <?php wp_nonce_field('post_nonce', 'post_nonce_field'); ?>
 					<div class="form-group">
@@ -82,7 +82,55 @@ src="https://www.facebook.com/tr?id=1654589674798567&ev=PageView&noscript=1"
 							<button id="submit-button" type="submit" class="btn btn-primary btn-raised center-block">Grab Your Free Copy Now</button>
 						</div>
 					</div>
-				</form>
+				</form>-->
+
+			<!-- NewsLetter Start Here-->
+         <!-- Begin MailChimp Signup Form -->
+                            <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+                            <style type="text/css">
+                                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                              #mc_embed_signup #mce-success-response{color:#00FF00; padding:10px 0; width:100%; text-shadow: 0 0 0 #FFFFFF;}
+                              #mc_embed_signup #mce-error-response{color:red; padding:10px 0; width:100%; text-shadow: 0 0 5px #FFFFFF;}
+                              
+                            </style>
+                            <div id="mc_embed_signup" style="background:transparent;">
+                            <form action="//sweetbabylilly.us11.list-manage.com/subscribe/post?u=75bdcf9ed4b86453ae2658211&amp;id=d9124b31f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    
+                            
+                            
+                                    
+                            <div class="form-group clearfix">
+						<label for="landing_form_name" class="col-lg-3 col-xs-12 control-label">Name:</label>
+						<div class="col-lg-9 col-xs-12">
+							<input type="text" value="" name="FNAME" class="required form-control" id="mce-FNAME" 
+								placeholder="please enter your name" style="border:0;">
+						</div>
+			     </div> 
+                                    
+                             <div class="form-group clearfix">
+						<label for="landing_form_email" class="col-lg-3 col-xs-12 control-label">E-mail:</label>
+						<div class="col-lg-9 col-xs-12">
+							<input type="email" value="" name="EMAIL" class="required form-control" id="mce-EMAIL"
+								placeholder="please enter email address" style="border:0;" >
+                                                        
+						</div>
+			     </div>       
+                              
+                                    <div id="mce-responses" class="clear">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_75bdcf9ed4b86453ae2658211_d9124b31f5" tabindex="-1" value=""></div>
+                                <div class="clear text-center"><input type="submit" value="Grab Your Free Copy Now" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #E50278;"></div>
+                                </div>
+                            </form>
+                            </div>
+                            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                            <!--End mc_embed_signup-->
+      <!-- NewsLetter End Here-->  
 
 			</div>
 			
